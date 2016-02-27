@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
+		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
+		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
+		124C80851C8178A300CDBAF2 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80841C8178A300CDBAF2 /* Line.m */; };
+		124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80871C81816200CDBAF2 /* UIView+Line.m */; };
+		127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629F71C57046F007EFF40 /* YJTestViewController.m */; };
+		127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629FA1C571B21007EFF40 /* YJTestButton.m */; };
+		12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */; };
+		12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12809BAA1C816806004FE7AD /* XIBConfiViewController.m */; };
+		12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */; };
+		12E660221C560E6900524CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660211C560E6900524CE5 /* main.m */; };
+		12E660251C560E6900524CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660241C560E6900524CE5 /* AppDelegate.m */; };
+		12E660281C560E6900524CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660271C560E6900524CE5 /* ViewController.m */; };
+		12E6602D1C560E6900524CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E6602C1C560E6900524CE5 /* Assets.xcassets */; };
+		12E660301C560E6900524CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */; };
+		12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7056C1C819225003D732E /* YJScrollLabel.m */; };
+		12E705701C819237003D732E /* UIView+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7056F1C819237003D732E /* UIView+YJ.m */; };
+		12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E705721C8192C4003D732E /* YJScrollTextViewController.m */; };
+		12E705791C8199C6003D732E /* WXAnation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E705781C8199C6003D732E /* WXAnation.m */; };
+		12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7057B1C819A2A003D732E /* AppleMapViewController.m */; };
+		12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057C1C819A2A003D732E /* AppleMapViewController.xib */; };
+		12E705801C819CAC003D732E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057F1C819CAC003D732E /* search.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
+		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
+		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
+		124C807F1C81774500CDBAF2 /* XIBLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBLineViewController.m; sourceTree = "<group>"; };
+		124C80801C81774500CDBAF2 /* XIBLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBLineViewController.xib; sourceTree = "<group>"; };
+		124C80831C8178A300CDBAF2 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		124C80841C8178A300CDBAF2 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		124C80861C81816200CDBAF2 /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
+		124C80871C81816200CDBAF2 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		127629F61C57046F007EFF40 /* YJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestViewController.h; sourceTree = "<group>"; };
+		127629F71C57046F007EFF40 /* YJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestViewController.m; sourceTree = "<group>"; };
+		127629F91C571B21007EFF40 /* YJTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestButton.h; sourceTree = "<group>"; };
+		127629FA1C571B21007EFF40 /* YJTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestButton.m; sourceTree = "<group>"; };
+		12809BA01C8156B2004FE7AD /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		12809BA91C816806004FE7AD /* XIBConfiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBConfiViewController.h; sourceTree = "<group>"; };
+		12809BAA1C816806004FE7AD /* XIBConfiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBConfiViewController.m; sourceTree = "<group>"; };
+		12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBConfiViewController.xib; sourceTree = "<group>"; };
+		12E6601D1C560E6900524CE5 /* YJTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E660211C560E6900524CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E660231C560E6900524CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12E660241C560E6900524CE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12E660261C560E6900524CE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12E660271C560E6900524CE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12E6602C1C560E6900524CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E6602F1C560E6900524CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12E660311C560E6900524CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E7056B1C819225003D732E /* YJScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJScrollLabel.h; sourceTree = "<group>"; };
+		12E7056C1C819225003D732E /* YJScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJScrollLabel.m; sourceTree = "<group>"; };
+		12E7056E1C819237003D732E /* UIView+YJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJ.h"; sourceTree = "<group>"; };
+		12E7056F1C819237003D732E /* UIView+YJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJ.m"; sourceTree = "<group>"; };
+		12E705711C8192C4003D732E /* YJScrollTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJScrollTextViewController.h; sourceTree = "<group>"; };
+		12E705721C8192C4003D732E /* YJScrollTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJScrollTextViewController.m; sourceTree = "<group>"; };
+		12E705771C8199C6003D732E /* WXAnation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnation.h; sourceTree = "<group>"; };
+		12E705781C8199C6003D732E /* WXAnation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAnation.m; sourceTree = "<group>"; };
+		12E7057A1C819A2A003D732E /* AppleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleMapViewController.h; sourceTree = "<group>"; };
+		12E7057B1C819A2A003D732E /* AppleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMapViewController.m; sourceTree = "<group>"; };
+		12E7057C1C819A2A003D732E /* AppleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMapViewController.xib; sourceTree = "<group>"; };
+		12E7057F1C819CAC003D732E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E6601A1C560E6900524CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */ = {
+			isa = PBXGroup;
+			children = (
+				124C80831C8178A300CDBAF2 /* Line.h */,
+				124C80841C8178A300CDBAF2 /* Line.m */,
+				124C80861C81816200CDBAF2 /* UIView+Line.h */,
+				124C80871C81816200CDBAF2 /* UIView+Line.m */,
+				124C807E1C81774500CDBAF2 /* XIBLineViewController.h */,
+				124C807F1C81774500CDBAF2 /* XIBLineViewController.m */,
+				124C80801C81774500CDBAF2 /* XIBLineViewController.xib */,
+			);
+			name = "XIB 0.5线条";
+			sourceTree = "<group>";
+		};
+		12809B9E1C815409004FE7AD /* lastViewController 引用 */ = {
+			isa = PBXGroup;
+			children = (
+				127629F61C57046F007EFF40 /* YJTestViewController.h */,
+				127629F71C57046F007EFF40 /* YJTestViewController.m */,
+				127629F91C571B21007EFF40 /* YJTestButton.h */,
+				127629FA1C571B21007EFF40 /* YJTestButton.m */,
+			);
+			name = "lastViewController 引用";
+			sourceTree = "<group>";
+		};
+		12809B9F1C81543D004FE7AD /* XIB 圆角 */ = {
+			isa = PBXGroup;
+			children = (
+				124C807A1C816B5100CDBAF2 /* NewView.h */,
+				124C807B1C816B5100CDBAF2 /* NewView.m */,
+				12809BA01C8156B2004FE7AD /* UIView+CornerRadius.h */,
+				12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */,
+				12809BA91C816806004FE7AD /* XIBConfiViewController.h */,
+				12809BAA1C816806004FE7AD /* XIBConfiViewController.m */,
+				12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */,
+			);
+			name = "XIB 圆角";
+			sourceTree = "<group>";
+		};
+		12E660141C560E6800524CE5 = {
+			isa = PBXGroup;
+			children = (
+				12E6601F1C560E6900524CE5 /* YJTest */,
+				12E6601E1C560E6900524CE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E6601E1C560E6900524CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E6601D1C560E6900524CE5 /* YJTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E6601F1C560E6900524CE5 /* YJTest */ = {
+			isa = PBXGroup;
+			children = (
+				12E660231C560E6900524CE5 /* AppDelegate.h */,
+				12E660241C560E6900524CE5 /* AppDelegate.m */,
+				12E660261C560E6900524CE5 /* ViewController.h */,
+				12E660271C560E6900524CE5 /* ViewController.m */,
+				12E705761C81997C003D732E /* 苹果系统地图 */,
+				12E7056A1C818F4E003D732E /* 跑马灯 */,
+				124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */,
+				12809B9F1C81543D004FE7AD /* XIB 圆角 */,
+				12809B9E1C815409004FE7AD /* lastViewController 引用 */,
+				12E6602C1C560E6900524CE5 /* Assets.xcassets */,
+				12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */,
+				12E660311C560E6900524CE5 /* Info.plist */,
+				12E660201C560E6900524CE5 /* Supporting Files */,
+			);
+			path = YJTest;
+			sourceTree = "<group>";
+		};
+		12E660201C560E6900524CE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E660211C560E6900524CE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12E7056A1C818F4E003D732E /* 跑马灯 */ = {
+			isa = PBXGroup;
+			children = (
+				12E7056E1C819237003D732E /* UIView+YJ.h */,
+				12E7056F1C819237003D732E /* UIView+YJ.m */,
+				12E7056B1C819225003D732E /* YJScrollLabel.h */,
+				12E7056C1C819225003D732E /* YJScrollLabel.m */,
+				12E705711C8192C4003D732E /* YJScrollTextViewController.h */,
+				12E705721C8192C4003D732E /* YJScrollTextViewController.m */,
+			);
+			name = "跑马灯";
+			sourceTree = "<group>";
+		};
+		12E705761C81997C003D732E /* 苹果系统地图 */ = {
+			isa = PBXGroup;
+			children = (
+				12E7057F1C819CAC003D732E /* search.png */,
+				12E705771C8199C6003D732E /* WXAnation.h */,
+				12E705781C8199C6003D732E /* WXAnation.m */,
+				12E7057A1C819A2A003D732E /* AppleMapViewController.h */,
+				12E7057B1C819A2A003D732E /* AppleMapViewController.m */,
+				12E7057C1C819A2A003D732E /* AppleMapViewController.xib */,
+			);
+			name = "苹果系统地图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E6601C1C560E6900524CE5 /* YJTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E660341C560E6900524CE5 /* Build configuration list for PBXNativeTarget "YJTest" */;
+			buildPhases = (
+				12E660191C560E6900524CE5 /* Sources */,
+				12E6601A1C560E6900524CE5 /* Frameworks */,
+				12E6601B1C560E6900524CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJTest;
+			productName = YJTest;
+			productReference = 12E6601D1C560E6900524CE5 /* YJTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E660151C560E6800524CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zyc;
+				TargetAttributes = {
+					12E6601C1C560E6900524CE5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 12E660181C560E6800524CE5 /* Build configuration list for PBXProject "YJTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E660141C560E6800524CE5;
+			productRefGroup = 12E6601E1C560E6900524CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E6601C1C560E6900524CE5 /* YJTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E6601B1C560E6900524CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */,
+				12E705801C819CAC003D732E /* search.png in Resources */,
+				12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */,
+				12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */,
+				12E660301C560E6900524CE5 /* LaunchScreen.storyboard in Resources */,
+				12E6602D1C560E6900524CE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E660191C560E6900524CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
+				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
+				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
+				12E705701C819237003D732E /* UIView+YJ.m in Sources */,
+				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
+				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
+				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
+				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
+				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
+				124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */,
+				12E660221C560E6900524CE5 /* main.m in Sources */,
+				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
+				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,
+				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
+				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
+				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E6602F1C560E6900524CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E660321C560E6900524CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12E660331C560E6900524CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E660351C560E6900524CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJ.YJTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12E660361C560E6900524CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJ.YJTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E660181C560E6800524CE5 /* Build configuration list for PBXProject "YJTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E660321C560E6900524CE5 /* Debug */,
+				12E660331C560E6900524CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E660341C560E6900524CE5 /* Build configuration list for PBXNativeTarget "YJTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E660351C560E6900524CE5 /* Debug */,
+				12E660361C560E6900524CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E660151C560E6800524CE5 /* Project object */;
+}

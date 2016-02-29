@@ -30,6 +30,27 @@
 //    return self;
 //}
 
+//************ 写这里也不能实时显示 **********
+- (void)awakeFromNib
+{
+    UILabel *la = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 80, 30)];
+    la.textAlignment = NSTextAlignmentCenter;
+    la.text = @"佳佳";
+    la.backgroundColor = [UIColor blueColor];
+    [self addSubview:la];
+}
+
+
+//********** 必须写 layoutSubviews 和  drawRect  或 任意一个 **************
+-(void)layoutSubviews
+{
+    [super layoutSubviews];
+    UILabel *la = [[UILabel alloc] initWithFrame:CGRectMake(0, 50, 80, 30)];
+    la.textAlignment = NSTextAlignmentCenter;
+    la.text = @"佳佳";
+    la.backgroundColor = [UIColor yellowColor];
+    [self addSubview:la];
+}
 
 - (void)drawRect:(CGRect)rect {
 

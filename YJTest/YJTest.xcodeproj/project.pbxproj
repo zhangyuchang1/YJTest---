@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A01CF56FC40002D0E4 /* RuntimeController.m */; };
+		0422C7A41CF570900002D0E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A31CF570900002D0E4 /* Person.m */; };
+		0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */; };
+		0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7AC1CF587210002D0E4 /* NSObject+Property.m */; };
 		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
 		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
@@ -38,6 +42,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0422C79F1CF56FC40002D0E4 /* RuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeController.h; sourceTree = "<group>"; };
+		0422C7A01CF56FC40002D0E4 /* RuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeController.m; sourceTree = "<group>"; };
+		0422C7A21CF570900002D0E4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0422C7A31CF570900002D0E4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0422C7A81CF57D3B0002D0E4 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		0422C7AB1CF587210002D0E4 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		0422C7AC1CF587210002D0E4 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
 		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
 		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
@@ -99,6 +111,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0422C79B1CF56EE30002D0E4 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				0422C79F1CF56FC40002D0E4 /* RuntimeController.h */,
+				0422C7A01CF56FC40002D0E4 /* RuntimeController.m */,
+				0422C7A21CF570900002D0E4 /* Person.h */,
+				0422C7A31CF570900002D0E4 /* Person.m */,
+				0422C7A81CF57D3B0002D0E4 /* UIImage+Image.h */,
+				0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */,
+				0422C7AB1CF587210002D0E4 /* NSObject+Property.h */,
+				0422C7AC1CF587210002D0E4 /* NSObject+Property.m */,
+			);
+			name = RunTime;
+			sourceTree = "<group>";
+		};
 		124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +200,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				0422C79B1CF56EE30002D0E4 /* RunTime */,
 				127A6B571C840C2200854A38 /* 自定义页面切换转场动画 */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
@@ -307,13 +335,17 @@
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
 				12E705701C819237003D732E /* UIView+YJ.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
+				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
+				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
+				0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */,
 				124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */,
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
+				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
 				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
@@ -357,7 +389,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -401,7 +433,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

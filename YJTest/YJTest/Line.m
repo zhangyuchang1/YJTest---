@@ -11,22 +11,27 @@
 @implementation Line
 
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
 
-    CGPoint point = self.frame.origin;
-    CGSize szie = self.frame.size;
-    
-    self.frame = CGRectMake(point.x, point.y, szie.width, 0.5);
-    
+    [self reSizeToLine];
 }
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-//    
+    [self reSizeToLine];
+}
+- (void)reSizeToLine
+{
     CGPoint point = self.frame.origin;
-    CGSize szie = self.frame.size;
+    CGSize size = self.frame.size;
     
-    self.frame = CGRectMake(point.x, point.y, szie.width, 0.5);
+    if (size.height > 2) { //横线
+        self.frame = CGRectMake(point.x, point.y, size.width, 0.5);
+        
+    }else{ //竖线
+        self.frame = CGRectMake(point.x, point.y, 0.5, size.height);
+        
+    }
+
 }
 
 @end

@@ -39,6 +39,13 @@
 		12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7057B1C819A2A003D732E /* AppleMapViewController.m */; };
 		12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057C1C819A2A003D732E /* AppleMapViewController.xib */; };
 		12E705801C819CAC003D732E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057F1C819CAC003D732E /* search.png */; };
+		E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE66B1D09D7CB00783055 /* YJSearchResultController.m */; };
+		E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43FE66C1D09D7CB00783055 /* YJSearchResultController.xib */; };
+		E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE6701D0C360F00783055 /* YJSearchController.m */; };
+		E43FE67E1D0C3BCE00783055 /* StatisticKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE67B1D0C3BCE00783055 /* StatisticKit.m */; };
+		E43FE67F1D0C3BCE00783055 /* StatisticManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE67D1D0C3BCE00783055 /* StatisticManager.m */; };
+		E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE6811D0C3C5A00783055 /* YJStatisticController.m */; };
+		E43FE6841D0C3C5A00783055 /* YJStatisticController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43FE6821D0C3C5A00783055 /* YJStatisticController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +105,18 @@
 		12E7057B1C819A2A003D732E /* AppleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMapViewController.m; sourceTree = "<group>"; };
 		12E7057C1C819A2A003D732E /* AppleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMapViewController.xib; sourceTree = "<group>"; };
 		12E7057F1C819CAC003D732E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		E43FE66A1D09D7CB00783055 /* YJSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJSearchResultController.h; path = searchController/YJSearchResultController.h; sourceTree = "<group>"; };
+		E43FE66B1D09D7CB00783055 /* YJSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJSearchResultController.m; path = searchController/YJSearchResultController.m; sourceTree = "<group>"; };
+		E43FE66C1D09D7CB00783055 /* YJSearchResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJSearchResultController.xib; path = searchController/YJSearchResultController.xib; sourceTree = "<group>"; };
+		E43FE66F1D0C360F00783055 /* YJSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJSearchController.h; path = searchController/YJSearchController.h; sourceTree = "<group>"; };
+		E43FE6701D0C360F00783055 /* YJSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJSearchController.m; path = searchController/YJSearchController.m; sourceTree = "<group>"; };
+		E43FE67A1D0C3BCE00783055 /* StatisticKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticKit.h; path = "统计加定时上传模块/StatisticKit.h"; sourceTree = "<group>"; };
+		E43FE67B1D0C3BCE00783055 /* StatisticKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticKit.m; path = "统计加定时上传模块/StatisticKit.m"; sourceTree = "<group>"; };
+		E43FE67C1D0C3BCE00783055 /* StatisticManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticManager.h; path = "统计加定时上传模块/StatisticManager.h"; sourceTree = "<group>"; };
+		E43FE67D1D0C3BCE00783055 /* StatisticManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticManager.m; path = "统计加定时上传模块/StatisticManager.m"; sourceTree = "<group>"; };
+		E43FE6801D0C3C5A00783055 /* YJStatisticController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJStatisticController.h; path = "统计加定时上传模块/YJStatisticController.h"; sourceTree = "<group>"; };
+		E43FE6811D0C3C5A00783055 /* YJStatisticController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJStatisticController.m; path = "统计加定时上传模块/YJStatisticController.m"; sourceTree = "<group>"; };
+		E43FE6821D0C3C5A00783055 /* YJStatisticController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJStatisticController.xib; path = "统计加定时上传模块/YJStatisticController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,17 +219,19 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
-				0422C79B1CF56EE30002D0E4 /* RunTime */,
-				127A6B571C840C2200854A38 /* 自定义页面切换转场动画 */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
+				E43FE6641D09D62A00783055 /* searchController */,
+				0422C79B1CF56EE30002D0E4 /* RunTime */,
+				127A6B571C840C2200854A38 /* 自定义页面切换转场动画 */,
 				12E705761C81997C003D732E /* 苹果系统地图 */,
 				12E7056A1C818F4E003D732E /* 跑马灯 */,
 				124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */,
 				12809B9F1C81543D004FE7AD /* XIB 圆角 */,
 				12809B9E1C815409004FE7AD /* lastViewController 引用 */,
+				E43FE6741D0C3ACD00783055 /* 统计加定时上传模块 */,
 				12E6602C1C560E6900524CE5 /* Assets.xcassets */,
 				12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */,
 				12E660311C560E6900524CE5 /* Info.plist */,
@@ -251,6 +272,32 @@
 				12E7057C1C819A2A003D732E /* AppleMapViewController.xib */,
 			);
 			name = "苹果系统地图";
+			sourceTree = "<group>";
+		};
+		E43FE6641D09D62A00783055 /* searchController */ = {
+			isa = PBXGroup;
+			children = (
+				E43FE66F1D0C360F00783055 /* YJSearchController.h */,
+				E43FE6701D0C360F00783055 /* YJSearchController.m */,
+				E43FE66A1D09D7CB00783055 /* YJSearchResultController.h */,
+				E43FE66B1D09D7CB00783055 /* YJSearchResultController.m */,
+				E43FE66C1D09D7CB00783055 /* YJSearchResultController.xib */,
+			);
+			name = searchController;
+			sourceTree = "<group>";
+		};
+		E43FE6741D0C3ACD00783055 /* 统计加定时上传模块 */ = {
+			isa = PBXGroup;
+			children = (
+				E43FE67A1D0C3BCE00783055 /* StatisticKit.h */,
+				E43FE67B1D0C3BCE00783055 /* StatisticKit.m */,
+				E43FE67C1D0C3BCE00783055 /* StatisticManager.h */,
+				E43FE67D1D0C3BCE00783055 /* StatisticManager.m */,
+				E43FE6801D0C3C5A00783055 /* YJStatisticController.h */,
+				E43FE6811D0C3C5A00783055 /* YJStatisticController.m */,
+				E43FE6821D0C3C5A00783055 /* YJStatisticController.xib */,
+			);
+			name = "统计加定时上传模块";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,12 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43FE6841D0C3C5A00783055 /* YJStatisticController.xib in Resources */,
 				127A6B661C8425C100854A38 /* VCExchange_B.xib in Resources */,
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
 				124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */,
 				12E705801C819CAC003D732E /* search.png in Resources */,
 				12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */,
 				127A6B611C84259800854A38 /* VCEchange_A.xib in Resources */,
+				E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */,
 				12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */,
 				12E660301C560E6900524CE5 /* LaunchScreen.storyboard in Resources */,
 				12E6602D1C560E6900524CE5 /* Assets.xcassets in Resources */,
@@ -330,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
+				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
 				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
 				127A6B601C84259800854A38 /* VCEchange_A.m in Sources */,
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
@@ -337,6 +387,7 @@
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
+				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
@@ -346,12 +397,15 @@
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
+				E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */,
 				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
+				E43FE67F1D0C3BCE00783055 /* StatisticManager.m in Sources */,
+				E43FE67E1D0C3BCE00783055 /* StatisticKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

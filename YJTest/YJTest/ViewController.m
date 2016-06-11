@@ -27,8 +27,8 @@
     [self.view addSubview:tableView];
     
     
-    self.dataArray = @[@"lastViewController 强引用",@"XIB 实时动态显示圆角",@"XIB 拉0.5的线",@"跑马灯",@"系统地图 显示poi",@"自定义转场动画",@"runtime"];
-    self.controllerArray = @[@"YJTestViewController",@"XIBConfiViewController",@"XIBLineViewController",@"YJScrollTextViewController",@"AppleMapViewController",@"VCExchangeViewController",@"RuntimeController"];
+    self.dataArray = @[@"lastViewController 强引用",@"XIB 实时动态显示圆角",@"XIB 拉0.5的线",@"跑马灯",@"系统地图 显示poi",@"自定义转场动画",@"runtime",@"searchViewController",@"统计加定时上传模块"];
+    self.controllerArray = @[@"YJTestViewController",@"XIBConfiViewController",@"XIBLineViewController",@"YJScrollTextViewController",@"AppleMapViewController",@"VCExchangeViewController",@"RuntimeController",@"YJSearchController",@"YJStatisticController"];
 }
 
 #pragma mark - UITableView Delegate && DataSource

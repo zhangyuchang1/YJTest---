@@ -39,6 +39,13 @@
 		12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7057B1C819A2A003D732E /* AppleMapViewController.m */; };
 		12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057C1C819A2A003D732E /* AppleMapViewController.xib */; };
 		12E705801C819CAC003D732E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057F1C819CAC003D732E /* search.png */; };
+		E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E781D12FE6000A1A0A6 /* YJTestFrameViewController.m */; };
+		E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E7E1D12FF7900A1A0A6 /* YJTestFrameTabarController.m */; };
+		E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E811D13000200A1A0A6 /* YJTestFrame_AController.m */; };
+		E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E841D13003300A1A0A6 /* YJTestFrame_BController.m */; };
+		E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E871D13005F00A1A0A6 /* YJTestFrame_CController.m */; };
+		E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E8A1D13007600A1A0A6 /* YJTestFrame_DController.m */; };
+		E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E8D1D1300A100A1A0A6 /* YJTestFrame_A_AController.m */; };
 		E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE66B1D09D7CB00783055 /* YJSearchResultController.m */; };
 		E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43FE66C1D09D7CB00783055 /* YJSearchResultController.xib */; };
 		E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE6701D0C360F00783055 /* YJSearchController.m */; };
@@ -108,6 +115,20 @@
 		12E7057B1C819A2A003D732E /* AppleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMapViewController.m; sourceTree = "<group>"; };
 		12E7057C1C819A2A003D732E /* AppleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMapViewController.xib; sourceTree = "<group>"; };
 		12E7057F1C819CAC003D732E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		E4244E771D12FE6000A1A0A6 /* YJTestFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrameViewController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrameViewController.h"; sourceTree = "<group>"; };
+		E4244E781D12FE6000A1A0A6 /* YJTestFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrameViewController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrameViewController.m"; sourceTree = "<group>"; };
+		E4244E7D1D12FF7900A1A0A6 /* YJTestFrameTabarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrameTabarController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrameTabarController.h"; sourceTree = "<group>"; };
+		E4244E7E1D12FF7900A1A0A6 /* YJTestFrameTabarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrameTabarController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrameTabarController.m"; sourceTree = "<group>"; };
+		E4244E801D13000200A1A0A6 /* YJTestFrame_AController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrame_AController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrame_AController.h"; sourceTree = "<group>"; };
+		E4244E811D13000200A1A0A6 /* YJTestFrame_AController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrame_AController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrame_AController.m"; sourceTree = "<group>"; };
+		E4244E831D13003300A1A0A6 /* YJTestFrame_BController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrame_BController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrame_BController.h"; sourceTree = "<group>"; };
+		E4244E841D13003300A1A0A6 /* YJTestFrame_BController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrame_BController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrame_BController.m"; sourceTree = "<group>"; };
+		E4244E861D13005F00A1A0A6 /* YJTestFrame_CController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrame_CController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrame_CController.h"; sourceTree = "<group>"; };
+		E4244E871D13005F00A1A0A6 /* YJTestFrame_CController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrame_CController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrame_CController.m"; sourceTree = "<group>"; };
+		E4244E891D13007600A1A0A6 /* YJTestFrame_DController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrame_DController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrame_DController.h"; sourceTree = "<group>"; };
+		E4244E8A1D13007600A1A0A6 /* YJTestFrame_DController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrame_DController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrame_DController.m"; sourceTree = "<group>"; };
+		E4244E8C1D1300A100A1A0A6 /* YJTestFrame_A_AController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrame_A_AController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrame_A_AController.h"; sourceTree = "<group>"; };
+		E4244E8D1D1300A100A1A0A6 /* YJTestFrame_A_AController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrame_A_AController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrame_A_AController.m"; sourceTree = "<group>"; };
 		E43FE66A1D09D7CB00783055 /* YJSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJSearchResultController.h; path = searchController/YJSearchResultController.h; sourceTree = "<group>"; };
 		E43FE66B1D09D7CB00783055 /* YJSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJSearchResultController.m; path = searchController/YJSearchResultController.m; sourceTree = "<group>"; };
 		E43FE66C1D09D7CB00783055 /* YJSearchResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJSearchResultController.xib; path = searchController/YJSearchResultController.xib; sourceTree = "<group>"; };
@@ -227,6 +248,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				E4244E761D12FDD900A1A0A6 /* 测试viewWillAPear时view的frame变化 */,
 				E43FE6931D0DC4DB00783055 /* Keychain 保存UUID */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
@@ -281,6 +303,27 @@
 				12E7057C1C819A2A003D732E /* AppleMapViewController.xib */,
 			);
 			name = "苹果系统地图";
+			sourceTree = "<group>";
+		};
+		E4244E761D12FDD900A1A0A6 /* 测试viewWillAPear时view的frame变化 */ = {
+			isa = PBXGroup;
+			children = (
+				E4244E771D12FE6000A1A0A6 /* YJTestFrameViewController.h */,
+				E4244E781D12FE6000A1A0A6 /* YJTestFrameViewController.m */,
+				E4244E7D1D12FF7900A1A0A6 /* YJTestFrameTabarController.h */,
+				E4244E7E1D12FF7900A1A0A6 /* YJTestFrameTabarController.m */,
+				E4244E801D13000200A1A0A6 /* YJTestFrame_AController.h */,
+				E4244E811D13000200A1A0A6 /* YJTestFrame_AController.m */,
+				E4244E831D13003300A1A0A6 /* YJTestFrame_BController.h */,
+				E4244E841D13003300A1A0A6 /* YJTestFrame_BController.m */,
+				E4244E861D13005F00A1A0A6 /* YJTestFrame_CController.h */,
+				E4244E871D13005F00A1A0A6 /* YJTestFrame_CController.m */,
+				E4244E891D13007600A1A0A6 /* YJTestFrame_DController.h */,
+				E4244E8A1D13007600A1A0A6 /* YJTestFrame_DController.m */,
+				E4244E8C1D1300A100A1A0A6 /* YJTestFrame_A_AController.h */,
+				E4244E8D1D1300A100A1A0A6 /* YJTestFrame_A_AController.m */,
+			);
+			name = "测试viewWillAPear时view的frame变化";
 			sourceTree = "<group>";
 		};
 		E43FE6641D09D62A00783055 /* searchController */ = {
@@ -409,6 +452,7 @@
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
+				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
@@ -419,15 +463,21 @@
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
+				E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */,
+				E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */,
 				E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */,
+				E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */,
 				E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */,
 				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
+				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
+				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,
+				E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */,
 				E43FE67F1D0C3BCE00783055 /* StatisticManager.m in Sources */,
 				E43FE67E1D0C3BCE00783055 /* StatisticKit.m in Sources */,
 			);

@@ -39,6 +39,9 @@
 		12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7057B1C819A2A003D732E /* AppleMapViewController.m */; };
 		12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057C1C819A2A003D732E /* AppleMapViewController.xib */; };
 		12E705801C819CAC003D732E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057F1C819CAC003D732E /* search.png */; };
+		E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */; };
+		E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774B71D17F232001D4C7B /* YJCornerCell.m */; };
+		E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774BA1D17FD72001D4C7B /* UIView+YJCorner.m */; };
 		E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E781D12FE6000A1A0A6 /* YJTestFrameViewController.m */; };
 		E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E7E1D12FF7900A1A0A6 /* YJTestFrameTabarController.m */; };
 		E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4244E811D13000200A1A0A6 /* YJTestFrame_AController.m */; };
@@ -115,6 +118,12 @@
 		12E7057B1C819A2A003D732E /* AppleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMapViewController.m; sourceTree = "<group>"; };
 		12E7057C1C819A2A003D732E /* AppleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMapViewController.xib; sourceTree = "<group>"; };
 		12E7057F1C819CAC003D732E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		E41774B31D17F1DC001D4C7B /* YJCornerTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCornerTestController.h; path = "圆角性能优化/YJCornerTestController.h"; sourceTree = "<group>"; };
+		E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCornerTestController.m; path = "圆角性能优化/YJCornerTestController.m"; sourceTree = "<group>"; };
+		E41774B61D17F232001D4C7B /* YJCornerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCornerCell.h; path = "圆角性能优化/YJCornerCell.h"; sourceTree = "<group>"; };
+		E41774B71D17F232001D4C7B /* YJCornerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCornerCell.m; path = "圆角性能优化/YJCornerCell.m"; sourceTree = "<group>"; };
+		E41774B91D17FD72001D4C7B /* UIView+YJCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+YJCorner.h"; path = "圆角性能优化/UIView+YJCorner.h"; sourceTree = "<group>"; };
+		E41774BA1D17FD72001D4C7B /* UIView+YJCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJCorner.m"; path = "圆角性能优化/UIView+YJCorner.m"; sourceTree = "<group>"; };
 		E4244E771D12FE6000A1A0A6 /* YJTestFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrameViewController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrameViewController.h"; sourceTree = "<group>"; };
 		E4244E781D12FE6000A1A0A6 /* YJTestFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestFrameViewController.m; path = "测试viewWillAPear时view的frame变化/YJTestFrameViewController.m"; sourceTree = "<group>"; };
 		E4244E7D1D12FF7900A1A0A6 /* YJTestFrameTabarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestFrameTabarController.h; path = "测试viewWillAPear时view的frame变化/YJTestFrameTabarController.h"; sourceTree = "<group>"; };
@@ -248,12 +257,13 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
-				E4244E761D12FDD900A1A0A6 /* 测试viewWillAPear时view的frame变化 */,
-				E43FE6931D0DC4DB00783055 /* Keychain 保存UUID */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
+				E41774B21D17F17D001D4C7B /* 圆角性能优化 */,
+				E4244E761D12FDD900A1A0A6 /* 测试viewWillAPear时view的frame变化 */,
+				E43FE6931D0DC4DB00783055 /* Keychain 保存UUID */,
 				E43FE6641D09D62A00783055 /* searchController */,
 				0422C79B1CF56EE30002D0E4 /* RunTime */,
 				127A6B571C840C2200854A38 /* 自定义页面切换转场动画 */,
@@ -303,6 +313,19 @@
 				12E7057C1C819A2A003D732E /* AppleMapViewController.xib */,
 			);
 			name = "苹果系统地图";
+			sourceTree = "<group>";
+		};
+		E41774B21D17F17D001D4C7B /* 圆角性能优化 */ = {
+			isa = PBXGroup;
+			children = (
+				E41774B31D17F1DC001D4C7B /* YJCornerTestController.h */,
+				E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */,
+				E41774B61D17F232001D4C7B /* YJCornerCell.h */,
+				E41774B71D17F232001D4C7B /* YJCornerCell.m */,
+				E41774B91D17FD72001D4C7B /* UIView+YJCorner.h */,
+				E41774BA1D17FD72001D4C7B /* UIView+YJCorner.m */,
+			);
+			name = "圆角性能优化";
 			sourceTree = "<group>";
 		};
 		E4244E761D12FDD900A1A0A6 /* 测试viewWillAPear时view的frame变化 */ = {
@@ -443,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */,
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
 				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
 				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
@@ -454,6 +478,7 @@
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
 				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,
+				E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
@@ -474,6 +499,7 @@
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
+				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
 				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,

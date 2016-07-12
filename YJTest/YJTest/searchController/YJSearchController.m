@@ -127,24 +127,24 @@
 - (void)willPresentSearchController:(UISearchController *)searchController
 {
     
-    _table.frame = CGRectMake(0, 0, 320, 108);
-    self.navigationController.navigationBarHidden = YES;
-    self.tabBarController.tabBar.hidden = YES;
-    //改变self.view.frame  遮盖tabbar位置的黑条
-    _originalFrame = self.view.frame;
-    self.view.frame = CGRectMake(0, 64, 320, 536);
+//    _table.frame = CGRectMake(0, 0, 320, 108);
+//    self.navigationController.navigationBarHidden = YES;
+//    self.tabBarController.tabBar.hidden = YES;
+//    //改变self.view.frame  遮盖tabbar位置的黑条
+//    _originalFrame = self.view.frame;
+//    self.view.frame = CGRectMake(0, 64, 320, 536);
 }
 
 - (void)willDismissSearchController:(UISearchController *)searchController
 {
-    
-    _table.frame = CGRectMake(0, 200, 320, 108);
-    
-    self.navigationController.navigationBarHidden = NO;
-    
-    self.tabBarController.tabBar.hidden = NO;
-    //还原
-    self.view.frame = _originalFrame;
+//    
+//    _table.frame = CGRectMake(0, 200, 320, 108);
+//    
+//    self.navigationController.navigationBarHidden = NO;
+//    
+//    self.tabBarController.tabBar.hidden = NO;
+//    //还原
+//    self.view.frame = _originalFrame;
 }
 /*
 #pragma mark - Navigation

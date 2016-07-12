@@ -59,6 +59,10 @@
 		E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE6951D0DC5AF00783055 /* KeychainTestController.m */; };
 		E43FE6981D0DC5AF00783055 /* KeychainTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43FE6961D0DC5AF00783055 /* KeychainTestController.xib */; };
 		E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE69A1D0DC60200783055 /* YJKeychain.m */; };
+		E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = E449FDB71D354BF600ACDEAF /* SearchMainTabController.m */; };
+		E470CC481D2D646800C5265E /* KVOTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC471D2D646800C5265E /* KVOTestController.m */; };
+		E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC4A1D2D648C00C5265E /* KVOButton.m */; };
+		E470CC4E1D2D6B8A00C5265E /* UIView+DDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,6 +159,14 @@
 		E43FE6961D0DC5AF00783055 /* KeychainTestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeychainTestController.xib; path = "Keychain 保存UUID/KeychainTestController.xib"; sourceTree = "<group>"; };
 		E43FE6991D0DC60200783055 /* YJKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJKeychain.h; path = "Keychain 保存UUID/YJKeychain.h"; sourceTree = "<group>"; };
 		E43FE69A1D0DC60200783055 /* YJKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJKeychain.m; path = "Keychain 保存UUID/YJKeychain.m"; sourceTree = "<group>"; };
+		E449FDB61D354BF600ACDEAF /* SearchMainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchMainTabController.h; path = "子控制器searchController/SearchMainTabController.h"; sourceTree = "<group>"; };
+		E449FDB71D354BF600ACDEAF /* SearchMainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchMainTabController.m; path = "子控制器searchController/SearchMainTabController.m"; sourceTree = "<group>"; };
+		E470CC461D2D646800C5265E /* KVOTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVOTestController.h; path = "KVO测试/KVOTestController.h"; sourceTree = "<group>"; };
+		E470CC471D2D646800C5265E /* KVOTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVOTestController.m; path = "KVO测试/KVOTestController.m"; sourceTree = "<group>"; };
+		E470CC491D2D648C00C5265E /* KVOButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVOButton.h; path = "KVO测试/KVOButton.h"; sourceTree = "<group>"; };
+		E470CC4A1D2D648C00C5265E /* KVOButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVOButton.m; path = "KVO测试/KVOButton.m"; sourceTree = "<group>"; };
+		E470CC4C1D2D6B8A00C5265E /* UIView+DDAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DDAddition.h"; path = "KVO测试/UIView+DDAddition.h"; sourceTree = "<group>"; };
+		E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DDAddition.m"; path = "KVO测试/UIView+DDAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +269,8 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				E449FDB51D354B1700ACDEAF /* 子控制器searchController */,
+				E470CC451D2D641A00C5265E /* KVO测试 */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
@@ -387,6 +401,28 @@
 			name = "Keychain 保存UUID";
 			sourceTree = "<group>";
 		};
+		E449FDB51D354B1700ACDEAF /* 子控制器searchController */ = {
+			isa = PBXGroup;
+			children = (
+				E449FDB61D354BF600ACDEAF /* SearchMainTabController.h */,
+				E449FDB71D354BF600ACDEAF /* SearchMainTabController.m */,
+			);
+			name = "子控制器searchController";
+			sourceTree = "<group>";
+		};
+		E470CC451D2D641A00C5265E /* KVO测试 */ = {
+			isa = PBXGroup;
+			children = (
+				E470CC4C1D2D6B8A00C5265E /* UIView+DDAddition.h */,
+				E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */,
+				E470CC461D2D646800C5265E /* KVOTestController.h */,
+				E470CC471D2D646800C5265E /* KVOTestController.m */,
+				E470CC491D2D648C00C5265E /* KVOButton.h */,
+				E470CC4A1D2D648C00C5265E /* KVOButton.m */,
+			);
+			name = "KVO测试";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -418,6 +454,7 @@
 				TargetAttributes = {
 					12E6601C1C560E6900524CE5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6PG2TK7KJ6;
 					};
 				};
 			};
@@ -466,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E470CC4E1D2D6B8A00C5265E /* UIView+DDAddition.m in Sources */,
 				E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */,
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
 				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
@@ -479,6 +517,7 @@
 				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,
 				E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */,
+				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
@@ -494,9 +533,11 @@
 				E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */,
 				E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */,
 				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,
+				E470CC481D2D646800C5265E /* KVOTestController.m in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
+				E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,
@@ -607,11 +648,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = YJTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YJ.YJTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -619,11 +663,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = YJTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YJ.YJTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

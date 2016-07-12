@@ -60,6 +60,9 @@
 		E43FE6981D0DC5AF00783055 /* KeychainTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43FE6961D0DC5AF00783055 /* KeychainTestController.xib */; };
 		E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E43FE69A1D0DC60200783055 /* YJKeychain.m */; };
 		E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = E449FDB71D354BF600ACDEAF /* SearchMainTabController.m */; };
+		E449FDBB1D354CB500ACDEAF /* SearchControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = E449FDBA1D354CB500ACDEAF /* SearchControllerA.m */; };
+		E449FDBE1D354CDB00ACDEAF /* SearchControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = E449FDBD1D354CDB00ACDEAF /* SearchControllerB.m */; };
+		E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = E449FDC01D354D3000ACDEAF /* SearchResultController.m */; };
 		E470CC481D2D646800C5265E /* KVOTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC471D2D646800C5265E /* KVOTestController.m */; };
 		E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC4A1D2D648C00C5265E /* KVOButton.m */; };
 		E470CC4E1D2D6B8A00C5265E /* UIView+DDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */; };
@@ -161,6 +164,12 @@
 		E43FE69A1D0DC60200783055 /* YJKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJKeychain.m; path = "Keychain 保存UUID/YJKeychain.m"; sourceTree = "<group>"; };
 		E449FDB61D354BF600ACDEAF /* SearchMainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchMainTabController.h; path = "子控制器searchController/SearchMainTabController.h"; sourceTree = "<group>"; };
 		E449FDB71D354BF600ACDEAF /* SearchMainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchMainTabController.m; path = "子控制器searchController/SearchMainTabController.m"; sourceTree = "<group>"; };
+		E449FDB91D354CB500ACDEAF /* SearchControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchControllerA.h; path = "子控制器searchController/SearchControllerA.h"; sourceTree = "<group>"; };
+		E449FDBA1D354CB500ACDEAF /* SearchControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchControllerA.m; path = "子控制器searchController/SearchControllerA.m"; sourceTree = "<group>"; };
+		E449FDBC1D354CDB00ACDEAF /* SearchControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchControllerB.h; path = "子控制器searchController/SearchControllerB.h"; sourceTree = "<group>"; };
+		E449FDBD1D354CDB00ACDEAF /* SearchControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchControllerB.m; path = "子控制器searchController/SearchControllerB.m"; sourceTree = "<group>"; };
+		E449FDBF1D354D3000ACDEAF /* SearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultController.h; path = "子控制器searchController/SearchResultController.h"; sourceTree = "<group>"; };
+		E449FDC01D354D3000ACDEAF /* SearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultController.m; path = "子控制器searchController/SearchResultController.m"; sourceTree = "<group>"; };
 		E470CC461D2D646800C5265E /* KVOTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVOTestController.h; path = "KVO测试/KVOTestController.h"; sourceTree = "<group>"; };
 		E470CC471D2D646800C5265E /* KVOTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVOTestController.m; path = "KVO测试/KVOTestController.m"; sourceTree = "<group>"; };
 		E470CC491D2D648C00C5265E /* KVOButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVOButton.h; path = "KVO测试/KVOButton.h"; sourceTree = "<group>"; };
@@ -406,6 +415,12 @@
 			children = (
 				E449FDB61D354BF600ACDEAF /* SearchMainTabController.h */,
 				E449FDB71D354BF600ACDEAF /* SearchMainTabController.m */,
+				E449FDB91D354CB500ACDEAF /* SearchControllerA.h */,
+				E449FDBA1D354CB500ACDEAF /* SearchControllerA.m */,
+				E449FDBC1D354CDB00ACDEAF /* SearchControllerB.h */,
+				E449FDBD1D354CDB00ACDEAF /* SearchControllerB.m */,
+				E449FDBF1D354D3000ACDEAF /* SearchResultController.h */,
+				E449FDC01D354D3000ACDEAF /* SearchResultController.m */,
 			);
 			name = "子控制器searchController";
 			sourceTree = "<group>";
@@ -520,6 +535,7 @@
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
+				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
 				0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */,
@@ -527,6 +543,7 @@
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
+				E449FDBE1D354CDB00ACDEAF /* SearchControllerB.m in Sources */,
 				E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */,
 				E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */,
 				E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */,
@@ -542,6 +559,7 @@
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
+				E449FDBB1D354CB500ACDEAF /* SearchControllerA.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
 				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,
 				E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */,

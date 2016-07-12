@@ -35,10 +35,11 @@
         _searchController.searchBar.placeholder = @"搜索";
         self.definesPresentationContext = YES;
         _searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
-        _searchController.hidesNavigationBarDuringPresentation = NO;
-        _searchController.dimsBackgroundDuringPresentation = NO;
+//        _searchController.hidesNavigationBarDuringPresentation = NO;
+//        _searchController.dimsBackgroundDuringPresentation = NO;
     
     
+
     
     // 必须绑一个tableVIew 而且searchBar在 table的64高度处，tableView高度至少108
     _table = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 108) style:UITableViewStylePlain];
@@ -127,24 +128,24 @@
 - (void)willPresentSearchController:(UISearchController *)searchController
 {
     
-//    _table.frame = CGRectMake(0, 0, 320, 108);
+    _table.frame = CGRectMake(0, 0, 320, 108);
 //    self.navigationController.navigationBarHidden = YES;
-//    self.tabBarController.tabBar.hidden = YES;
-//    //改变self.view.frame  遮盖tabbar位置的黑条
-//    _originalFrame = self.view.frame;
-//    self.view.frame = CGRectMake(0, 64, 320, 536);
+    self.tabBarController.tabBar.hidden = YES;
+    //改变self.view.frame  遮盖tabbar位置的黑条
+    _originalFrame = self.view.frame;
+    self.view.frame = CGRectMake(0, 64, 320, 536);
 }
 
 - (void)willDismissSearchController:(UISearchController *)searchController
 {
 //    
-//    _table.frame = CGRectMake(0, 200, 320, 108);
-//    
+    _table.frame = CGRectMake(0, 200, 320, 108);
+    
 //    self.navigationController.navigationBarHidden = NO;
-//    
-//    self.tabBarController.tabBar.hidden = NO;
-//    //还原
-//    self.view.frame = _originalFrame;
+    
+    self.tabBarController.tabBar.hidden = NO;
+    //还原
+    self.view.frame = _originalFrame;
 }
 /*
 #pragma mark - Navigation

@@ -66,6 +66,7 @@
 		E470CC481D2D646800C5265E /* KVOTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC471D2D646800C5265E /* KVOTestController.m */; };
 		E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC4A1D2D648C00C5265E /* KVOButton.m */; };
 		E470CC4E1D2D6B8A00C5265E /* UIView+DDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */; };
+		E4F6E42B1D61C92B002F7C52 /* WQLPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E42A1D61C92B002F7C52 /* WQLPaoMaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +177,8 @@
 		E470CC4A1D2D648C00C5265E /* KVOButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVOButton.m; path = "KVO测试/KVOButton.m"; sourceTree = "<group>"; };
 		E470CC4C1D2D6B8A00C5265E /* UIView+DDAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DDAddition.h"; path = "KVO测试/UIView+DDAddition.h"; sourceTree = "<group>"; };
 		E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DDAddition.m"; path = "KVO测试/UIView+DDAddition.m"; sourceTree = "<group>"; };
+		E4F6E4291D61C92B002F7C52 /* WQLPaoMaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLPaoMaView.h; sourceTree = "<group>"; };
+		E4F6E42A1D61C92B002F7C52 /* WQLPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLPaoMaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +322,8 @@
 				12E7056F1C819237003D732E /* UIView+YJ.m */,
 				12E7056B1C819225003D732E /* YJScrollLabel.h */,
 				12E7056C1C819225003D732E /* YJScrollLabel.m */,
+				E4F6E4291D61C92B002F7C52 /* WQLPaoMaView.h */,
+				E4F6E42A1D61C92B002F7C52 /* WQLPaoMaView.m */,
 				12E705711C8192C4003D732E /* YJScrollTextViewController.h */,
 				12E705721C8192C4003D732E /* YJScrollTextViewController.m */,
 			);
@@ -524,6 +529,7 @@
 				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
 				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
 				127A6B601C84259800854A38 /* VCEchange_A.m in Sources */,
+				E4F6E42B1D61C92B002F7C52 /* WQLPaoMaView.m in Sources */,
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
 				12E705701C819237003D732E /* UIView+YJ.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,

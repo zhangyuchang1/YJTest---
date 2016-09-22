@@ -66,6 +66,21 @@
     
     /* 5.字典转模型 */
     
+    
+    //test 描边
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(180, 200, 20, 20)];
+    view.backgroundColor = [UIColor redColor];
+    
+    view.layer.cornerRadius = 10;
+    view.layer.borderColor = [UIColor whiteColor].CGColor;
+    view.layer.borderWidth = 3;
+    view.layer.shadowColor = [UIColor whiteColor].CGColor;
+    view.layer.shadowOffset = CGSizeMake(1, 1);
+//    view.layer.masksToBounds = YES;
+    
+    view.clipsToBounds = YES;
+    [self.view addSubview:view];
+    
      
 }
 

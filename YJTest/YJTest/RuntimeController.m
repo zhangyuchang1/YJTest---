@@ -8,15 +8,32 @@
 
 #import "RuntimeController.h"
 #import "Person.h"
-#import <objc/message.h>
-#import "UIImage+Image.h"
-#import "NSObject+Property.h"
+//#import <objc/message.h>
+//#import "UIImage+Image.h"
+//#import "NSObject+Property.h"
+//
+#import "UIView+CornerBorder.h"
 
 @interface RuntimeController ()
 
 @end
 
 @implementation RuntimeController
+
+
+/*
+ 添加属性
+ static char strAddrKey = 'a';
+ - (NSString *)addr
+ {
+ return objc_getAssociatedObject(self, &strAddrKey);
+ }
+ - (void)setAddr:(NSString *)addr
+ {
+ objc_setAssociatedObject(self, &strAddrKey, addr, OBJC_ASSOCIATION_COPY_NONATOMIC);
+ }
+ 
+ */
 
 //******************* 方法调用的本质，就是让对象发送消息 obj_msgSend **************
 
@@ -60,8 +77,8 @@
     */
     
     NSObject *obj = [[NSObject alloc] init];
-    obj.name = @"呵呵呵";
-    NSLog(@"%@",obj.name);
+//    obj.name = @"呵呵呵";
+//    NSLog(@"%@",obj.name);
     
     
     /* 5.字典转模型 */
@@ -69,19 +86,24 @@
     
     //test 描边
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(180, 200, 20, 20)];
-    view.backgroundColor = [UIColor redColor];
-    
-    view.layer.cornerRadius = 10;
-    view.layer.borderColor = [UIColor whiteColor].CGColor;
-    view.layer.borderWidth = 3;
-    view.layer.shadowColor = [UIColor whiteColor].CGColor;
-    view.layer.shadowOffset = CGSizeMake(1, 1);
-//    view.layer.masksToBounds = YES;
-    
-    view.clipsToBounds = YES;
+//    view.backgroundColor = [UIColor redColor];
+//    
+//    view.layer.cornerRadius = 10;
+////    view.layer.backgroundColor = [UIColor yellowColor].CGColor;
+//    view.layer.borderColor = [UIColor whiteColor].CGColor;
+//    view.layer.borderWidth = 3;
+////    view.layer.shadowColor = [UIColor whiteColor].CGColor;
+////    view.layer.shadowOffset = CGSizeMake(1, 1);
+////    view.layer.masksToBounds = YES;
+//    
+//    view.clipsToBounds = YES;
     [self.view addSubview:view];
     
-     
+    
+    
+    UIImage *iamge2 = [UIView imageWithSize:CGSizeMake(20, 20) radius:20 borderColor:[UIColor redColor] borderWidth:3.0 backgroundColor:[UIColor yellowColor]];
+    
+    view.backgroundColor = [UIColor colorWithPatternImage:iamge2];
 }
 
 - (void)didReceiveMemoryWarning {

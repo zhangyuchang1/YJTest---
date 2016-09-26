@@ -11,6 +11,7 @@
 		0422C7A41CF570900002D0E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A31CF570900002D0E4 /* Person.m */; };
 		0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */; };
 		0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7AC1CF587210002D0E4 /* NSObject+Property.m */; };
+		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
 		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
@@ -78,6 +79,8 @@
 		0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		0422C7AB1CF587210002D0E4 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		0422C7AC1CF587210002D0E4 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
+		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
 		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
 		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
 		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 			children = (
 				0422C79F1CF56FC40002D0E4 /* RuntimeController.h */,
 				0422C7A01CF56FC40002D0E4 /* RuntimeController.m */,
+				04A237291D93C53B0091C788 /* UIView+CornerBorder.h */,
+				04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */,
 				0422C7A21CF570900002D0E4 /* Person.h */,
 				0422C7A31CF570900002D0E4 /* Person.m */,
 				0422C7A81CF57D3B0002D0E4 /* UIImage+Image.h */,
@@ -561,6 +566,7 @@
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
 				E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */,
+				04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,

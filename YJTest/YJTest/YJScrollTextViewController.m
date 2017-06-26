@@ -46,6 +46,8 @@
     paoma = [[WQLPaoMaView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50) withTitle:@"全场卖两块，买啥都两块，两块钱，你买不了吃亏，两块钱，你买不了上当，真正的物有所值，都两块～～ "];
     [self.view addSubview:paoma];
     
+    NSLog(@"WQLPaoMaView 明显实现的更好");
+    
 //
 }
 - (void)push

@@ -49,10 +49,10 @@
     
 // ****************** <#(nullable NSDictionary<NSString *,id> *)#>   ******************
     //如果编译不通过， 在build seting里 Apple LLVM 7.1 - Preprocessing -> Enable Strict Checking of objc_msgSend Calls 设成 NO
-    
-    objc_msgSend(p, @selector(eat));
-    //动态添加方法,可以不声明
-    [p performSelector:@selector(eat)];
+//    
+//    objc_msgSend(p, @selector(eat));
+//    //动态添加方法,可以不声明
+//    [p performSelector:@selector(eat)];
     
     
 //    [Person eat];

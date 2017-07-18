@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040DF9971F1E772600787446 /* BassButton2.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF9961F1E772600787446 /* BassButton2.m */; };
 		0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A01CF56FC40002D0E4 /* RuntimeController.m */; };
 		0422C7A41CF570900002D0E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A31CF570900002D0E4 /* Person.m */; };
 		0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */; };
 		0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7AC1CF587210002D0E4 /* NSObject+Property.m */; };
+		045E06801F1E69D100D8E693 /* Bass_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E067F1F1E69D100D8E693 /* Bass_Button.m */; };
 		0477228E1EFE9D12001641BC /* GCDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477228D1EFE9D12001641BC /* GCDTestViewController.m */; };
 		047722921EFE9DC2001641BC /* RunloopTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722911EFE9DC2001641BC /* RunloopTestController.m */; };
 		047722961F001154001641BC /* HTTPTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722951F001154001641BC /* HTTPTestController.m */; };
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
+		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
 		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
 		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
@@ -74,6 +77,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040DF9951F1E772600787446 /* BassButton2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BassButton2.h; sourceTree = "<group>"; };
+		040DF9961F1E772600787446 /* BassButton2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BassButton2.m; sourceTree = "<group>"; };
 		0422C79F1CF56FC40002D0E4 /* RuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeController.h; sourceTree = "<group>"; };
 		0422C7A01CF56FC40002D0E4 /* RuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeController.m; sourceTree = "<group>"; };
 		0422C7A21CF570900002D0E4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -82,6 +87,8 @@
 		0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		0422C7AB1CF587210002D0E4 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		0422C7AC1CF587210002D0E4 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		045E067E1F1E69D100D8E693 /* Bass_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bass_Button.h; sourceTree = "<group>"; };
+		045E067F1F1E69D100D8E693 /* Bass_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bass_Button.m; sourceTree = "<group>"; };
 		0477228C1EFE9D12001641BC /* GCDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDTestViewController.h; path = "GCD练习/GCDTestViewController.h"; sourceTree = "<group>"; };
 		0477228D1EFE9D12001641BC /* GCDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDTestViewController.m; path = "GCD练习/GCDTestViewController.m"; sourceTree = "<group>"; };
 		047722901EFE9DC2001641BC /* RunloopTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunloopTestController.h; path = "Runloop练习/RunloopTestController.h"; sourceTree = "<group>"; };
@@ -90,6 +97,7 @@
 		047722951F001154001641BC /* HTTPTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPTestController.m; path = HTTP_TCP_UDP/HTTPTestController.m; sourceTree = "<group>"; };
 		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
 		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
+		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
 		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
 		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
 		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
@@ -294,7 +302,12 @@
 			children = (
 				124C807A1C816B5100CDBAF2 /* NewView.h */,
 				124C807B1C816B5100CDBAF2 /* NewView.m */,
+				04C0CB111F1E6663003F5DC1 /* NewView.xib */,
+				045E067E1F1E69D100D8E693 /* Bass_Button.h */,
+				045E067F1F1E69D100D8E693 /* Bass_Button.m */,
 				12809BA01C8156B2004FE7AD /* UIView+CornerRadius.h */,
+				040DF9951F1E772600787446 /* BassButton2.h */,
+				040DF9961F1E772600787446 /* BassButton2.m */,
 				12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */,
 				12809BA91C816806004FE7AD /* XIBConfiViewController.h */,
 				12809BAA1C816806004FE7AD /* XIBConfiViewController.m */,
@@ -553,6 +566,7 @@
 				12E705801C819CAC003D732E /* search.png in Resources */,
 				12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */,
 				127A6B611C84259800854A38 /* VCEchange_A.xib in Resources */,
+				04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */,
 				E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */,
 				12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */,
 				12E660301C560E6900524CE5 /* LaunchScreen.storyboard in Resources */,
@@ -591,6 +605,7 @@
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
 				0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */,
+				045E06801F1E69D100D8E693 /* Bass_Button.m in Sources */,
 				124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */,
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
@@ -605,6 +620,7 @@
 				E470CC481D2D646800C5265E /* KVOTestController.m in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
+				040DF9971F1E772600787446 /* BassButton2.m in Sources */,
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
 				047722921EFE9DC2001641BC /* RunloopTestController.m in Sources */,
 				E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */,

@@ -7,12 +7,25 @@
 //
 
 #import "XIBConfiViewController.h"
+#import "Bass_Button.h"
 
 @interface XIBConfiViewController ()
+
+
+@property (weak, nonatomic) IBOutlet Bass_Button *bassButn;
+
+
+
+
 
 @end
 
 @implementation XIBConfiViewController
+
+
+
+- (IBAction)hh:(id)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

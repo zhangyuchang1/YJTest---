@@ -1,15 +1,17 @@
 //
-//  UIView+CornerRadius.h
+//  BassButton2.h
 //  YJTest
 //
-//  Created by zyc on 16/2/27.
-//  Copyright © 2016年 zyc. All rights reserved.
+//  Created by mac on 2017/7/19.
+//  Copyright © 2017年 zyc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+YJ.m"
+IB_DESIGNABLE
 
-IB_DESIGNABLE //不需要
-@interface UIView (CornerRadius)
+@interface BassButton2 : UIButton
+
 // 拓展IB属性
 @property (nonatomic,assign) IBInspectable CGFloat cornerRadius;
 

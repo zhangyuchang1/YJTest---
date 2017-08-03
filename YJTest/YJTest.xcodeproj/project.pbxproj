@@ -18,11 +18,13 @@
 		047722961F001154001641BC /* HTTPTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722951F001154001641BC /* HTTPTestController.m */; };
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
+		1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */; };
 		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
 		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
 		124C80851C8178A300CDBAF2 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80841C8178A300CDBAF2 /* Line.m */; };
 		124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80871C81816200CDBAF2 /* UIView+Line.m */; };
+		125E17DA1F2ED3420062B42A /* 网络动图加载 in Resources */ = {isa = PBXBuildFile; fileRef = 125E17D91F2ED3420062B42A /* 网络动图加载 */; };
 		127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629F71C57046F007EFF40 /* YJTestViewController.m */; };
 		127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629FA1C571B21007EFF40 /* YJTestButton.m */; };
 		127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A6B591C840D0700854A38 /* VCExchangeViewController.m */; };
@@ -34,6 +36,8 @@
 		12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */; };
 		12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12809BAA1C816806004FE7AD /* XIBConfiViewController.m */; };
 		12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */; };
+		1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5141F32CA2000FEAE44 /* YJScrollViewController.m */; };
+		1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */; };
 		12E660221C560E6900524CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660211C560E6900524CE5 /* main.m */; };
 		12E660251C560E6900524CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660241C560E6900524CE5 /* AppDelegate.m */; };
 		12E660281C560E6900524CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660271C560E6900524CE5 /* ViewController.m */; };
@@ -98,6 +102,8 @@
 		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
 		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
 		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
+		1215BEC31F31D941006929E3 /* YJ_synthesize_test_VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJ_synthesize_test_VCViewController.h; path = synthesize/YJ_synthesize_test_VCViewController.h; sourceTree = "<group>"; };
+		1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = YJ_synthesize_test_VCViewController.mm; path = synthesize/YJ_synthesize_test_VCViewController.mm; sourceTree = "<group>"; };
 		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
 		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
 		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
@@ -107,6 +113,7 @@
 		124C80841C8178A300CDBAF2 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		124C80861C81816200CDBAF2 /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
 		124C80871C81816200CDBAF2 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		125E17D91F2ED3420062B42A /* 网络动图加载 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "网络动图加载"; sourceTree = "<group>"; };
 		127629F61C57046F007EFF40 /* YJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestViewController.h; sourceTree = "<group>"; };
 		127629F71C57046F007EFF40 /* YJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestViewController.m; sourceTree = "<group>"; };
 		127629F91C571B21007EFF40 /* YJTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestButton.h; sourceTree = "<group>"; };
@@ -125,6 +132,10 @@
 		12809BA91C816806004FE7AD /* XIBConfiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBConfiViewController.h; sourceTree = "<group>"; };
 		12809BAA1C816806004FE7AD /* XIBConfiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBConfiViewController.m; sourceTree = "<group>"; };
 		12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBConfiViewController.xib; sourceTree = "<group>"; };
+		1287B5131F32CA2000FEAE44 /* YJScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJScrollViewController.h; path = "scrollView交叉滑动/YJScrollViewController.h"; sourceTree = "<group>"; };
+		1287B5141F32CA2000FEAE44 /* YJScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJScrollViewController.m; path = "scrollView交叉滑动/YJScrollViewController.m"; sourceTree = "<group>"; };
+		1287B5161F32D1A700FEAE44 /* YJTestScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestScrollView.h; path = "scrollView交叉滑动/YJTestScrollView.h"; sourceTree = "<group>"; };
+		1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestScrollView.m; path = "scrollView交叉滑动/YJTestScrollView.m"; sourceTree = "<group>"; };
 		12E6601D1C560E6900524CE5 /* YJTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E660211C560E6900524CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12E660231C560E6900524CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -256,6 +267,15 @@
 			name = HTTP_TCP_UDP;
 			sourceTree = "<group>";
 		};
+		1215BEC21F31D8CA006929E3 /* synthesize属性 */ = {
+			isa = PBXGroup;
+			children = (
+				1215BEC31F31D941006929E3 /* YJ_synthesize_test_VCViewController.h */,
+				1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */,
+			);
+			name = "synthesize属性";
+			sourceTree = "<group>";
+		};
 		124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +336,17 @@
 			name = "XIB 圆角";
 			sourceTree = "<group>";
 		};
+		1287B5121F32C93E00FEAE44 /* scrollView 交叉滑动 */ = {
+			isa = PBXGroup;
+			children = (
+				1287B5131F32CA2000FEAE44 /* YJScrollViewController.h */,
+				1287B5141F32CA2000FEAE44 /* YJScrollViewController.m */,
+				1287B5161F32D1A700FEAE44 /* YJTestScrollView.h */,
+				1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */,
+			);
+			name = "scrollView 交叉滑动";
+			sourceTree = "<group>";
+		};
 		12E660141C560E6800524CE5 = {
 			isa = PBXGroup;
 			children = (
@@ -335,13 +366,16 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
-				047722931F001119001641BC /* HTTP_TCP_UDP */,
-				0477228F1EFE9D7B001641BC /* Runloop练习 */,
-				0477228B1EFE58F8001641BC /* GCD练习 */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
+				1287B5121F32C93E00FEAE44 /* scrollView 交叉滑动 */,
+				1215BEC21F31D8CA006929E3 /* synthesize属性 */,
+				125E17D91F2ED3420062B42A /* 网络动图加载 */,
+				047722931F001119001641BC /* HTTP_TCP_UDP */,
+				0477228F1EFE9D7B001641BC /* Runloop练习 */,
+				0477228B1EFE58F8001641BC /* GCD练习 */,
 				E449FDB51D354B1700ACDEAF /* 子控制器searchController */,
 				E470CC451D2D641A00C5265E /* KVO测试 */,
 				E41774B21D17F17D001D4C7B /* 圆角性能优化 */,
@@ -570,6 +604,7 @@
 				E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */,
 				12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */,
 				12E660301C560E6900524CE5 /* LaunchScreen.storyboard in Resources */,
+				125E17DA1F2ED3420062B42A /* 网络动图加载 in Resources */,
 				12E6602D1C560E6900524CE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,11 +620,13 @@
 				0477228E1EFE9D12001641BC /* GCDTestViewController.m in Sources */,
 				E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */,
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
+				1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */,
 				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
 				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
 				127A6B601C84259800854A38 /* VCEchange_A.m in Sources */,
 				047722961F001154001641BC /* HTTPTestController.m in Sources */,
 				E4F6E42B1D61C92B002F7C52 /* WQLPaoMaView.m in Sources */,
+				1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */,
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
 				12E705701C819237003D732E /* UIView+YJ.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
@@ -600,6 +637,7 @@
 				E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */,
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
+				1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,

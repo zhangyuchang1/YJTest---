@@ -51,27 +51,27 @@
 }
 
 
--(void)layoutSubviews
-{
-    [super layoutSubviews];
+//-(void)layoutSubviews
+//{
+//    [super layoutSubviews];
     //
     
-    self.backgroundColor = [UIColor redColor];
-    
-    self.left = 15;
-    self.width = [UIScreen mainScreen].bounds.size.width - 30;
-    self.height = 45;
-    
-    self.backgroundColor = [UIColor greenColor];
-    self.layer.cornerRadius = 22.5;
-    self.layer.masksToBounds = YES;
-    
-    [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    
-    
+//    self.backgroundColor = [UIColor redColor];
+//    
+//    self.left = 15;
+//    self.width = [UIScreen mainScreen].bounds.size.width - 30;
+//    self.height = 45;
+//    
+//    self.backgroundColor = [UIColor greenColor];
+//    self.layer.cornerRadius = 22.5;
+//    self.layer.masksToBounds = YES;
+//    
+//    [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     
     
-}
+    
+    
+//}
 
 
 

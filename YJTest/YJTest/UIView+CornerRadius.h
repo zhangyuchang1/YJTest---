@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE //不需要
+//IB_DESIGNABLE //不需要
 @interface UIView (CornerRadius)
-// 拓展IB属性
-@property (nonatomic,assign) IBInspectable CGFloat cornerRadius;
-
-@property (nonatomic,retain) IBInspectable UIColor *radiusColor;
-
-@property (nonatomic,assign) IBInspectable CGFloat radiusWidth;
+//// 拓展IB属性
+//@property (nonatomic,assign) IBInspectable CGFloat cornerRadius;
+//
+//@property (nonatomic,retain) IBInspectable UIColor *radiusColor;
+//
+//@property (nonatomic,assign) IBInspectable CGFloat radiusWidth;
 
 @end

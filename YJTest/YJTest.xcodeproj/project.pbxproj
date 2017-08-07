@@ -18,6 +18,9 @@
 		047722961F001154001641BC /* HTTPTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722951F001154001641BC /* HTTPTestController.m */; };
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
+		04DC432C1F38C2EB005D45D4 /* XIBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC432B1F38C2EB005D45D4 /* XIBImageView.m */; };
+		04DE4A5F1F2BA56000C0B6EA /* YJTestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4A5E1F2BA56000C0B6EA /* YJTestWebViewController.m */; };
+		04DE4A621F2BA70300C0B6EA /* YJTestWebBeforeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4A611F2BA70300C0B6EA /* YJTestWebBeforeController.m */; };
 		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
 		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
@@ -98,6 +101,12 @@
 		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
 		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
 		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
+		04DC432A1F38C2EB005D45D4 /* XIBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBImageView.h; sourceTree = "<group>"; };
+		04DC432B1F38C2EB005D45D4 /* XIBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBImageView.m; sourceTree = "<group>"; };
+		04DE4A5D1F2BA56000C0B6EA /* YJTestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestWebViewController.h; sourceTree = "<group>"; };
+		04DE4A5E1F2BA56000C0B6EA /* YJTestWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestWebViewController.m; sourceTree = "<group>"; };
+		04DE4A601F2BA70300C0B6EA /* YJTestWebBeforeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestWebBeforeController.h; sourceTree = "<group>"; };
+		04DE4A611F2BA70300C0B6EA /* YJTestWebBeforeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestWebBeforeController.m; sourceTree = "<group>"; };
 		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
 		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
 		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
@@ -256,6 +265,17 @@
 			name = HTTP_TCP_UDP;
 			sourceTree = "<group>";
 		};
+		04DE4A5C1F2BA50400C0B6EA /* H5获取标签解析 */ = {
+			isa = PBXGroup;
+			children = (
+				04DE4A5D1F2BA56000C0B6EA /* YJTestWebViewController.h */,
+				04DE4A5E1F2BA56000C0B6EA /* YJTestWebViewController.m */,
+				04DE4A601F2BA70300C0B6EA /* YJTestWebBeforeController.h */,
+				04DE4A611F2BA70300C0B6EA /* YJTestWebBeforeController.m */,
+			);
+			path = "H5获取标签解析";
+			sourceTree = "<group>";
+		};
 		124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +328,8 @@
 				12809BA01C8156B2004FE7AD /* UIView+CornerRadius.h */,
 				040DF9951F1E772600787446 /* BassButton2.h */,
 				040DF9961F1E772600787446 /* BassButton2.m */,
+				04DC432A1F38C2EB005D45D4 /* XIBImageView.h */,
+				04DC432B1F38C2EB005D45D4 /* XIBImageView.m */,
 				12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */,
 				12809BA91C816806004FE7AD /* XIBConfiViewController.h */,
 				12809BAA1C816806004FE7AD /* XIBConfiViewController.m */,
@@ -335,6 +357,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				04DE4A5C1F2BA50400C0B6EA /* H5获取标签解析 */,
 				047722931F001119001641BC /* HTTP_TCP_UDP */,
 				0477228F1EFE9D7B001641BC /* Runloop练习 */,
 				0477228B1EFE58F8001641BC /* GCD练习 */,
@@ -581,6 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DC432C1F38C2EB005D45D4 /* XIBImageView.m in Sources */,
 				E470CC4E1D2D6B8A00C5265E /* UIView+DDAddition.m in Sources */,
 				0477228E1EFE9D12001641BC /* GCDTestViewController.m in Sources */,
 				E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */,
@@ -601,7 +625,9 @@
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
+				04DE4A5F1F2BA56000C0B6EA /* YJTestWebViewController.m in Sources */,
 				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
+				04DE4A621F2BA70300C0B6EA /* YJTestWebBeforeController.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
 				0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */,

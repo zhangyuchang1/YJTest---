@@ -1,7 +1,8 @@
-//
+// new fun1
+// new release
 //  YJScrollViewController.m
 //  YJTest
-//
+//  //t_dev_3
 //  Created by zyc on 2017/8/3.
 //  Copyright © 2017年 zyc. All rights reserved.
 //
@@ -9,7 +10,9 @@
 #import "YJScrollViewController.h"
 #import "UIView+YJ.h"
 #import "YJTestScrollView.h"
+//t2
 
+// hot3.5
 @interface YJScrollViewController ()<UIScrollViewDelegate>
 
 

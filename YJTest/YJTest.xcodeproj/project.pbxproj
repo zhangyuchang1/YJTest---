@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		040DF9971F1E772600787446 /* BassButton2.m in Sources */ = {isa = PBXBuildFile; fileRef = 040DF9961F1E772600787446 /* BassButton2.m */; };
+		0415CB591F796313009B1522 /* FirstWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415CB561F796313009B1522 /* FirstWebviewViewController.m */; };
+		0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415CB581F796313009B1522 /* HDJWKWebConfiguration.m */; };
 		0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A01CF56FC40002D0E4 /* RuntimeController.m */; };
 		0422C7A41CF570900002D0E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A31CF570900002D0E4 /* Person.m */; };
 		0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */; };
@@ -85,6 +87,10 @@
 /* Begin PBXFileReference section */
 		040DF9951F1E772600787446 /* BassButton2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BassButton2.h; sourceTree = "<group>"; };
 		040DF9961F1E772600787446 /* BassButton2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BassButton2.m; sourceTree = "<group>"; };
+		0415CB551F796313009B1522 /* FirstWebviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstWebviewViewController.h; sourceTree = "<group>"; };
+		0415CB561F796313009B1522 /* FirstWebviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstWebviewViewController.m; sourceTree = "<group>"; };
+		0415CB571F796313009B1522 /* HDJWKWebConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDJWKWebConfiguration.h; sourceTree = "<group>"; };
+		0415CB581F796313009B1522 /* HDJWKWebConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDJWKWebConfiguration.m; sourceTree = "<group>"; };
 		0422C79F1CF56FC40002D0E4 /* RuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeController.h; sourceTree = "<group>"; };
 		0422C7A01CF56FC40002D0E4 /* RuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeController.m; sourceTree = "<group>"; };
 		0422C7A21CF570900002D0E4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -230,6 +236,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0415CB541F7962ED009B1522 /* WebView内存 */ = {
+			isa = PBXGroup;
+			children = (
+				0415CB551F796313009B1522 /* FirstWebviewViewController.h */,
+				0415CB561F796313009B1522 /* FirstWebviewViewController.m */,
+				0415CB571F796313009B1522 /* HDJWKWebConfiguration.h */,
+				0415CB581F796313009B1522 /* HDJWKWebConfiguration.m */,
+			);
+			path = "WebView内存";
+			sourceTree = "<group>";
+		};
 		0422C79B1CF56EE30002D0E4 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +403,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				0415CB541F7962ED009B1522 /* WebView内存 */,
 				04524E521F602A6E00F85E10 /* scrollView嵌套tableView */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
@@ -669,10 +687,12 @@
 				124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */,
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
+				0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
 				E449FDBE1D354CDB00ACDEAF /* SearchControllerB.m in Sources */,
 				E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */,
 				E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */,
+				0415CB591F796313009B1522 /* FirstWebviewViewController.m in Sources */,
 				E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */,
 				E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */,
 				E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */,

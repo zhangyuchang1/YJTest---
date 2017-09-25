@@ -19,35 +19,6 @@
     //        }
     //    }
     
-    UICollectionView
-    
-    UITableView *tableView;
-    if ([otherGestureRecognizer.view isKindOfClass:[UITableView class]]) {
-        tableView = (UITableView *)otherGestureRecognizer.view;
-    }
-    
-    if (!tableView) {
-        return YES;
-    }
-    
-    CGFloat scroll_touchY =  [gestureRecognizer locationInView:self].y;
-    
-    CGFloat table_touchY =  [gestureRecognizer locationInView:tableView].y;
-    
-    if (table_touchY <= 0) {
-        
-        otherGestureRecognizer.enabled = NO;
-        return YES;
-    }
-    
-    if (self.contentOffset.y < tableView.frame.origin.y) {
-        
-        otherGestureRecognizer.enabled = NO;
-        return YES;
-    }else{
-        return NO;
-    }
-    
     
     return YES;
 }

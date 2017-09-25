@@ -12,6 +12,9 @@
 		0422C7A41CF570900002D0E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A31CF570900002D0E4 /* Person.m */; };
 		0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */; };
 		0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422C7AC1CF587210002D0E4 /* NSObject+Property.m */; };
+		04524E551F602AE100F85E10 /* YJTestScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04524E541F602AE100F85E10 /* YJTestScrollViewController.m */; };
+		04524E581F602B0D00F85E10 /* YJTestScrollTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04524E571F602B0D00F85E10 /* YJTestScrollTable.m */; };
+		04524E5E1F6053C300F85E10 /* YJTestScrollScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04524E5D1F6053C300F85E10 /* YJTestScrollScrollView.m */; };
 		045E06801F1E69D100D8E693 /* Bass_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E067F1F1E69D100D8E693 /* Bass_Button.m */; };
 		0477228E1EFE9D12001641BC /* GCDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477228D1EFE9D12001641BC /* GCDTestViewController.m */; };
 		047722921EFE9DC2001641BC /* RunloopTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722911EFE9DC2001641BC /* RunloopTestController.m */; };
@@ -24,7 +27,6 @@
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
 		124C80851C8178A300CDBAF2 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80841C8178A300CDBAF2 /* Line.m */; };
 		124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80871C81816200CDBAF2 /* UIView+Line.m */; };
-		125E17DA1F2ED3420062B42A /* 网络动图加载 in Resources */ = {isa = PBXBuildFile; fileRef = 125E17D91F2ED3420062B42A /* 网络动图加载 */; };
 		127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629F71C57046F007EFF40 /* YJTestViewController.m */; };
 		127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629FA1C571B21007EFF40 /* YJTestButton.m */; };
 		127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A6B591C840D0700854A38 /* VCExchangeViewController.m */; };
@@ -91,6 +93,12 @@
 		0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		0422C7AB1CF587210002D0E4 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		0422C7AC1CF587210002D0E4 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		04524E531F602AE100F85E10 /* YJTestScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestScrollViewController.h; sourceTree = "<group>"; };
+		04524E541F602AE100F85E10 /* YJTestScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestScrollViewController.m; sourceTree = "<group>"; };
+		04524E561F602B0D00F85E10 /* YJTestScrollTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestScrollTable.h; sourceTree = "<group>"; };
+		04524E571F602B0D00F85E10 /* YJTestScrollTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestScrollTable.m; sourceTree = "<group>"; };
+		04524E5C1F6053C300F85E10 /* YJTestScrollScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestScrollScrollView.h; sourceTree = "<group>"; };
+		04524E5D1F6053C300F85E10 /* YJTestScrollScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestScrollScrollView.m; sourceTree = "<group>"; };
 		045E067E1F1E69D100D8E693 /* Bass_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bass_Button.h; sourceTree = "<group>"; };
 		045E067F1F1E69D100D8E693 /* Bass_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bass_Button.m; sourceTree = "<group>"; };
 		0477228C1EFE9D12001641BC /* GCDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDTestViewController.h; path = "GCD练习/GCDTestViewController.h"; sourceTree = "<group>"; };
@@ -113,7 +121,6 @@
 		124C80841C8178A300CDBAF2 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		124C80861C81816200CDBAF2 /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
 		124C80871C81816200CDBAF2 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
-		125E17D91F2ED3420062B42A /* 网络动图加载 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "网络动图加载"; sourceTree = "<group>"; };
 		127629F61C57046F007EFF40 /* YJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestViewController.h; sourceTree = "<group>"; };
 		127629F71C57046F007EFF40 /* YJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestViewController.m; sourceTree = "<group>"; };
 		127629F91C571B21007EFF40 /* YJTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestButton.h; sourceTree = "<group>"; };
@@ -238,6 +245,19 @@
 				0422C7AC1CF587210002D0E4 /* NSObject+Property.m */,
 			);
 			name = RunTime;
+			sourceTree = "<group>";
+		};
+		04524E521F602A6E00F85E10 /* scrollView嵌套tableView */ = {
+			isa = PBXGroup;
+			children = (
+				04524E531F602AE100F85E10 /* YJTestScrollViewController.h */,
+				04524E541F602AE100F85E10 /* YJTestScrollViewController.m */,
+				04524E5C1F6053C300F85E10 /* YJTestScrollScrollView.h */,
+				04524E5D1F6053C300F85E10 /* YJTestScrollScrollView.m */,
+				04524E561F602B0D00F85E10 /* YJTestScrollTable.h */,
+				04524E571F602B0D00F85E10 /* YJTestScrollTable.m */,
+			);
+			path = "scrollView嵌套tableView";
 			sourceTree = "<group>";
 		};
 		0477228B1EFE58F8001641BC /* GCD练习 */ = {
@@ -366,13 +386,13 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				04524E521F602A6E00F85E10 /* scrollView嵌套tableView */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
 				1287B5121F32C93E00FEAE44 /* scrollView 交叉滑动 */,
 				1215BEC21F31D8CA006929E3 /* synthesize属性 */,
-				125E17D91F2ED3420062B42A /* 网络动图加载 */,
 				047722931F001119001641BC /* HTTP_TCP_UDP */,
 				0477228F1EFE9D7B001641BC /* Runloop练习 */,
 				0477228B1EFE58F8001641BC /* GCD练习 */,
@@ -604,7 +624,6 @@
 				E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */,
 				12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */,
 				12E660301C560E6900524CE5 /* LaunchScreen.storyboard in Resources */,
-				125E17DA1F2ED3420062B42A /* 网络动图加载 in Resources */,
 				12E6602D1C560E6900524CE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,11 +640,14 @@
 				E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */,
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
 				1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */,
+				04524E581F602B0D00F85E10 /* YJTestScrollTable.m in Sources */,
 				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
 				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
 				127A6B601C84259800854A38 /* VCEchange_A.m in Sources */,
 				047722961F001154001641BC /* HTTPTestController.m in Sources */,
+				04524E5E1F6053C300F85E10 /* YJTestScrollScrollView.m in Sources */,
 				E4F6E42B1D61C92B002F7C52 /* WQLPaoMaView.m in Sources */,
+				04524E551F602AE100F85E10 /* YJTestScrollViewController.m in Sources */,
 				1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */,
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
 				12E705701C819237003D732E /* UIView+YJ.m in Sources */,

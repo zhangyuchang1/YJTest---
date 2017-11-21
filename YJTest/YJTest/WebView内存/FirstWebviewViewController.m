@@ -37,6 +37,13 @@ static NSString *testUrl = @"http://wap.hongdoujiao.tv/activity/dazhaxie/index.h
 
     [self createwebview];
     [self loadWebView];
+    
+    
+    NSDictionary *dic = [NSDictionary dictionary];
+    
+    NSString *a = dic[@"dd"];
+    NSString *b = dic[@"ddd"];
+    
 }
 
 - (void)createwebview {
@@ -207,6 +214,13 @@ static NSString *testUrl = @"http://wap.hongdoujiao.tv/activity/dazhaxie/index.h
     if (webView.title.length > 0) {
         self.title = webView.title;
     }
+    
+    //获取元素
+    [webView evaluateJavaScript:@"document.title" completionHandler:^(id item, NSError * _Nullable error) {
+        // 执行结果回调
+    }];
+
+    
     /*
     [MBProgressHUD hideHUDForView:self.view animated:YES];
     

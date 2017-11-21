@@ -29,6 +29,8 @@
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
 		124C80851C8178A300CDBAF2 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80841C8178A300CDBAF2 /* Line.m */; };
 		124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80871C81816200CDBAF2 /* UIView+Line.m */; };
+		12707AED1FB2B68E005BBC77 /* UITextFeildTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12707AEB1FB2B68E005BBC77 /* UITextFeildTestController.m */; };
+		12707AEE1FB2B68E005BBC77 /* UITextFeildTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12707AEC1FB2B68E005BBC77 /* UITextFeildTestController.xib */; };
 		127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629F71C57046F007EFF40 /* YJTestViewController.m */; };
 		127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629FA1C571B21007EFF40 /* YJTestButton.m */; };
 		127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A6B591C840D0700854A38 /* VCExchangeViewController.m */; };
@@ -127,6 +129,9 @@
 		124C80841C8178A300CDBAF2 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		124C80861C81816200CDBAF2 /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
 		124C80871C81816200CDBAF2 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		12707AEA1FB2B68E005BBC77 /* UITextFeildTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UITextFeildTestController.h; path = "UITextFeild上面完成按钮/UITextFeildTestController.h"; sourceTree = "<group>"; };
+		12707AEB1FB2B68E005BBC77 /* UITextFeildTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UITextFeildTestController.m; path = "UITextFeild上面完成按钮/UITextFeildTestController.m"; sourceTree = "<group>"; };
+		12707AEC1FB2B68E005BBC77 /* UITextFeildTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UITextFeildTestController.xib; path = "UITextFeild上面完成按钮/UITextFeildTestController.xib"; sourceTree = "<group>"; };
 		127629F61C57046F007EFF40 /* YJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestViewController.h; sourceTree = "<group>"; };
 		127629F71C57046F007EFF40 /* YJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTestViewController.m; sourceTree = "<group>"; };
 		127629F91C571B21007EFF40 /* YJTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTestButton.h; sourceTree = "<group>"; };
@@ -327,6 +332,16 @@
 			name = "XIB 0.5线条";
 			sourceTree = "<group>";
 		};
+		12707AE91FB2B5E0005BBC77 /* UITextFeild上面完成按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				12707AEA1FB2B68E005BBC77 /* UITextFeildTestController.h */,
+				12707AEB1FB2B68E005BBC77 /* UITextFeildTestController.m */,
+				12707AEC1FB2B68E005BBC77 /* UITextFeildTestController.xib */,
+			);
+			name = "UITextFeild上面完成按钮";
+			sourceTree = "<group>";
+		};
 		127A6B571C840C2200854A38 /* 自定义页面切换转场动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +418,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				12707AE91FB2B5E0005BBC77 /* UITextFeild上面完成按钮 */,
 				0415CB541F7962ED009B1522 /* WebView内存 */,
 				04524E521F602A6E00F85E10 /* scrollView嵌套tableView */,
 				12E660231C560E6900524CE5 /* AppDelegate.h */,
@@ -633,6 +649,7 @@
 				E43FE6841D0C3C5A00783055 /* YJStatisticController.xib in Resources */,
 				127A6B661C8425C100854A38 /* VCExchange_B.xib in Resources */,
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
+				12707AEE1FB2B68E005BBC77 /* UITextFeildTestController.xib in Resources */,
 				E43FE6981D0DC5AF00783055 /* KeychainTestController.xib in Resources */,
 				124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */,
 				12E705801C819CAC003D732E /* search.png in Resources */,
@@ -711,6 +728,7 @@
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				E449FDBB1D354CB500ACDEAF /* SearchControllerA.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
+				12707AED1FB2B68E005BBC77 /* UITextFeildTestController.m in Sources */,
 				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,
 				E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */,
 				E43FE67F1D0C3BCE00783055 /* StatisticManager.m in Sources */,

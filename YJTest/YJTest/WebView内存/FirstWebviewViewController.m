@@ -33,6 +33,7 @@ static NSString *testUrl = @"http://wap.hongdoujiao.tv/activity/dazhaxie/index.h
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 
     [self createwebview];
     [self loadWebView];

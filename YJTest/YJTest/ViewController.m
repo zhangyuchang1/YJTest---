@@ -27,7 +27,7 @@
     [self.view addSubview:tableView];
     
     
-    self.dataArray = @[@"lastViewController 强引用",@"XIB 实时动态显示圆角",@"XIB 拉0.5的线",@"跑马灯",@"系统地图 显示poi",@"自定义转场动画",@"runtime",@"searchViewController",@"统计加定时上传模块",@"VC 的view frame 变化",@"圆角性能优化",@"KVO测试",@"子控制器searchController", @"GCD练习", @"Runnloop练习",@"交叉滑动",@"scroollView嵌套",@"webView内存"];
+    self.dataArray = @[@"lastViewController 强引用",@"XIB 实时动态显示圆角",@"XIB 拉0.5的线",@"跑马灯",@"系统地图 显示poi",@"自定义转场动画",@"runtime",@"searchViewController",@"统计加定时上传模块",@"VC 的view frame 变化",@"圆角性能优化",@"KVO测试",@"子控制器searchController", @"GCD练习", @"Runnloop练习",@"交叉滑动",@"scroollView嵌套",@"webView内存",@"UITextFeild 完成按钮"];
     
     self.controllerArray = @[@"YJTestViewController",
                              @"XIBConfiViewController",
@@ -46,7 +46,8 @@
                              @"RunloopTestController",
                              @"YJScrollViewController",
                              @"YJTestScrollViewController",
-                             @"FirstWebviewViewController"];
+                             @"FirstWebviewViewController",
+                             @"UITextFeildTestController"];
 }
 
 #pragma mark - UITableView Delegate && DataSource

@@ -24,6 +24,10 @@
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
 		1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */; };
+		1247CCDB1FC97D2600FE3EC2 /* CoreMLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247CCDA1FC97D2600FE3EC2 /* CoreMLTestViewController.m */; };
+		1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1247CCDC1FC97D4300FE3EC2 /* MobileNet2.mlmodel */; };
+		1247CCDF1FC97D5500FE3EC2 /* flowerTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1247CCDE1FC97D5400FE3EC2 /* flowerTest.jpg */; };
+		1247CCE21FC97D6A00FE3EC2 /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247CCE11FC97D6A00FE3EC2 /* ImageTool.m */; };
 		124C807C1C816B5100CDBAF2 /* NewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807B1C816B5100CDBAF2 /* NewView.m */; };
 		124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C807F1C81774500CDBAF2 /* XIBLineViewController.m */; };
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
@@ -120,6 +124,12 @@
 		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
 		1215BEC31F31D941006929E3 /* YJ_synthesize_test_VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJ_synthesize_test_VCViewController.h; path = synthesize/YJ_synthesize_test_VCViewController.h; sourceTree = "<group>"; };
 		1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = YJ_synthesize_test_VCViewController.mm; path = synthesize/YJ_synthesize_test_VCViewController.mm; sourceTree = "<group>"; };
+		1247CCD91FC97D2600FE3EC2 /* CoreMLTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoreMLTestViewController.h; path = "CoreML机器学习/CoreMLTestViewController.h"; sourceTree = "<group>"; };
+		1247CCDA1FC97D2600FE3EC2 /* CoreMLTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CoreMLTestViewController.m; path = "CoreML机器学习/CoreMLTestViewController.m"; sourceTree = "<group>"; };
+		1247CCDC1FC97D4300FE3EC2 /* MobileNet2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet2.mlmodel; sourceTree = "<group>"; };
+		1247CCDE1FC97D5400FE3EC2 /* flowerTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerTest.jpg; sourceTree = "<group>"; };
+		1247CCE01FC97D6900FE3EC2 /* ImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTool.h; sourceTree = "<group>"; };
+		1247CCE11FC97D6A00FE3EC2 /* ImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
 		124C807A1C816B5100CDBAF2 /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewView.h; sourceTree = "<group>"; };
 		124C807B1C816B5100CDBAF2 /* NewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewView.m; sourceTree = "<group>"; };
 		124C807E1C81774500CDBAF2 /* XIBLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBLineViewController.h; sourceTree = "<group>"; };
@@ -318,6 +328,19 @@
 			name = "synthesize属性";
 			sourceTree = "<group>";
 		};
+		1247CCD81FC97CBC00FE3EC2 /* CoreML机器学习 */ = {
+			isa = PBXGroup;
+			children = (
+				1247CCDC1FC97D4300FE3EC2 /* MobileNet2.mlmodel */,
+				1247CCDE1FC97D5400FE3EC2 /* flowerTest.jpg */,
+				1247CCE01FC97D6900FE3EC2 /* ImageTool.h */,
+				1247CCE11FC97D6A00FE3EC2 /* ImageTool.m */,
+				1247CCD91FC97D2600FE3EC2 /* CoreMLTestViewController.h */,
+				1247CCDA1FC97D2600FE3EC2 /* CoreMLTestViewController.m */,
+			);
+			name = "CoreML机器学习";
+			sourceTree = "<group>";
+		};
 		124C807D1C81738D00CDBAF2 /* XIB 0.5线条 */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +441,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				1247CCD81FC97CBC00FE3EC2 /* CoreML机器学习 */,
 				12707AE91FB2B5E0005BBC77 /* UITextFeild上面完成按钮 */,
 				0415CB541F7962ED009B1522 /* WebView内存 */,
 				04524E521F602A6E00F85E10 /* scrollView嵌套tableView */,
@@ -650,6 +674,7 @@
 				127A6B661C8425C100854A38 /* VCExchange_B.xib in Resources */,
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
 				12707AEE1FB2B68E005BBC77 /* UITextFeildTestController.xib in Resources */,
+				1247CCDF1FC97D5500FE3EC2 /* flowerTest.jpg in Resources */,
 				E43FE6981D0DC5AF00783055 /* KeychainTestController.xib in Resources */,
 				124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */,
 				12E705801C819CAC003D732E /* search.png in Resources */,
@@ -694,6 +719,7 @@
 				E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */,
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
+				1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */,
 				1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
@@ -706,6 +732,7 @@
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
+				1247CCE21FC97D6A00FE3EC2 /* ImageTool.m in Sources */,
 				E449FDBE1D354CDB00ACDEAF /* SearchControllerB.m in Sources */,
 				E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */,
 				E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */,
@@ -724,6 +751,7 @@
 				04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
+				1247CCDB1FC97D2600FE3EC2 /* CoreMLTestViewController.m in Sources */,
 				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				E449FDBB1D354CB500ACDEAF /* SearchControllerA.m in Sources */,

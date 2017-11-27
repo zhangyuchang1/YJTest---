@@ -33,6 +33,10 @@
 		124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124C80801C81774500CDBAF2 /* XIBLineViewController.xib */; };
 		124C80851C8178A300CDBAF2 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80841C8178A300CDBAF2 /* Line.m */; };
 		124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 124C80871C81816200CDBAF2 /* UIView+Line.m */; };
+		126B9FF11FCC20E3006DD3FE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 126B9FED1FCC20B8006DD3FE /* Inceptionv3.mlmodel */; };
+		126B9FF21FCC20E3006DD3FE /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 126B9FEE1FCC20B8006DD3FE /* SqueezeNet.mlmodel */; };
+		126B9FF31FCC20E3006DD3FE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 126B9FEF1FCC20BE006DD3FE /* Resnet50.mlmodel */; };
+		126B9FF41FCC20E3006DD3FE /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 126B9FF01FCC20E3006DD3FE /* VGG16.mlmodel */; };
 		12707AED1FB2B68E005BBC77 /* UITextFeildTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12707AEB1FB2B68E005BBC77 /* UITextFeildTestController.m */; };
 		12707AEE1FB2B68E005BBC77 /* UITextFeildTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12707AEC1FB2B68E005BBC77 /* UITextFeildTestController.xib */; };
 		127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127629F71C57046F007EFF40 /* YJTestViewController.m */; };
@@ -139,6 +143,10 @@
 		124C80841C8178A300CDBAF2 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		124C80861C81816200CDBAF2 /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
 		124C80871C81816200CDBAF2 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		126B9FED1FCC20B8006DD3FE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		126B9FEE1FCC20B8006DD3FE /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		126B9FEF1FCC20BE006DD3FE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		126B9FF01FCC20E3006DD3FE /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
 		12707AEA1FB2B68E005BBC77 /* UITextFeildTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UITextFeildTestController.h; path = "UITextFeild上面完成按钮/UITextFeildTestController.h"; sourceTree = "<group>"; };
 		12707AEB1FB2B68E005BBC77 /* UITextFeildTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UITextFeildTestController.m; path = "UITextFeild上面完成按钮/UITextFeildTestController.m"; sourceTree = "<group>"; };
 		12707AEC1FB2B68E005BBC77 /* UITextFeildTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UITextFeildTestController.xib; path = "UITextFeild上面完成按钮/UITextFeildTestController.xib"; sourceTree = "<group>"; };
@@ -332,6 +340,10 @@
 			isa = PBXGroup;
 			children = (
 				1247CCDC1FC97D4300FE3EC2 /* MobileNet2.mlmodel */,
+				126B9FED1FCC20B8006DD3FE /* Inceptionv3.mlmodel */,
+				126B9FEF1FCC20BE006DD3FE /* Resnet50.mlmodel */,
+				126B9FEE1FCC20B8006DD3FE /* SqueezeNet.mlmodel */,
+				126B9FF01FCC20E3006DD3FE /* VGG16.mlmodel */,
 				1247CCDE1FC97D5400FE3EC2 /* flowerTest.jpg */,
 				1247CCE01FC97D6900FE3EC2 /* ImageTool.h */,
 				1247CCE11FC97D6A00FE3EC2 /* ImageTool.m */,
@@ -727,8 +739,10 @@
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
 				0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */,
 				045E06801F1E69D100D8E693 /* Bass_Button.m in Sources */,
+				126B9FF11FCC20E3006DD3FE /* Inceptionv3.mlmodel in Sources */,
 				124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */,
 				12E660221C560E6900524CE5 /* main.m in Sources */,
+				126B9FF21FCC20E3006DD3FE /* SqueezeNet.mlmodel in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
@@ -742,6 +756,7 @@
 				E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */,
 				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,
 				E470CC481D2D646800C5265E /* KVOTestController.m in Sources */,
+				126B9FF31FCC20E3006DD3FE /* Resnet50.mlmodel in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				040DF9971F1E772600787446 /* BassButton2.m in Sources */,
@@ -756,6 +771,7 @@
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				E449FDBB1D354CB500ACDEAF /* SearchControllerA.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
+				126B9FF41FCC20E3006DD3FE /* VGG16.mlmodel in Sources */,
 				12707AED1FB2B68E005BBC77 /* UITextFeildTestController.m in Sources */,
 				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,
 				E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */,

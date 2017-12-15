@@ -64,6 +64,13 @@
 		12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E7057B1C819A2A003D732E /* AppleMapViewController.m */; };
 		12E7057E1C819A2A003D732E /* AppleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057C1C819A2A003D732E /* AppleMapViewController.xib */; };
 		12E705801C819CAC003D732E /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E7057F1C819CAC003D732E /* search.png */; };
+		12EFE0661FE3D3EB003C2086 /* GiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE05C1FE3D3EB003C2086 /* GiftModel.m */; };
+		12EFE0671FE3D3EB003C2086 /* ShakeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE0601FE3D3EB003C2086 /* ShakeImageView.m */; };
+		12EFE0681FE3D3EB003C2086 /* AnimOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE0611FE3D3EB003C2086 /* AnimOperation.m */; };
+		12EFE0691FE3D3EB003C2086 /* ShakeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE0621FE3D3EB003C2086 /* ShakeLabel.m */; };
+		12EFE06A1FE3D3EB003C2086 /* PresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE0631FE3D3EB003C2086 /* PresentView.m */; };
+		12EFE06E1FE3D44A003C2086 /* HDJGiftAnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */; };
+		12EFE06F1FE3D44A003C2086 /* HDJGiftAnimateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */; };
 		E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */; };
 		E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774B71D17F232001D4C7B /* YJCornerCell.m */; };
 		E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774BA1D17FD72001D4C7B /* UIView+YJCorner.m */; };
@@ -193,6 +200,19 @@
 		12E7057B1C819A2A003D732E /* AppleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleMapViewController.m; sourceTree = "<group>"; };
 		12E7057C1C819A2A003D732E /* AppleMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMapViewController.xib; sourceTree = "<group>"; };
 		12E7057F1C819CAC003D732E /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		12EFE05B1FE3D3EB003C2086 /* GiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftModel.h; sourceTree = "<group>"; };
+		12EFE05C1FE3D3EB003C2086 /* GiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftModel.m; sourceTree = "<group>"; };
+		12EFE05E1FE3D3EB003C2086 /* ShakeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeLabel.h; sourceTree = "<group>"; };
+		12EFE05F1FE3D3EB003C2086 /* PresentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentView.h; sourceTree = "<group>"; };
+		12EFE0601FE3D3EB003C2086 /* ShakeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeImageView.m; sourceTree = "<group>"; };
+		12EFE0611FE3D3EB003C2086 /* AnimOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperation.m; sourceTree = "<group>"; };
+		12EFE0621FE3D3EB003C2086 /* ShakeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeLabel.m; sourceTree = "<group>"; };
+		12EFE0631FE3D3EB003C2086 /* PresentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentView.m; sourceTree = "<group>"; };
+		12EFE0641FE3D3EB003C2086 /* ShakeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeImageView.h; sourceTree = "<group>"; };
+		12EFE0651FE3D3EB003C2086 /* AnimOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperation.h; sourceTree = "<group>"; };
+		12EFE06B1FE3D44A003C2086 /* HDJGiftAnimateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDJGiftAnimateController.h; sourceTree = "<group>"; };
+		12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDJGiftAnimateController.m; sourceTree = "<group>"; };
+		12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDJGiftAnimateController.xib; sourceTree = "<group>"; };
 		E41774B31D17F1DC001D4C7B /* YJCornerTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCornerTestController.h; path = "圆角性能优化/YJCornerTestController.h"; sourceTree = "<group>"; };
 		E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCornerTestController.m; path = "圆角性能优化/YJCornerTestController.m"; sourceTree = "<group>"; };
 		E41774B61D17F232001D4C7B /* YJCornerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCornerCell.h; path = "圆角性能优化/YJCornerCell.h"; sourceTree = "<group>"; };
@@ -453,6 +473,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				12EFE0591FE3CE7F003C2086 /* 红豆角直播动画 */,
 				1247CCD81FC97CBC00FE3EC2 /* CoreML机器学习 */,
 				12707AE91FB2B5E0005BBC77 /* UITextFeild上面完成按钮 */,
 				0415CB541F7962ED009B1522 /* WebView内存 */,
@@ -522,6 +543,42 @@
 				12E7057C1C819A2A003D732E /* AppleMapViewController.xib */,
 			);
 			name = "苹果系统地图";
+			sourceTree = "<group>";
+		};
+		12EFE0591FE3CE7F003C2086 /* 红豆角直播动画 */ = {
+			isa = PBXGroup;
+			children = (
+				12EFE05A1FE3D3EB003C2086 /* Model */,
+				12EFE05D1FE3D3EB003C2086 /* Views */,
+				12EFE06B1FE3D44A003C2086 /* HDJGiftAnimateController.h */,
+				12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */,
+				12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */,
+			);
+			name = "红豆角直播动画";
+			sourceTree = "<group>";
+		};
+		12EFE05A1FE3D3EB003C2086 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12EFE05B1FE3D3EB003C2086 /* GiftModel.h */,
+				12EFE05C1FE3D3EB003C2086 /* GiftModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12EFE05D1FE3D3EB003C2086 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12EFE05E1FE3D3EB003C2086 /* ShakeLabel.h */,
+				12EFE0621FE3D3EB003C2086 /* ShakeLabel.m */,
+				12EFE0641FE3D3EB003C2086 /* ShakeImageView.h */,
+				12EFE0601FE3D3EB003C2086 /* ShakeImageView.m */,
+				12EFE0651FE3D3EB003C2086 /* AnimOperation.h */,
+				12EFE0611FE3D3EB003C2086 /* AnimOperation.m */,
+				12EFE05F1FE3D3EB003C2086 /* PresentView.h */,
+				12EFE0631FE3D3EB003C2086 /* PresentView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E41774B21D17F17D001D4C7B /* 圆角性能优化 */ = {
@@ -682,6 +739,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EFE06F1FE3D44A003C2086 /* HDJGiftAnimateController.xib in Resources */,
 				E43FE6841D0C3C5A00783055 /* YJStatisticController.xib in Resources */,
 				127A6B661C8425C100854A38 /* VCExchange_B.xib in Resources */,
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
@@ -710,6 +768,7 @@
 				E470CC4E1D2D6B8A00C5265E /* UIView+DDAddition.m in Sources */,
 				0477228E1EFE9D12001641BC /* GCDTestViewController.m in Sources */,
 				E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */,
+				12EFE0691FE3D3EB003C2086 /* ShakeLabel.m in Sources */,
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
 				1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */,
 				04524E581F602B0D00F85E10 /* YJTestScrollTable.m in Sources */,
@@ -723,6 +782,7 @@
 				1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */,
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
 				12E705701C819237003D732E /* UIView+YJ.m in Sources */,
+				12EFE0661FE3D3EB003C2086 /* GiftModel.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
@@ -732,6 +792,7 @@
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */,
+				12EFE0681FE3D3EB003C2086 /* AnimOperation.m in Sources */,
 				1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
 				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
@@ -751,6 +812,8 @@
 				E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */,
 				E4244E7F1D12FF7900A1A0A6 /* YJTestFrameTabarController.m in Sources */,
 				0415CB591F796313009B1522 /* FirstWebviewViewController.m in Sources */,
+				12EFE0671FE3D3EB003C2086 /* ShakeImageView.m in Sources */,
+				12EFE06E1FE3D44A003C2086 /* HDJGiftAnimateController.m in Sources */,
 				E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */,
 				E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */,
 				E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */,
@@ -773,6 +836,7 @@
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,
 				126B9FF41FCC20E3006DD3FE /* VGG16.mlmodel in Sources */,
 				12707AED1FB2B68E005BBC77 /* UITextFeildTestController.m in Sources */,
+				12EFE06A1FE3D3EB003C2086 /* PresentView.m in Sources */,
 				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,
 				E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */,
 				E43FE67F1D0C3BCE00783055 /* StatisticManager.m in Sources */,

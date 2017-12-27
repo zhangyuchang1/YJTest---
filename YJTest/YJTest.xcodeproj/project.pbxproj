@@ -23,6 +23,7 @@
 		047722961F001154001641BC /* HTTPTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722951F001154001641BC /* HTTPTestController.m */; };
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
+		1206B0D41FF3B891009E76EB /* YJCodeBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1206B0D31FF3B891009E76EB /* YJCodeBlockViewController.m */; };
 		1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */; };
 		1247CCDB1FC97D2600FE3EC2 /* CoreMLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247CCDA1FC97D2600FE3EC2 /* CoreMLTestViewController.m */; };
 		1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1247CCDC1FC97D4300FE3EC2 /* MobileNet2.mlmodel */; };
@@ -133,6 +134,8 @@
 		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
 		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
 		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
+		1206B0D21FF3B891009E76EB /* YJCodeBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJCodeBlockViewController.h; sourceTree = "<group>"; };
+		1206B0D31FF3B891009E76EB /* YJCodeBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJCodeBlockViewController.m; sourceTree = "<group>"; };
 		1215BEC31F31D941006929E3 /* YJ_synthesize_test_VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJ_synthesize_test_VCViewController.h; path = synthesize/YJ_synthesize_test_VCViewController.h; sourceTree = "<group>"; };
 		1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = YJ_synthesize_test_VCViewController.mm; path = synthesize/YJ_synthesize_test_VCViewController.mm; sourceTree = "<group>"; };
 		1247CCD91FC97D2600FE3EC2 /* CoreMLTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoreMLTestViewController.h; path = "CoreML机器学习/CoreMLTestViewController.h"; sourceTree = "<group>"; };
@@ -347,6 +350,15 @@
 			name = HTTP_TCP_UDP;
 			sourceTree = "<group>";
 		};
+		1206B0D11FF3B80F009E76EB /* 常用代码块 */ = {
+			isa = PBXGroup;
+			children = (
+				1206B0D21FF3B891009E76EB /* YJCodeBlockViewController.h */,
+				1206B0D31FF3B891009E76EB /* YJCodeBlockViewController.m */,
+			);
+			name = "常用代码块";
+			sourceTree = "<group>";
+		};
 		1215BEC21F31D8CA006929E3 /* synthesize属性 */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +485,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				1206B0D11FF3B80F009E76EB /* 常用代码块 */,
 				12EFE0591FE3CE7F003C2086 /* 红豆角直播动画 */,
 				1247CCD81FC97CBC00FE3EC2 /* CoreML机器学习 */,
 				12707AE91FB2B5E0005BBC77 /* UITextFeild上面完成按钮 */,
@@ -783,6 +796,7 @@
 				12E7057D1C819A2A003D732E /* AppleMapViewController.m in Sources */,
 				12E705701C819237003D732E /* UIView+YJ.m in Sources */,
 				12EFE0661FE3D3EB003C2086 /* GiftModel.m in Sources */,
+				1206B0D41FF3B891009E76EB /* YJCodeBlockViewController.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,

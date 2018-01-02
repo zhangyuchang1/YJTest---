@@ -48,6 +48,7 @@
 		127A6B611C84259800854A38 /* VCEchange_A.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127A6B5F1C84259800854A38 /* VCEchange_A.xib */; };
 		127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A6B631C8425C100854A38 /* VCExchange_B.m */; };
 		127A6B661C8425C100854A38 /* VCExchange_B.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127A6B641C8425C100854A38 /* VCExchange_B.xib */; };
+		127EE60E1FFB6384007941D5 /* yj_test_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 127EE60D1FFB6383007941D5 /* yj_test_img.png */; };
 		12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */; };
 		12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12809BAA1C816806004FE7AD /* XIBConfiViewController.m */; };
 		12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */; };
@@ -173,6 +174,8 @@
 		127A6B621C8425C100854A38 /* VCExchange_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCExchange_B.h; sourceTree = "<group>"; };
 		127A6B631C8425C100854A38 /* VCExchange_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCExchange_B.m; sourceTree = "<group>"; };
 		127A6B641C8425C100854A38 /* VCExchange_B.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCExchange_B.xib; sourceTree = "<group>"; };
+		127EE60D1FFB6383007941D5 /* yj_test_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yj_test_img.png; sourceTree = "<group>"; };
+		127EE60F1FFB6A3A007941D5 /* YJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPrefixHeader.pch; sourceTree = "<group>"; };
 		12809BA01C8156B2004FE7AD /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
 		12809BA11C8156B2004FE7AD /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
 		12809BA91C816806004FE7AD /* XIBConfiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBConfiViewController.h; sourceTree = "<group>"; };
@@ -515,6 +518,7 @@
 				12809B9E1C815409004FE7AD /* lastViewController 引用 */,
 				E43FE6741D0C3ACD00783055 /* 统计加定时上传模块 */,
 				12E6602C1C560E6900524CE5 /* Assets.xcassets */,
+				127EE60D1FFB6383007941D5 /* yj_test_img.png */,
 				12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */,
 				12E660311C560E6900524CE5 /* Info.plist */,
 				12E660201C560E6900524CE5 /* Supporting Files */,
@@ -526,6 +530,7 @@
 			isa = PBXGroup;
 			children = (
 				12E660211C560E6900524CE5 /* main.m */,
+				127EE60F1FFB6A3A007941D5 /* YJPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -757,6 +762,7 @@
 				127A6B661C8425C100854A38 /* VCExchange_B.xib in Resources */,
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
 				12707AEE1FB2B68E005BBC77 /* UITextFeildTestController.xib in Resources */,
+				127EE60E1FFB6384007941D5 /* yj_test_img.png in Resources */,
 				1247CCDF1FC97D5500FE3EC2 /* flowerTest.jpg in Resources */,
 				E43FE6981D0DC5AF00783055 /* KeychainTestController.xib in Resources */,
 				124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */,
@@ -898,6 +904,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YJTest/YJPrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -939,6 +946,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YJTest/YJPrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

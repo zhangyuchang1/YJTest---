@@ -29,6 +29,7 @@
     [self.view addSubview:button];
     
     
+    // self 监听button的变化
     //方法1 都可以
     [button addKVO];
     

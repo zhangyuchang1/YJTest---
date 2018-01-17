@@ -30,6 +30,7 @@
 {
     self.delegate = self;
     self.dataSource = self;
+    self.bounces = NO;
 }
 
 #pragma mark - UITableView Delegate

@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YJTest/scrollView&#x5d4c;&#x5957;tableView/YJTestScrollManager.m"
-            timestampString = "536749567.840628"
+            timestampString = "537949904.881954"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YJTest/scrollView&#x5d4c;&#x5957;tableView/YJTestScrollManager.m"
-            timestampString = "536749567.841163"
+            timestampString = "537949904.882414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YJTest/scrollView&#x5d4c;&#x5957;tableView/YJTestScrollManager.m"
-            timestampString = "536749567.841532"
+            timestampString = "537949904.882501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YJTest/scrollView&#x5d4c;&#x5957;tableView/YJTestScrollManager.m"
-            timestampString = "536749567.841868"
+            timestampString = "537949904.882574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
@@ -170,13 +170,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YJTest/scrollView&#x5d4c;&#x5957;tableView/YJTestScrollManager.m"
-            timestampString = "536749567.842188"
+            timestampString = "537949904.882645"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -128,7 +128,7 @@
     
 }
 
--(vooid)dealloc
+-(void)dealloc
 {
     //移除观察者 必须写在观察着里面， button为nil时也没关系
     [self.bgScrollView removeObserver:@"contentOffset" forKeyPath:scroll_offset_y];

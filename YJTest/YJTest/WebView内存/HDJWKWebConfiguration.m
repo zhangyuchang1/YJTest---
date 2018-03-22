@@ -34,6 +34,10 @@
     self.userContentController = wkVC;
     [self.userContentController addScriptMessageHandler:self name:@"AppNative"];
 
+
+    
+    
+    
 }
 
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message

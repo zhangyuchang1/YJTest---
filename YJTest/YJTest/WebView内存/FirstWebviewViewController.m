@@ -89,11 +89,35 @@ static NSString *testUrl = @"http://wap.hongdoujiao.tv/activity/dazhaxie/index.h
     
 //    [_webView loadRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://10.110.18.122:8080/"]]];
     
-    NSURL *nsurl = [NSURL URLWithString:testUrl];
-    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:nsurl cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10];
-    [_webView loadRequest:request];
-}
+//    NSURL *nsurl = [NSURL URLWithString:testUrl];
+//    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:nsurl cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10];
+//    [_webView loadRequest:request];
+    
+    
+    
+    NSString *filePath=[[NSBundle mainBundle] pathForResource:@"product"ofType:@"html"];
+    
+    NSString *str =[[NSString alloc] initWithContentsOfFile:filePath];
+    NSString *str2 = [self htmlEntityDecode:str];
+    
+    //    [_webview loadHTMLString:[url htmlEntityDecode] baseURL:nil];
+    
+        [_webView loadHTMLString:str2 baseURL:nil];
 
+
+    
+    NSLog(@"%@",str);
+    
+}
+- (NSString *)htmlEntityDecode:(NSString *)orignString {
+    NSString *string = [orignString stringByReplacingOccurrencesOfString:@"&quot;" withString:@"\""];
+    string = [string stringByReplacingOccurrencesOfString:@"&apos;" withString:@"'"];
+    string = [string stringByReplacingOccurrencesOfString:@"&lt;" withString:@"<"];
+    string = [string stringByReplacingOccurrencesOfString:@"&gt;" withString:@">"];
+    string = [string stringByReplacingOccurrencesOfString:@"&amp;" withString:@"&"]; // Do this last so that, e.g. @"&amp;lt;" goes to @"&lt;" not @"<"
+    
+    return string;
+}
 //- (void)webViewDidStartLoad:(UIWebView *)webView {
 //    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 //    self.context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];

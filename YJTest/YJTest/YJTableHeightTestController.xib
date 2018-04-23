@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YJTableHeightTestController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xw1-DL-VrY" userLabel="navBar">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis Emma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOx-ae-kF2">
+                            <rect key="frame" x="103" y="20" width="170" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="niW-Ob-9me"/>
+                                <constraint firstAttribute="width" constant="170" id="o0e-2H-8ZN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMA-8f-gYJ">
+                            <rect key="frame" x="0.0" y="20" width="80" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="6Ay-rl-8dN"/>
+                                <constraint firstAttribute="height" constant="44" id="8hf-fg-Pke"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="返回" image="arrow_left.png">
+                                <color key="titleColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PbO-Hy-rQH" userLabel="Line">
+                            <rect key="frame" x="0.0" y="63" width="375" height="0.5"/>
+                            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="kWf-px-cfd"/>
+                            </constraints>
+                        </view>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddn-UD-5EJ">
+                            <rect key="frame" x="295" y="20" width="80" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="NLw-VI-M8d"/>
+                                <constraint firstAttribute="width" constant="80" id="eWs-37-ULi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="进店">
+                                <color key="titleColor" red="1" green="0.21176470589999999" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="disabled" title="保存">
+                                <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="PbO-Hy-rQH" firstAttribute="leading" secondItem="Xw1-DL-VrY" secondAttribute="leading" id="2OI-IC-NvD"/>
+                        <constraint firstItem="Ddn-UD-5EJ" firstAttribute="top" secondItem="Xw1-DL-VrY" secondAttribute="top" constant="20" id="ER6-Ql-bSZ"/>
+                        <constraint firstAttribute="trailing" secondItem="PbO-Hy-rQH" secondAttribute="trailing" id="IuQ-40-4zP"/>
+                        <constraint firstItem="OMA-8f-gYJ" firstAttribute="leading" secondItem="Xw1-DL-VrY" secondAttribute="leading" id="Lge-UI-b6Q"/>
+                        <constraint firstAttribute="height" constant="64" id="Qfh-BG-9zk"/>
+                        <constraint firstItem="OMA-8f-gYJ" firstAttribute="top" secondItem="Xw1-DL-VrY" secondAttribute="top" constant="20" id="UB8-jV-r12"/>
+                        <constraint firstItem="TOx-ae-kF2" firstAttribute="centerX" secondItem="Xw1-DL-VrY" secondAttribute="centerX" id="gdJ-No-1ET"/>
+                        <constraint firstAttribute="trailing" secondItem="Ddn-UD-5EJ" secondAttribute="trailing" id="hki-EC-aBb"/>
+                        <constraint firstAttribute="bottom" secondItem="PbO-Hy-rQH" secondAttribute="bottom" constant="0.5" id="lI9-Bp-9XN"/>
+                        <constraint firstItem="TOx-ae-kF2" firstAttribute="top" secondItem="Xw1-DL-VrY" secondAttribute="top" constant="20" id="lpc-po-g9b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="leading" secondItem="Xw1-DL-VrY" secondAttribute="leading" id="D8Q-ic-rg7"/>
+                <constraint firstAttribute="trailing" secondItem="Xw1-DL-VrY" secondAttribute="trailing" id="DJF-wy-9Le"/>
+                <constraint firstItem="Xw1-DL-VrY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GsH-wa-zCA"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_left.png" width="16" height="16"/>
+    </resources>
+</document>

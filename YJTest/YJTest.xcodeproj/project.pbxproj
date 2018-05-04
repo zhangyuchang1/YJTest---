@@ -78,6 +78,8 @@
 		A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */; };
 		A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */; };
 		A9A8D32C208E0E15008B4374 /* YJTestTableHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */; };
+		A9EE86C0209B54F10079C501 /* YJMemeryAddressTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EE86BE209B54F10079C501 /* YJMemeryAddressTestController.m */; };
+		A9EE86C1209B54F10079C501 /* YJMemeryAddressTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EE86BF209B54F10079C501 /* YJMemeryAddressTestController.xib */; };
 		E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */; };
 		E41774B81D17F232001D4C7B /* YJCornerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774B71D17F232001D4C7B /* YJCornerCell.m */; };
 		E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E41774BA1D17FD72001D4C7B /* UIView+YJCorner.m */; };
@@ -233,6 +235,9 @@
 		A9A8D328208E0E15008B4374 /* YJTestTableHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestTableHeightCell.h; sourceTree = "<group>"; };
 		A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestTableHeightCell.m; sourceTree = "<group>"; };
 		A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTestTableHeightCell.xib; sourceTree = "<group>"; };
+		A9EE86BD209B54F10079C501 /* YJMemeryAddressTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJMemeryAddressTestController.h; path = "内存地址测试/YJMemeryAddressTestController.h"; sourceTree = "<group>"; };
+		A9EE86BE209B54F10079C501 /* YJMemeryAddressTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJMemeryAddressTestController.m; path = "内存地址测试/YJMemeryAddressTestController.m"; sourceTree = "<group>"; };
+		A9EE86BF209B54F10079C501 /* YJMemeryAddressTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJMemeryAddressTestController.xib; path = "内存地址测试/YJMemeryAddressTestController.xib"; sourceTree = "<group>"; };
 		E41774B31D17F1DC001D4C7B /* YJCornerTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCornerTestController.h; path = "圆角性能优化/YJCornerTestController.h"; sourceTree = "<group>"; };
 		E41774B41D17F1DC001D4C7B /* YJCornerTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCornerTestController.m; path = "圆角性能优化/YJCornerTestController.m"; sourceTree = "<group>"; };
 		E41774B61D17F232001D4C7B /* YJCornerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCornerCell.h; path = "圆角性能优化/YJCornerCell.h"; sourceTree = "<group>"; };
@@ -512,6 +517,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A9EE86BC209B54300079C501 /* 内存地址测试 */,
 				A9A8D322208E0BAF008B4374 /* tableView高度测试 */,
 				12440D90201074E900C71B45 /* 跳三跳动画 */,
 				1206B0D11FF3B80F009E76EB /* 常用代码块 */,
@@ -636,6 +642,16 @@
 				A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */,
 			);
 			name = "tableView高度测试";
+			sourceTree = "<group>";
+		};
+		A9EE86BC209B54300079C501 /* 内存地址测试 */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE86BD209B54F10079C501 /* YJMemeryAddressTestController.h */,
+				A9EE86BE209B54F10079C501 /* YJMemeryAddressTestController.m */,
+				A9EE86BF209B54F10079C501 /* YJMemeryAddressTestController.xib */,
+			);
+			name = "内存地址测试";
 			sourceTree = "<group>";
 		};
 		E41774B21D17F17D001D4C7B /* 圆角性能优化 */ = {
@@ -812,6 +828,7 @@
 				12E705801C819CAC003D732E /* search.png in Resources */,
 				12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */,
 				127A6B611C84259800854A38 /* VCEchange_A.xib in Resources */,
+				A9EE86C1209B54F10079C501 /* YJMemeryAddressTestController.xib in Resources */,
 				12DF56432010ADCC0011862E /* ic_label@3x.png in Resources */,
 				04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */,
 				E43FE66E1D09D7CB00783055 /* YJSearchResultController.xib in Resources */,
@@ -850,6 +867,7 @@
 				1206B0D41FF3B891009E76EB /* YJCodeBlockViewController.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
+				A9EE86C0209B54F10079C501 /* YJMemeryAddressTestController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
 				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YJXIBFrameTestController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z2S-xx-HkW" userLabel="navBar">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis Emma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUe-SF-xJ9">
+                            <rect key="frame" x="103" y="20" width="170" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="k4k-hN-j0E"/>
+                                <constraint firstAttribute="width" constant="170" id="lhy-TH-tXn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faQ-29-lyY">
+                            <rect key="frame" x="0.0" y="20" width="80" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="hzG-DG-Jbj"/>
+                                <constraint firstAttribute="width" constant="80" id="ypM-qg-UbW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="返回" image="arrow_left.png">
+                                <color key="titleColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1J-d1-J14" userLabel="Line">
+                            <rect key="frame" x="0.0" y="63" width="375" height="0.5"/>
+                            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="Rso-bL-khf"/>
+                            </constraints>
+                        </view>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="813-yd-RfP">
+                            <rect key="frame" x="295" y="20" width="80" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="JLX-xM-97G"/>
+                                <constraint firstAttribute="height" constant="44" id="j1m-KS-p4a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="进店">
+                                <color key="titleColor" red="1" green="0.21176470589999999" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="disabled" title="保存">
+                                <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="faQ-29-lyY" firstAttribute="leading" secondItem="Z2S-xx-HkW" secondAttribute="leading" id="1mG-xp-JUr"/>
+                        <constraint firstAttribute="trailing" secondItem="813-yd-RfP" secondAttribute="trailing" id="44v-08-VIw"/>
+                        <constraint firstAttribute="trailing" secondItem="c1J-d1-J14" secondAttribute="trailing" id="6Fp-le-bVT"/>
+                        <constraint firstItem="faQ-29-lyY" firstAttribute="top" secondItem="Z2S-xx-HkW" secondAttribute="top" constant="20" id="8mN-8r-iek"/>
+                        <constraint firstItem="813-yd-RfP" firstAttribute="top" secondItem="Z2S-xx-HkW" secondAttribute="top" constant="20" id="BAl-Ns-w09"/>
+                        <constraint firstItem="c1J-d1-J14" firstAttribute="leading" secondItem="Z2S-xx-HkW" secondAttribute="leading" id="HFG-7W-WWi"/>
+                        <constraint firstAttribute="bottom" secondItem="c1J-d1-J14" secondAttribute="bottom" constant="0.5" id="VIY-ej-c3d"/>
+                        <constraint firstItem="jUe-SF-xJ9" firstAttribute="top" secondItem="Z2S-xx-HkW" secondAttribute="top" constant="20" id="mrb-mv-XGs"/>
+                        <constraint firstAttribute="height" constant="64" id="rjQ-Yk-tLd"/>
+                        <constraint firstItem="jUe-SF-xJ9" firstAttribute="centerX" secondItem="Z2S-xx-HkW" secondAttribute="centerX" id="yHA-hV-ns2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Z2S-xx-HkW" secondAttribute="trailing" id="8b9-OO-07s"/>
+                <constraint firstItem="Z2S-xx-HkW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DBf-MF-pwu"/>
+                <constraint firstItem="Z2S-xx-HkW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="E2v-1C-kXq"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_left.png" width="16" height="16"/>
+    </resources>
+</document>

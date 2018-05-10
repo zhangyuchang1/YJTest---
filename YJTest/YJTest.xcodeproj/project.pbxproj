@@ -74,6 +74,10 @@
 		12EFE06E1FE3D44A003C2086 /* HDJGiftAnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */; };
 		12EFE06F1FE3D44A003C2086 /* HDJGiftAnimateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */; };
 		A96C83C5206201CF00225ECC /* product.html in Resources */ = {isa = PBXBuildFile; fileRef = A96C83C4206201CE00225ECC /* product.html */; };
+		A97B3FFD20A3047300541EE0 /* YJXIBFrameTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B3FFB20A3047300541EE0 /* YJXIBFrameTestController.m */; };
+		A97B3FFE20A3047300541EE0 /* YJXIBFrameTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97B3FFC20A3047300541EE0 /* YJXIBFrameTestController.xib */; };
+		A97B400120A304A500541EE0 /* XIBTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B400020A304A500541EE0 /* XIBTestView.m */; };
+		A97B400320A304C800541EE0 /* XIBTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97B400220A304C800541EE0 /* XIBTestView.xib */; };
 		A9A8D326208E0BF1008B4374 /* YJTableHeightTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D324208E0BF1008B4374 /* YJTableHeightTestController.m */; };
 		A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */; };
 		A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */; };
@@ -229,6 +233,12 @@
 		12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDJGiftAnimateController.m; sourceTree = "<group>"; };
 		12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDJGiftAnimateController.xib; sourceTree = "<group>"; };
 		A96C83C4206201CE00225ECC /* product.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = product.html; sourceTree = "<group>"; };
+		A97B3FFA20A3047300541EE0 /* YJXIBFrameTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJXIBFrameTestController.h; path = "XIB frame不对/YJXIBFrameTestController.h"; sourceTree = "<group>"; };
+		A97B3FFB20A3047300541EE0 /* YJXIBFrameTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJXIBFrameTestController.m; path = "XIB frame不对/YJXIBFrameTestController.m"; sourceTree = "<group>"; };
+		A97B3FFC20A3047300541EE0 /* YJXIBFrameTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJXIBFrameTestController.xib; path = "XIB frame不对/YJXIBFrameTestController.xib"; sourceTree = "<group>"; };
+		A97B3FFF20A304A500541EE0 /* XIBTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XIBTestView.h; path = "XIB frame不对/XIBTestView.h"; sourceTree = "<group>"; };
+		A97B400020A304A500541EE0 /* XIBTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XIBTestView.m; path = "XIB frame不对/XIBTestView.m"; sourceTree = "<group>"; };
+		A97B400220A304C800541EE0 /* XIBTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBTestView.xib; sourceTree = "<group>"; };
 		A9A8D323208E0BF1008B4374 /* YJTableHeightTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTableHeightTestController.h; sourceTree = "<group>"; };
 		A9A8D324208E0BF1008B4374 /* YJTableHeightTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTableHeightTestController.m; sourceTree = "<group>"; };
 		A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTableHeightTestController.xib; sourceTree = "<group>"; };
@@ -517,6 +527,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A97B3FF920A3040400541EE0 /* XIB frame不对 */,
 				A9EE86BC209B54300079C501 /* 内存地址测试 */,
 				A9A8D322208E0BAF008B4374 /* tableView高度测试 */,
 				12440D90201074E900C71B45 /* 跳三跳动画 */,
@@ -629,6 +640,19 @@
 				12EFE0631FE3D3EB003C2086 /* PresentView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A97B3FF920A3040400541EE0 /* XIB frame不对 */ = {
+			isa = PBXGroup;
+			children = (
+				A97B3FFA20A3047300541EE0 /* YJXIBFrameTestController.h */,
+				A97B3FFB20A3047300541EE0 /* YJXIBFrameTestController.m */,
+				A97B3FFC20A3047300541EE0 /* YJXIBFrameTestController.xib */,
+				A97B3FFF20A304A500541EE0 /* XIBTestView.h */,
+				A97B400020A304A500541EE0 /* XIBTestView.m */,
+				A97B400220A304C800541EE0 /* XIBTestView.xib */,
+			);
+			name = "XIB frame不对";
 			sourceTree = "<group>";
 		};
 		A9A8D322208E0BAF008B4374 /* tableView高度测试 */ = {
@@ -822,6 +846,8 @@
 				127EE60E1FFB6384007941D5 /* yj_test_img.png in Resources */,
 				A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */,
 				1247CCDF1FC97D5500FE3EC2 /* flowerTest.jpg in Resources */,
+				A97B3FFE20A3047300541EE0 /* YJXIBFrameTestController.xib in Resources */,
+				A97B400320A304C800541EE0 /* XIBTestView.xib in Resources */,
 				A96C83C5206201CF00225ECC /* product.html in Resources */,
 				E43FE6981D0DC5AF00783055 /* KeychainTestController.xib in Resources */,
 				124C80821C81774500CDBAF2 /* XIBLineViewController.xib in Resources */,
@@ -890,6 +916,7 @@
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
+				A97B3FFD20A3047300541EE0 /* YJXIBFrameTestController.m in Sources */,
 				1247CCE21FC97D6A00FE3EC2 /* ImageTool.m in Sources */,
 				E449FDBE1D354CDB00ACDEAF /* SearchControllerB.m in Sources */,
 				E4244E821D13000200A1A0A6 /* YJTestFrame_AController.m in Sources */,
@@ -914,6 +941,7 @@
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				1247CCDB1FC97D2600FE3EC2 /* CoreMLTestViewController.m in Sources */,
 				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,
+				A97B400120A304A500541EE0 /* XIBTestView.m in Sources */,
 				127629FB1C571B21007EFF40 /* YJTestButton.m in Sources */,
 				E449FDBB1D354CB500ACDEAF /* SearchControllerA.m in Sources */,
 				127A6B651C8425C100854A38 /* VCExchange_B.m in Sources */,

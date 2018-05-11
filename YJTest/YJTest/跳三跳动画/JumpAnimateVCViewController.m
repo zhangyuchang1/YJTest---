@@ -9,6 +9,12 @@
 #import "JumpAnimateVCViewController.h"
 //#import "YXEasing.h"
 
+
+/// 气泡top
+#define HomeGuideOpenStore_Top (480 - 49 - 38 -4)
+/// 跳的高度
+#define HomeGuideOpenStore_JumpHeight 8
+
 @interface JumpAnimateVCViewController ()
 {
     UIView *view;
@@ -20,6 +26,16 @@
 
 @implementation JumpAnimateVCViewController
 
+
+- (void)viewDidLoad {
+    
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self test4];
+    
+}
+#pragma mark - 动画
 -(void)test1
 {
     
@@ -99,20 +115,9 @@
                          [_imageView setAlpha:1];
                          
                      }];
-
-    
-}
-- (void)viewDidLoad {
-    
-    [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    [self test3];
     
     
 }
-#pragma mark - 动画
-
 -(void)up_1
 {
     [UIView animateWithDuration:0.8 delay:0 usingSpringWithDamping:0.8 initialSpringVelocity:2.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
@@ -263,6 +268,46 @@
     
     
     
+}
+
+/// 目前红豆角在用的
+-(void)test4
+{
+    UIImage *image = [UIImage imageNamed:@"ic_label"];
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 100, image.size.width, image.size.height)];
+    imgView.image = image;
+    
+    self.imageView = imgView;
+    [self.view addSubview:imgView];
+    
+    [self startAnimate];
+    
+}
+/// 向上动画
+-(void)startAnimate
+{
+    if(!self.imageView){
+        return;
+    }
+    [UIView animateWithDuration:0.2 delay:1.5 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        self.imageView.top = HomeGuideOpenStore_Top - HomeGuideOpenStore_JumpHeight;
+        
+    } completion:^(BOOL finished) {
+        
+        [self springDownAnimate];
+    }];
+}
+/// 向下动画
+-(void)springDownAnimate
+{
+    [UIView animateWithDuration:0.8 delay:0.2 usingSpringWithDamping:0.02 initialSpringVelocity:0.3 options:UIViewAnimationOptionAllowUserInteraction animations:^{
+        
+        self.imageView.top = HomeGuideOpenStore_Top;
+        
+    } completion:^(BOOL finished) {
+        
+        [self startAnimate];
+    }];
 }
 
 

@@ -11,7 +11,7 @@
 @interface AnimOperation ()
 {
     int flag;
-    NSInteger giftLevel;
+    NSInteger giftLevel;  // 动画粒子个数 和 持续时长
     BOOL isRain;
 }
 @property (nonatomic, getter = isFinished)  BOOL finished;
@@ -98,22 +98,45 @@
 }
 #define scale(X) X/2.0
 - (void)redBeansRainAnimation{
-    flag++;
+
+    if(self.animateTye == 1){
         //直上直下雨
-//    for (int i = 0; i<kScreenWidth/36; i++) {
-//        UIImageView *redBean = [[UIImageView alloc] init];
-//        redBean.frame = CGRectMake(arc4random_uniform(kScreenWidth/36) * 36+ 10, -40, 36, 39);
-//        redBean.image = [UIImage imageNamed:[NSString stringWithFormat:@"rain_%d", arc4random_uniform(14)+1]];
-//        [self.listView addSubview:redBean];
-//        NSTimeInterval time = arc4random_uniform(10)/10.0+1;
-//        [UIView animateWithDuration:time animations:^{
-//            CGRect frame = redBean.frame;
-//            frame.origin.y = kScreenHeight;
-//            redBean.frame = frame;
-//        } completion:^(BOOL finished) {
-//            [redBean removeFromSuperview];
-//        }];
-//    }
+        [self redBeansRainAnimation_1];
+        
+    }else if (self.animateTye == 2){
+        //瀑布雨
+        [self redBeansRainAnimation_2];
+        
+    }else{
+        
+        //流星雨
+        [self redBeansRainAnimation_3];
+    }
+
+}
+- (void)redBeansRainAnimation_1{
+    
+    flag++;
+
+    //直上直下雨
+    for (int i = 0; i<kScreenWidth/36; i++) {
+        UIImageView *redBean = [[UIImageView alloc] init];
+        redBean.frame = CGRectMake(arc4random_uniform(kScreenWidth/36) * 36+ 10, -40, 36, 39);
+        redBean.image = [UIImage imageNamed:[NSString stringWithFormat:@"rain_%d", arc4random_uniform(14)+1]];
+        [self.listView addSubview:redBean];
+        NSTimeInterval time = arc4random_uniform(10)/10.0+1;
+        [UIView animateWithDuration:time animations:^{
+            CGRect frame = redBean.frame;
+            frame.origin.y = kScreenHeight;
+            redBean.frame = frame;
+        } completion:^(BOOL finished) {
+            [redBean removeFromSuperview];
+        }];
+    }
+}
+- (void)redBeansRainAnimation_2{
+    
+    flag++;
     //瀑布雨
     for (int i = 0; i<kScreenWidth/36; i++) {
         CALayer *redBeanLayer = [[CALayer alloc] init];
@@ -135,17 +158,20 @@
         moveAnim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
         //开始动画
         [redBeanLayer addAnimation:moveAnim forKey:@"animation"];
-        
+
         NSDictionary *dic = [NSDictionary dictionaryWithObject:redBeanLayer forKey:@"layer"];
-        
+
         [NSTimer scheduledTimerWithTimeInterval:moveAnim.duration target:self selector:@selector(clearLayer:) userInfo:dic repeats:NO];
     }
+}
+- (void)redBeansRainAnimation_3{
+    flag++;
 
     //流星雨
-    /*
+    
     CGFloat totalH = kScreenHeight + kScreenWidth /106.0 *76;
     CGFloat cellH = totalH / (giftLevel + 4);
-//    for (int i = 0; i < kScreenHeight / kScreenWidth * 3 + 1; i++)
+    //    for (int i = 0; i < kScreenHeight / kScreenWidth * 3 + 1; i++)
     for (int i = -4; i < totalH / cellH + 1; i++) {
         UIImageView *redBean = [[UIImageView alloc] init];
         UIImage *redBeanRain = [[UIImage alloc] init];
@@ -153,10 +179,10 @@
         if (!((i^flag) %2))
         {
             float random = (arc4random_uniform(5)+5)/10.0;
-//            NSString *giftName = [NSString stringWithFormat:@"rain_%d", arc4random_uniform(14)+1];
+            //            NSString *giftName = [NSString stringWithFormat:@"rain_%d", arc4random_uniform(14)+1];
             redBeanRain = [UIImage imageNamed:@"RedBean_1"];
             redBean.frame = CGRectMake(kScreenWidth, cellH * i, redBeanRain.size.width * random, redBeanRain.size.height * random);
-//            redBean.frame = CGRectMake(kScreenWidth, (kScreenWidth / 4) / 106.0 * 76 * i, 36 * 1.5, 39 * 1.5);
+            //            redBean.frame = CGRectMake(kScreenWidth, (kScreenWidth / 4) / 106.0 * 76 * i, 36 * 1.5, 39 * 1.5);
             time = arc4random_uniform(10)/10.0+0.6;
         }else{
             redBeanRain = [UIImage imageNamed:@"shootingStar"];
@@ -175,9 +201,7 @@
             [redBean removeFromSuperview];
         }];
     }
-     */
 }
-
 - (void)clearLayer:(NSTimer *)timer
 {
     CALayer *layer = [[timer userInfo] valueForKey:@"layer"];

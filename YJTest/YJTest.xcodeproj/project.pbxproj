@@ -163,6 +163,8 @@
 		A97B40AD20A57F5300541EE0 /* RedBean_10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B407620A57F5300541EE0 /* RedBean_10@3x.png */; };
 		A97B40AE20A57F5300541EE0 /* RedBeanNum_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B407720A57F5300541EE0 /* RedBeanNum_50@2x.png */; };
 		A97B40AF20A57F5300541EE0 /* RedBeanNum_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B407820A57F5300541EE0 /* RedBeanNum_7@2x.png */; };
+		A97B40BC20A9E3B400541EE0 /* YJVideoCutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */; };
+		A97B40BD20A9E3B400541EE0 /* YJVideoCutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */; };
 		A9A8D326208E0BF1008B4374 /* YJTableHeightTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D324208E0BF1008B4374 /* YJTableHeightTestController.m */; };
 		A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */; };
 		A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */; };
@@ -409,6 +411,9 @@
 		A97B407620A57F5300541EE0 /* RedBean_10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedBean_10@3x.png"; sourceTree = "<group>"; };
 		A97B407720A57F5300541EE0 /* RedBeanNum_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedBeanNum_50@2x.png"; sourceTree = "<group>"; };
 		A97B407820A57F5300541EE0 /* RedBeanNum_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedBeanNum_7@2x.png"; sourceTree = "<group>"; };
+		A97B40B920A9E3B400541EE0 /* YJVideoCutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJVideoCutController.h; sourceTree = "<group>"; };
+		A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJVideoCutController.m; sourceTree = "<group>"; };
+		A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJVideoCutController.xib; sourceTree = "<group>"; };
 		A9A8D323208E0BF1008B4374 /* YJTableHeightTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTableHeightTestController.h; sourceTree = "<group>"; };
 		A9A8D324208E0BF1008B4374 /* YJTableHeightTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTableHeightTestController.m; sourceTree = "<group>"; };
 		A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTableHeightTestController.xib; sourceTree = "<group>"; };
@@ -697,6 +702,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A97B40B820A9E27E00541EE0 /* 视频裁剪 */,
 				A97B3FF920A3040400541EE0 /* XIB frame不对 */,
 				A9EE86BC209B54300079C501 /* 内存地址测试 */,
 				A9A8D322208E0BAF008B4374 /* tableView高度测试 */,
@@ -926,6 +932,16 @@
 			path = SendRedBean;
 			sourceTree = "<group>";
 		};
+		A97B40B820A9E27E00541EE0 /* 视频裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				A97B40B920A9E3B400541EE0 /* YJVideoCutController.h */,
+				A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */,
+				A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */,
+			);
+			name = "视频裁剪";
+			sourceTree = "<group>";
+		};
 		A9A8D322208E0BAF008B4374 /* tableView高度测试 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1131,6 +1147,7 @@
 				12707AEE1FB2B68E005BBC77 /* UITextFeildTestController.xib in Resources */,
 				A97B402C20A57E5D00541EE0 /* rain_10@3x.png in Resources */,
 				A97B40A420A57F5300541EE0 /* RedBeanNum_100@2x.png in Resources */,
+				A97B40BD20A9E3B400541EE0 /* YJVideoCutController.xib in Resources */,
 				A97B407F20A57F5300541EE0 /* RedBean_520@2x.png in Resources */,
 				127EE60E1FFB6384007941D5 /* yj_test_img.png in Resources */,
 				A97B409D20A57F5300541EE0 /* RedBeanNum_7@3x.png in Resources */,
@@ -1291,6 +1308,7 @@
 				040DF9971F1E772600787446 /* BassButton2.m in Sources */,
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
 				047722921EFE9DC2001641BC /* RunloopTestController.m in Sources */,
+				A97B40BC20A9E3B400541EE0 /* YJVideoCutController.m in Sources */,
 				E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */,
 				04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,

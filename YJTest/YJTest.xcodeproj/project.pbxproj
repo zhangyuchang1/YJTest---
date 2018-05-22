@@ -165,6 +165,9 @@
 		A97B40AF20A57F5300541EE0 /* RedBeanNum_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B407820A57F5300541EE0 /* RedBeanNum_7@2x.png */; };
 		A97B40BC20A9E3B400541EE0 /* YJVideoCutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */; };
 		A97B40BD20A9E3B400541EE0 /* YJVideoCutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */; };
+		A9A5865320B3F0B1002B9F5A /* YJTestInitController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A5865120B3F0B1002B9F5A /* YJTestInitController.m */; };
+		A9A5865420B3F0B1002B9F5A /* YJTestInitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A5865220B3F0B1002B9F5A /* YJTestInitController.xib */; };
+		A9A5865720B3F15A002B9F5A /* YJTestInitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A5865620B3F15A002B9F5A /* YJTestInitView.m */; };
 		A9A8D326208E0BF1008B4374 /* YJTableHeightTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D324208E0BF1008B4374 /* YJTableHeightTestController.m */; };
 		A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */; };
 		A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */; };
@@ -414,6 +417,11 @@
 		A97B40B920A9E3B400541EE0 /* YJVideoCutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJVideoCutController.h; sourceTree = "<group>"; };
 		A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJVideoCutController.m; sourceTree = "<group>"; };
 		A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJVideoCutController.xib; sourceTree = "<group>"; };
+		A9A5865020B3F0B1002B9F5A /* YJTestInitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestInitController.h; sourceTree = "<group>"; };
+		A9A5865120B3F0B1002B9F5A /* YJTestInitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestInitController.m; sourceTree = "<group>"; };
+		A9A5865220B3F0B1002B9F5A /* YJTestInitController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTestInitController.xib; sourceTree = "<group>"; };
+		A9A5865520B3F15A002B9F5A /* YJTestInitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestInitView.h; sourceTree = "<group>"; };
+		A9A5865620B3F15A002B9F5A /* YJTestInitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestInitView.m; sourceTree = "<group>"; };
 		A9A8D323208E0BF1008B4374 /* YJTableHeightTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTableHeightTestController.h; sourceTree = "<group>"; };
 		A9A8D324208E0BF1008B4374 /* YJTableHeightTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTableHeightTestController.m; sourceTree = "<group>"; };
 		A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTableHeightTestController.xib; sourceTree = "<group>"; };
@@ -702,6 +710,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A9A5864F20B3C13D002B9F5A /* init方法尝试 */,
 				A97B40B820A9E27E00541EE0 /* 视频裁剪 */,
 				A97B3FF920A3040400541EE0 /* XIB frame不对 */,
 				A9EE86BC209B54300079C501 /* 内存地址测试 */,
@@ -940,6 +949,18 @@
 				A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */,
 			);
 			name = "视频裁剪";
+			sourceTree = "<group>";
+		};
+		A9A5864F20B3C13D002B9F5A /* init方法尝试 */ = {
+			isa = PBXGroup;
+			children = (
+				A9A5865020B3F0B1002B9F5A /* YJTestInitController.h */,
+				A9A5865120B3F0B1002B9F5A /* YJTestInitController.m */,
+				A9A5865220B3F0B1002B9F5A /* YJTestInitController.xib */,
+				A9A5865520B3F15A002B9F5A /* YJTestInitView.h */,
+				A9A5865620B3F15A002B9F5A /* YJTestInitView.m */,
+			);
+			path = "init方法尝试";
 			sourceTree = "<group>";
 		};
 		A9A8D322208E0BAF008B4374 /* tableView高度测试 */ = {
@@ -1191,6 +1212,7 @@
 				12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */,
 				A97B403220A57E5D00541EE0 /* rain_3@3x.png in Resources */,
 				A97B40A620A57F5300541EE0 /* RedBeanNum_100@3x.png in Resources */,
+				A9A5865420B3F0B1002B9F5A /* YJTestInitController.xib in Resources */,
 				A97B408320A57F5300541EE0 /* RedBean_50@3x.png in Resources */,
 				127A6B611C84259800854A38 /* VCEchange_A.xib in Resources */,
 				A97B402820A57E5D00541EE0 /* rain_5@3x.png in Resources */,
@@ -1270,6 +1292,7 @@
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
 				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,
+				A9A5865320B3F0B1002B9F5A /* YJTestInitController.m in Sources */,
 				E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */,
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
@@ -1278,6 +1301,7 @@
 				12676A781FFDFC2600B979AB /* YJTestScrollManager.m in Sources */,
 				1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */,
 				0422C7A41CF570900002D0E4 /* Person.m in Sources */,
+				A9A5865720B3F15A002B9F5A /* YJTestInitView.m in Sources */,
 				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,

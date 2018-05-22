@@ -138,7 +138,7 @@
                   moduleName = "YJTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zyc_hdj/YJTest---/YJTest/YJTest/%E8%B7%B3%E4%B8%89%E8%B7%B3%E5%8A%A8%E7%94%BB/JumpAnimateVCViewController.m"
-                  timestampString = "547718282.350872"
+                  timestampString = "548664165.173141"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "292"
@@ -153,7 +153,7 @@
                   moduleName = "YJTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zyc_hdj/YJTest---/YJTest/YJTest/%E8%B7%B3%E4%B8%89%E8%B7%B3%E5%8A%A8%E7%94%BB/JumpAnimateVCViewController.m"
-                  timestampString = "547718282.35338"
+                  timestampString = "548664165.174897"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "292"
@@ -168,7 +168,7 @@
                   moduleName = "YJTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zyc_hdj/YJTest---/YJTest/YJTest/%E8%B7%B3%E4%B8%89%E8%B7%B3%E5%8A%A8%E7%94%BB/JumpAnimateVCViewController.m"
-                  timestampString = "547718282.356559"
+                  timestampString = "548664165.177104"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "292"
@@ -202,6 +202,54 @@
             continueAfterRunningActions = "No"
             scope = "0"
             stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YJTest/init&#x65b9;&#x6cd5;&#x5c1d;&#x8bd5;/YJTestInitView.m"
+            timestampString = "548664165.092519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YJTest/init&#x65b9;&#x6cd5;&#x5c1d;&#x8bd5;/YJTestInitView.m"
+            timestampString = "548664165.092851"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-initWithObj:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YJTest/init&#x65b9;&#x6cd5;&#x5c1d;&#x8bd5;/YJTestInitController.m"
+            timestampString = "548664165.09307"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

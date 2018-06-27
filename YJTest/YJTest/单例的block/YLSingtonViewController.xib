@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YLSingtonViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-ha-AFw" userLabel="navBar">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis Emma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azI-at-BCb">
+                            <rect key="frame" x="103" y="20" width="170" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="3wH-gb-5hn"/>
+                                <constraint firstAttribute="width" constant="170" id="glX-v7-ZNX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbW-I9-Wdk">
+                            <rect key="frame" x="0.0" y="20" width="80" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="7ql-Yd-Rid"/>
+                                <constraint firstAttribute="height" constant="44" id="PBD-pg-157"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="返回" image="arrow_left.png">
+                                <color key="titleColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2d-Lk-GO3" userLabel="Line">
+                            <rect key="frame" x="0.0" y="63" width="375" height="0.5"/>
+                            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="Vb8-gl-2Oc"/>
+                            </constraints>
+                        </view>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebh-Np-czx">
+                            <rect key="frame" x="295" y="20" width="80" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="lxS-HW-jUh"/>
+                                <constraint firstAttribute="height" constant="44" id="w07-IQ-tnf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="进店">
+                                <color key="titleColor" red="1" green="0.21176470589999999" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="disabled" title="保存">
+                                <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="azI-at-BCb" firstAttribute="top" secondItem="AdD-ha-AFw" secondAttribute="top" constant="20" id="4Ah-Af-vBK"/>
+                        <constraint firstItem="xbW-I9-Wdk" firstAttribute="leading" secondItem="AdD-ha-AFw" secondAttribute="leading" id="5lL-l5-9d2"/>
+                        <constraint firstAttribute="trailing" secondItem="ebh-Np-czx" secondAttribute="trailing" id="LxI-19-lYd"/>
+                        <constraint firstItem="G2d-Lk-GO3" firstAttribute="leading" secondItem="AdD-ha-AFw" secondAttribute="leading" id="Q8f-ZC-fCW"/>
+                        <constraint firstAttribute="bottom" secondItem="G2d-Lk-GO3" secondAttribute="bottom" constant="0.5" id="QDp-Wa-Xil"/>
+                        <constraint firstItem="ebh-Np-czx" firstAttribute="top" secondItem="AdD-ha-AFw" secondAttribute="top" constant="20" id="ROY-qL-zoo"/>
+                        <constraint firstAttribute="trailing" secondItem="G2d-Lk-GO3" secondAttribute="trailing" id="XrA-vV-4WM"/>
+                        <constraint firstAttribute="height" constant="64" id="cT2-LR-6Lw"/>
+                        <constraint firstItem="azI-at-BCb" firstAttribute="centerX" secondItem="AdD-ha-AFw" secondAttribute="centerX" id="nUs-Qn-hDG"/>
+                        <constraint firstItem="xbW-I9-Wdk" firstAttribute="top" secondItem="AdD-ha-AFw" secondAttribute="top" constant="20" id="vIR-za-BPw"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egO-GI-66T">
+                    <rect key="frame" x="127" y="140" width="99" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="block赋值1"/>
+                    <connections>
+                        <action selector="set1:" destination="-1" eventType="touchUpInside" id="v8y-lE-EUE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6d-fw-meS">
+                    <rect key="frame" x="127" y="217" width="99" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="block赋值2"/>
+                    <connections>
+                        <action selector="set2:" destination="-1" eventType="touchUpInside" id="QtX-Bl-uOh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AdD-ha-AFw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LaN-WH-OT9"/>
+                <constraint firstAttribute="trailing" secondItem="AdD-ha-AFw" secondAttribute="trailing" id="lti-8H-wmO"/>
+                <constraint firstItem="AdD-ha-AFw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wKp-GI-6Vy"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_left.png" width="16" height="16"/>
+    </resources>
+</document>

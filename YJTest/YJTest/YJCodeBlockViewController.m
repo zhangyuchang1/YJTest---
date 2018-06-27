@@ -18,7 +18,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     /*
+     
+     placehold_Shoplist
+     
      1.圆角
+     
+         self.layer.cornerRadius = 6.0;
+         self.layer.masksToBounds = YES;
      
      2.block属性 和方法
      
@@ -35,6 +41,13 @@
      8.文件写入，读取
      
      9.模拟器路径
+     
+     10. weakSelf
+     
+             @weakify(self)
+             @strongify(self)
+     
+     11. 计算文本高度
      
      */
     

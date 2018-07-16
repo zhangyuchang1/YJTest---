@@ -165,6 +165,10 @@
 		A97B40AF20A57F5300541EE0 /* RedBeanNum_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A97B407820A57F5300541EE0 /* RedBeanNum_7@2x.png */; };
 		A97B40BC20A9E3B400541EE0 /* YJVideoCutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */; };
 		A97B40BD20A9E3B400541EE0 /* YJVideoCutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */; };
+		A99BEE6120E3608800659161 /* YJDouYinPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99BEE5F20E3608800659161 /* YJDouYinPlayController.m */; };
+		A99BEE6220E3608800659161 /* YJDouYinPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99BEE6020E3608800659161 /* YJDouYinPlayController.xib */; };
+		A99BEE6620E3641300659161 /* YJPlayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A99BEE6420E3641300659161 /* YJPlayCell.m */; };
+		A99BEE6720E3641300659161 /* YJPlayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99BEE6520E3641300659161 /* YJPlayCell.xib */; };
 		A9A5865320B3F0B1002B9F5A /* YJTestInitController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A5865120B3F0B1002B9F5A /* YJTestInitController.m */; };
 		A9A5865420B3F0B1002B9F5A /* YJTestInitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A5865220B3F0B1002B9F5A /* YJTestInitController.xib */; };
 		A9A5865720B3F15A002B9F5A /* YJTestInitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A5865620B3F15A002B9F5A /* YJTestInitView.m */; };
@@ -420,6 +424,12 @@
 		A97B40B920A9E3B400541EE0 /* YJVideoCutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJVideoCutController.h; sourceTree = "<group>"; };
 		A97B40BA20A9E3B400541EE0 /* YJVideoCutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJVideoCutController.m; sourceTree = "<group>"; };
 		A97B40BB20A9E3B400541EE0 /* YJVideoCutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJVideoCutController.xib; sourceTree = "<group>"; };
+		A99BEE5E20E3608800659161 /* YJDouYinPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJDouYinPlayController.h; sourceTree = "<group>"; };
+		A99BEE5F20E3608800659161 /* YJDouYinPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJDouYinPlayController.m; sourceTree = "<group>"; };
+		A99BEE6020E3608800659161 /* YJDouYinPlayController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJDouYinPlayController.xib; sourceTree = "<group>"; };
+		A99BEE6320E3641200659161 /* YJPlayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPlayCell.h; sourceTree = "<group>"; };
+		A99BEE6420E3641300659161 /* YJPlayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPlayCell.m; sourceTree = "<group>"; };
+		A99BEE6520E3641300659161 /* YJPlayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJPlayCell.xib; sourceTree = "<group>"; };
 		A9A5865020B3F0B1002B9F5A /* YJTestInitController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestInitController.h; sourceTree = "<group>"; };
 		A9A5865120B3F0B1002B9F5A /* YJTestInitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestInitController.m; sourceTree = "<group>"; };
 		A9A5865220B3F0B1002B9F5A /* YJTestInitController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTestInitController.xib; sourceTree = "<group>"; };
@@ -718,6 +728,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A99BEE5D20E35FFD00659161 /* 仿抖音播放切换 */,
 				A9F5E72520C634860083C721 /* 单例的block */,
 				A9A5864F20B3C13D002B9F5A /* init方法尝试 */,
 				A97B40B820A9E27E00541EE0 /* 视频裁剪 */,
@@ -960,6 +971,19 @@
 			name = "视频裁剪";
 			sourceTree = "<group>";
 		};
+		A99BEE5D20E35FFD00659161 /* 仿抖音播放切换 */ = {
+			isa = PBXGroup;
+			children = (
+				A99BEE5E20E3608800659161 /* YJDouYinPlayController.h */,
+				A99BEE5F20E3608800659161 /* YJDouYinPlayController.m */,
+				A99BEE6020E3608800659161 /* YJDouYinPlayController.xib */,
+				A99BEE6320E3641200659161 /* YJPlayCell.h */,
+				A99BEE6420E3641300659161 /* YJPlayCell.m */,
+				A99BEE6520E3641300659161 /* YJPlayCell.xib */,
+			);
+			path = "仿抖音播放切换";
+			sourceTree = "<group>";
+		};
 		A9A5864F20B3C13D002B9F5A /* init方法尝试 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1183,6 +1207,7 @@
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
 				A97B40A220A57F5300541EE0 /* RedBean_1314@2x.png in Resources */,
 				A97B402620A57E5D00541EE0 /* rain_9@2x.png in Resources */,
+				A99BEE6220E3608800659161 /* YJDouYinPlayController.xib in Resources */,
 				A97B40A920A57F5300541EE0 /* RedBean_1314@3x.png in Resources */,
 				A97B408720A57F5300541EE0 /* RedBeanNum_8@2x.png in Resources */,
 				A97B40A820A57F5300541EE0 /* whitego@2x.png in Resources */,
@@ -1241,6 +1266,7 @@
 				A97B403C20A57E5D00541EE0 /* rain_8@3x.png in Resources */,
 				A97B403620A57E5D00541EE0 /* rain_13@3x.png in Resources */,
 				A97B408F20A57F5300541EE0 /* RedBeanNum_4@3x.png in Resources */,
+				A99BEE6720E3641300659161 /* YJPlayCell.xib in Resources */,
 				A97B408A20A57F5300541EE0 /* RedBeanNum_6@3x.png in Resources */,
 				A97B402520A57E5D00541EE0 /* rain_7@3x.png in Resources */,
 				A97B40AF20A57F5300541EE0 /* RedBeanNum_7@2x.png in Resources */,
@@ -1312,6 +1338,7 @@
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				A9EE86C0209B54F10079C501 /* YJMemeryAddressTestController.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
+				A99BEE6120E3608800659161 /* YJDouYinPlayController.m in Sources */,
 				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,
 				A9A5865320B3F0B1002B9F5A /* YJTestInitController.m in Sources */,
@@ -1358,6 +1385,7 @@
 				A97B40BC20A9E3B400541EE0 /* YJVideoCutController.m in Sources */,
 				E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */,
 				A9F5E72D20C667780083C721 /* YLTestManager.m in Sources */,
+				A99BEE6620E3641300659161 /* YJPlayCell.m in Sources */,
 				04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,

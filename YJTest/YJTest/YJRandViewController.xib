@@ -12,6 +12,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YJRandViewController">
             <connections>
                 <outlet property="line" destination="FvJ-qm-n38" id="5xW-rf-Fqd"/>
+                <outlet property="numbersLabel" destination="L8O-Rl-bZE" id="nwZ-cs-nGd"/>
+                <outlet property="onceTimesBtn" destination="yAo-Hz-OeY" id="ajH-M8-5S8"/>
                 <outlet property="view" destination="iN0-l3-epB" id="sW0-Fq-54a"/>
             </connections>
         </placeholder>
@@ -20,15 +22,6 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAo-Hz-OeY">
-                    <rect key="frame" x="79" y="155" width="56" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="0.99825808159999996" blue="0.86344133109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" title="扔100次"/>
-                    <connections>
-                        <action selector="dropTimes:" destination="-1" eventType="touchUpInside" id="GnB-IV-wGb"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGZ-x1-WKO">
                     <rect key="frame" x="293" y="155" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -52,6 +45,15 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAo-Hz-OeY">
+                    <rect key="frame" x="20" y="151" width="120" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.99825808159999996" blue="0.86344133109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="扔100次"/>
+                    <connections>
+                        <action selector="dropTimes:" destination="-1" eventType="touchUpInside" id="GnB-IV-wGb"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>

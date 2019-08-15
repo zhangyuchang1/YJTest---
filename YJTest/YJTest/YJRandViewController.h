@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 测试看rand()随机是不是假的，能不能达到随机效果
 
+// 结论 每次结果不同， 可达随机效果
 @end
 
 NS_ASSUME_NONNULL_END

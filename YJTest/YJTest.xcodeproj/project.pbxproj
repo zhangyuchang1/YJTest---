@@ -73,7 +73,10 @@
 		12EFE06A1FE3D3EB003C2086 /* PresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE0631FE3D3EB003C2086 /* PresentView.m */; };
 		12EFE06E1FE3D44A003C2086 /* HDJGiftAnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */; };
 		12EFE06F1FE3D44A003C2086 /* HDJGiftAnimateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */; };
+		A966EB2B23058AC600FA3343 /* YJRandItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A966EB2A23058AC600FA3343 /* YJRandItem.m */; };
 		A96C83C5206201CF00225ECC /* product.html in Resources */ = {isa = PBXBuildFile; fileRef = A96C83C4206201CE00225ECC /* product.html */; };
+		A9746E862305717C001C7B49 /* YJRandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9746E852305717C001C7B49 /* YJRandViewController.m */; };
+		A9746E88230571C8001C7B49 /* YJRandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9746E87230571C8001C7B49 /* YJRandViewController.xib */; };
 		A97B3FFD20A3047300541EE0 /* YJXIBFrameTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B3FFB20A3047300541EE0 /* YJXIBFrameTestController.m */; };
 		A97B3FFE20A3047300541EE0 /* YJXIBFrameTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97B3FFC20A3047300541EE0 /* YJXIBFrameTestController.xib */; };
 		A97B400120A304A500541EE0 /* XIBTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B400020A304A500541EE0 /* XIBTestView.m */; };
@@ -331,7 +334,12 @@
 		12EFE06B1FE3D44A003C2086 /* HDJGiftAnimateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDJGiftAnimateController.h; sourceTree = "<group>"; };
 		12EFE06C1FE3D44A003C2086 /* HDJGiftAnimateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDJGiftAnimateController.m; sourceTree = "<group>"; };
 		12EFE06D1FE3D44A003C2086 /* HDJGiftAnimateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HDJGiftAnimateController.xib; sourceTree = "<group>"; };
+		A966EB2923058AC600FA3343 /* YJRandItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRandItem.h; sourceTree = "<group>"; };
+		A966EB2A23058AC600FA3343 /* YJRandItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRandItem.m; sourceTree = "<group>"; };
 		A96C83C4206201CE00225ECC /* product.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = product.html; sourceTree = "<group>"; };
+		A9746E842305717C001C7B49 /* YJRandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRandViewController.h; sourceTree = "<group>"; };
+		A9746E852305717C001C7B49 /* YJRandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRandViewController.m; sourceTree = "<group>"; };
+		A9746E87230571C8001C7B49 /* YJRandViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJRandViewController.xib; sourceTree = "<group>"; };
 		A97B3FFA20A3047300541EE0 /* YJXIBFrameTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJXIBFrameTestController.h; path = "XIB frame不对/YJXIBFrameTestController.h"; sourceTree = "<group>"; };
 		A97B3FFB20A3047300541EE0 /* YJXIBFrameTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJXIBFrameTestController.m; path = "XIB frame不对/YJXIBFrameTestController.m"; sourceTree = "<group>"; };
 		A97B3FFC20A3047300541EE0 /* YJXIBFrameTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJXIBFrameTestController.xib; path = "XIB frame不对/YJXIBFrameTestController.xib"; sourceTree = "<group>"; };
@@ -734,6 +742,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A9746E8323057126001C7B49 /* 伪随机测试 */,
 				A9D1E8E42141126D007F95F4 /* 3D */,
 				A99BEE5D20E35FFD00659161 /* 仿抖音播放切换 */,
 				A9F5E72520C634860083C721 /* 单例的block */,
@@ -854,6 +863,18 @@
 				12EFE0631FE3D3EB003C2086 /* PresentView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A9746E8323057126001C7B49 /* 伪随机测试 */ = {
+			isa = PBXGroup;
+			children = (
+				A9746E842305717C001C7B49 /* YJRandViewController.h */,
+				A9746E852305717C001C7B49 /* YJRandViewController.m */,
+				A9746E87230571C8001C7B49 /* YJRandViewController.xib */,
+				A966EB2923058AC600FA3343 /* YJRandItem.h */,
+				A966EB2A23058AC600FA3343 /* YJRandItem.m */,
+			);
+			name = "伪随机测试";
 			sourceTree = "<group>";
 		};
 		A97B3FF920A3040400541EE0 /* XIB frame不对 */ = {
@@ -1189,6 +1210,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1295,6 +1317,7 @@
 				A97B403020A57E5D00541EE0 /* rain_14@2x.png in Resources */,
 				A97B40AD20A57F5300541EE0 /* RedBean_10@3x.png in Resources */,
 				12DF56432010ADCC0011862E /* ic_label@3x.png in Resources */,
+				A9746E88230571C8001C7B49 /* YJRandViewController.xib in Resources */,
 				A97B407B20A57F5300541EE0 /* RedBean_666@2x.png in Resources */,
 				A97B40A120A57F5300541EE0 /* RedBeanNum_9@2x.png in Resources */,
 				04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */,
@@ -1364,6 +1387,7 @@
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */,
+				A9746E862305717C001C7B49 /* YJRandViewController.m in Sources */,
 				12EFE0681FE3D3EB003C2086 /* AnimOperation.m in Sources */,
 				12676A781FFDFC2600B979AB /* YJTestScrollManager.m in Sources */,
 				1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */,
@@ -1390,6 +1414,7 @@
 				12EFE0671FE3D3EB003C2086 /* ShakeImageView.m in Sources */,
 				12EFE06E1FE3D44A003C2086 /* HDJGiftAnimateController.m in Sources */,
 				E43FE6721D0C360F00783055 /* YJSearchController.m in Sources */,
+				A966EB2B23058AC600FA3343 /* YJRandItem.m in Sources */,
 				E4244E791D12FE6000A1A0A6 /* YJTestFrameViewController.m in Sources */,
 				E43FE6971D0DC5AF00783055 /* KeychainTestController.m in Sources */,
 				127629F81C57046F007EFF40 /* YJTestViewController.m in Sources */,

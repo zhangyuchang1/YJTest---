@@ -176,6 +176,8 @@
 		A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */; };
 		A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */; };
 		A9A8D32C208E0E15008B4374 /* YJTestTableHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */; };
+		A9D1E8E721411293007F95F4 /* YJ3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1E8E621411293007F95F4 /* YJ3DViewController.m */; };
+		A9D1E8EA214112AF007F95F4 /* HSF3DModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1E8E9214112AF007F95F4 /* HSF3DModelView.m */; };
 		A9EE86C0209B54F10079C501 /* YJMemeryAddressTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EE86BE209B54F10079C501 /* YJMemeryAddressTestController.m */; };
 		A9EE86C1209B54F10079C501 /* YJMemeryAddressTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EE86BF209B54F10079C501 /* YJMemeryAddressTestController.xib */; };
 		A9F5E72920C634E30083C721 /* YLSingtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F5E72720C634E30083C721 /* YLSingtonViewController.m */; };
@@ -441,6 +443,10 @@
 		A9A8D328208E0E15008B4374 /* YJTestTableHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestTableHeightCell.h; sourceTree = "<group>"; };
 		A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestTableHeightCell.m; sourceTree = "<group>"; };
 		A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTestTableHeightCell.xib; sourceTree = "<group>"; };
+		A9D1E8E521411293007F95F4 /* YJ3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJ3DViewController.h; sourceTree = "<group>"; };
+		A9D1E8E621411293007F95F4 /* YJ3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJ3DViewController.m; sourceTree = "<group>"; };
+		A9D1E8E8214112AF007F95F4 /* HSF3DModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSF3DModelView.h; sourceTree = "<group>"; };
+		A9D1E8E9214112AF007F95F4 /* HSF3DModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSF3DModelView.m; sourceTree = "<group>"; };
 		A9EE86BD209B54F10079C501 /* YJMemeryAddressTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJMemeryAddressTestController.h; path = "内存地址测试/YJMemeryAddressTestController.h"; sourceTree = "<group>"; };
 		A9EE86BE209B54F10079C501 /* YJMemeryAddressTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJMemeryAddressTestController.m; path = "内存地址测试/YJMemeryAddressTestController.m"; sourceTree = "<group>"; };
 		A9EE86BF209B54F10079C501 /* YJMemeryAddressTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJMemeryAddressTestController.xib; path = "内存地址测试/YJMemeryAddressTestController.xib"; sourceTree = "<group>"; };
@@ -728,6 +734,7 @@
 		12E6601F1C560E6900524CE5 /* YJTest */ = {
 			isa = PBXGroup;
 			children = (
+				A9D1E8E42141126D007F95F4 /* 3D */,
 				A99BEE5D20E35FFD00659161 /* 仿抖音播放切换 */,
 				A9F5E72520C634860083C721 /* 单例的block */,
 				A9A5864F20B3C13D002B9F5A /* init方法尝试 */,
@@ -1007,6 +1014,17 @@
 				A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */,
 			);
 			name = "tableView高度测试";
+			sourceTree = "<group>";
+		};
+		A9D1E8E42141126D007F95F4 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1E8E8214112AF007F95F4 /* HSF3DModelView.h */,
+				A9D1E8E9214112AF007F95F4 /* HSF3DModelView.m */,
+				A9D1E8E521411293007F95F4 /* YJ3DViewController.h */,
+				A9D1E8E621411293007F95F4 /* YJ3DViewController.m */,
+			);
+			name = 3D;
 			sourceTree = "<group>";
 		};
 		A9EE86BC209B54300079C501 /* 内存地址测试 */ = {
@@ -1357,6 +1375,7 @@
 				0422C7AD1CF587210002D0E4 /* NSObject+Property.m in Sources */,
 				045E06801F1E69D100D8E693 /* Bass_Button.m in Sources */,
 				124C80881C81816200CDBAF2 /* UIView+Line.m in Sources */,
+				A9D1E8E721411293007F95F4 /* YJ3DViewController.m in Sources */,
 				12DF55F8201082AE0011862E /* JumpAnimateVCViewController.m in Sources */,
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
@@ -1388,6 +1407,7 @@
 				A99BEE6620E3641300659161 /* YJPlayCell.m in Sources */,
 				04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
+				A9D1E8EA214112AF007F95F4 /* HSF3DModelView.m in Sources */,
 				127A6B5B1C840D0700854A38 /* VCExchangeViewController.m in Sources */,
 				1247CCDB1FC97D2600FE3EC2 /* CoreMLTestViewController.m in Sources */,
 				E41774B51D17F1DC001D4C7B /* YJCornerTestController.m in Sources */,

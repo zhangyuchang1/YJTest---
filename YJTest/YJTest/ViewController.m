@@ -27,7 +27,7 @@
     [self.view addSubview:tableView];
     
     
-    self.dataArray = @[@"lastViewController 强引用",@"XIB 实时动态显示圆角",@"XIB 拉0.5的线",@"跑马灯",@"系统地图 显示poi",@"自定义转场动画",@"runtime",@"searchViewController",@"统计加定时上传模块",@"VC 的view frame 变化",@"圆角性能优化",@"KVO测试",@"子控制器searchController", @"GCD练习", @"Runnloop练习",@"交叉滑动",@"scroollView嵌套",@"webView内存",@"UITextFeild 完成按钮",@"机器学习",@"红豆角直播动画",@"跳跳动画",@"tableView高度测试",@"内存地址测试",@"XIB frame不对",@"init方法尝试", @"单例的block回调"];
+    self.dataArray = @[@"lastViewController 强引用",@"XIB 实时动态显示圆角",@"XIB 拉0.5的线",@"跑马灯",@"系统地图 显示poi",@"自定义转场动画",@"runtime",@"searchViewController",@"统计加定时上传模块",@"VC 的view frame 变化",@"圆角性能优化",@"KVO测试",@"子控制器searchController", @"GCD练习", @"Runnloop练习",@"交叉滑动",@"scroollView嵌套",@"webView内存",@"UITextFeild 完成按钮",@"机器学习",@"红豆角直播动画",@"跳跳动画",@"tableView高度测试",@"内存地址测试",@"XIB frame不对",@"init方法尝试", @"单例的block回调",@"3D"];
 
     self.controllerArray = @[@"YJTestViewController",
                              @"XIBConfiViewController",
@@ -55,7 +55,8 @@
                              @"YJMemeryAddressTestController",
                              @"YJXIBFrameTestController",
                              @"YJTestInitController",
-                             @"YLSingtonViewController"];
+                             @"YLSingtonViewController",
+                             @"YJ3DViewController"];
 }
 #pragma mark - UITableView Delegate && DataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

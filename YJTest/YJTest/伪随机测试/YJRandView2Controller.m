@@ -1,16 +1,15 @@
 //
-//  YJRandViewController.m
+//  YJRandView2Controller.m
 //  YJTest
 //
-//  Created by zyc_hdj on 2019/8/15.
+//  Created by zyc_hdj on 2019/8/16.
 //  Copyright © 2019 zyc. All rights reserved.
 //
 
-#import "YJRandViewController.h"
-#import "YJRandItem.h"
 #import "YJRandView2Controller.h"
+#import "YJRandItem.h"
 
-@interface YJRandViewController ()
+@interface YJRandView2Controller ()
 {
     // 扔一回中，第几次的索引
     int  index;
@@ -35,7 +34,8 @@
 
 @end
 
-@implementation YJRandViewController
+@implementation YJRandView2Controller
+
 
 -(NSMutableArray<YJRandItem *> *)items
 {
@@ -48,13 +48,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.onceTimes = 500;
+    self.onceTimes = 50;
     self.numbers   = 2;
-
+    
     [self.onceTimesBtn setTitle:[NSString stringWithFormat:@"扔%d次",self.onceTimes] forState:UIControlStateNormal];
 }
 
-/// 扔n个次数
+/// 扔n回
 - (IBAction)dropTimes:(UIButton *)sender {
     
     if (self.items.count == 0) {
@@ -77,7 +77,7 @@
             i ++;
         }
     }
-
+    
     [self beginDrop];
 }
 
@@ -85,26 +85,28 @@
 -(void)beginDrop
 {
     index = 0;
-//    __weak typeof(self) weakSelf = self;
+    //    __weak typeof(self) weakSelf = self;
     [self dropOnce];
 }
 
-// 扔一次色子
+//  每个数字 扔一次色子
 -(void)dropOnce
 {
-    //扔色子,得到随机数
-    int number = arc4random() % (self.numbers);
-    // random 貌似偏差大一点
-//    int number = random() % (self.numbers);
-    //次数+1
-    YJRandItem *item = [self.view viewWithTag:number+100];
-
+    
+    for (YJRandItem *item in self.items) {
+        
+        int add = arc4random() % 2;  // 0|1 随机是否加次数
+        // random 貌似偏差大一点
+        //    int number = random() % (self.numbers);
+        item.times += add;
+    }
+    
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        item.times ++;
+//        item.times ++;
         index ++;
         
         if (index < self.onceTimes) {
-//            blcok();
+            //            blcok();
             [self dropOnce]; //继续扔
         }
         
@@ -121,14 +123,6 @@
     self.numbers ++;
     
     self.numbersLabel.text = [NSString stringWithFormat:@"%d个随机数",self.numbers];
-}
-
-
-- (IBAction)anotherMethed:(UIButton *)sender {
-    
-    YJRandView2Controller *vc2 = [[YJRandView2Controller alloc] init];
-    [self.navigationController pushViewController:vc2 animated:YES];
-
 }
 
 

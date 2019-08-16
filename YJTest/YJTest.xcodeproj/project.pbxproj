@@ -179,6 +179,8 @@
 		A9A8D327208E0BF1008B4374 /* YJTableHeightTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D325208E0BF1008B4374 /* YJTableHeightTestController.xib */; };
 		A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */; };
 		A9A8D32C208E0E15008B4374 /* YJTestTableHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */; };
+		A9CA5A5A2306BD8B00FC187A /* YJRandView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5A582306BD8B00FC187A /* YJRandView2Controller.m */; };
+		A9CA5A5B2306BD8B00FC187A /* YJRandView2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9CA5A592306BD8B00FC187A /* YJRandView2Controller.xib */; };
 		A9D1E8E721411293007F95F4 /* YJ3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1E8E621411293007F95F4 /* YJ3DViewController.m */; };
 		A9D1E8EA214112AF007F95F4 /* HSF3DModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1E8E9214112AF007F95F4 /* HSF3DModelView.m */; };
 		A9EE86C0209B54F10079C501 /* YJMemeryAddressTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EE86BE209B54F10079C501 /* YJMemeryAddressTestController.m */; };
@@ -451,6 +453,9 @@
 		A9A8D328208E0E15008B4374 /* YJTestTableHeightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestTableHeightCell.h; sourceTree = "<group>"; };
 		A9A8D329208E0E15008B4374 /* YJTestTableHeightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestTableHeightCell.m; sourceTree = "<group>"; };
 		A9A8D32A208E0E15008B4374 /* YJTestTableHeightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJTestTableHeightCell.xib; sourceTree = "<group>"; };
+		A9CA5A572306BD8B00FC187A /* YJRandView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJRandView2Controller.h; path = "伪随机测试/YJRandView2Controller.h"; sourceTree = "<group>"; };
+		A9CA5A582306BD8B00FC187A /* YJRandView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJRandView2Controller.m; path = "伪随机测试/YJRandView2Controller.m"; sourceTree = "<group>"; };
+		A9CA5A592306BD8B00FC187A /* YJRandView2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJRandView2Controller.xib; path = "伪随机测试/YJRandView2Controller.xib"; sourceTree = "<group>"; };
 		A9D1E8E521411293007F95F4 /* YJ3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJ3DViewController.h; sourceTree = "<group>"; };
 		A9D1E8E621411293007F95F4 /* YJ3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJ3DViewController.m; sourceTree = "<group>"; };
 		A9D1E8E8214112AF007F95F4 /* HSF3DModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSF3DModelView.h; sourceTree = "<group>"; };
@@ -871,6 +876,9 @@
 				A9746E842305717C001C7B49 /* YJRandViewController.h */,
 				A9746E852305717C001C7B49 /* YJRandViewController.m */,
 				A9746E87230571C8001C7B49 /* YJRandViewController.xib */,
+				A9CA5A572306BD8B00FC187A /* YJRandView2Controller.h */,
+				A9CA5A582306BD8B00FC187A /* YJRandView2Controller.m */,
+				A9CA5A592306BD8B00FC187A /* YJRandView2Controller.xib */,
 				A966EB2923058AC600FA3343 /* YJRandItem.h */,
 				A966EB2A23058AC600FA3343 /* YJRandItem.m */,
 			);
@@ -1247,6 +1255,7 @@
 				127A6B5C1C840D0700854A38 /* VCExchangeViewController.xib in Resources */,
 				A97B40A220A57F5300541EE0 /* RedBean_1314@2x.png in Resources */,
 				A97B402620A57E5D00541EE0 /* rain_9@2x.png in Resources */,
+				A9CA5A5B2306BD8B00FC187A /* YJRandView2Controller.xib in Resources */,
 				A99BEE6220E3608800659161 /* YJDouYinPlayController.xib in Resources */,
 				A97B40A920A57F5300541EE0 /* RedBean_1314@3x.png in Resources */,
 				A97B408720A57F5300541EE0 /* RedBeanNum_8@2x.png in Resources */,
@@ -1362,6 +1371,7 @@
 				12E7056D1C819225003D732E /* YJScrollLabel.m in Sources */,
 				1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */,
 				04524E581F602B0D00F85E10 /* YJTestScrollTable.m in Sources */,
+				A9CA5A5A2306BD8B00FC187A /* YJRandView2Controller.m in Sources */,
 				E43FE6831D0C3C5A00783055 /* YJStatisticController.m in Sources */,
 				12E660281C560E6900524CE5 /* ViewController.m in Sources */,
 				127A6B601C84259800854A38 /* VCEchange_A.m in Sources */,

@@ -35,6 +35,7 @@
                        @"单例的block回调",
                        @"3D",
                        @"伪随机",
+                       @"YYModel模型转字典",
                        ];
 
     self.controllerArray = @[@"YJTestViewController",
@@ -66,7 +67,8 @@
                              @"YLSingtonViewController",
                              @"YJ3DViewController",
                              @"YJRandViewController",
-                             ];
+                             @"YJYYModelViewController",
+                            ];
 }
 #pragma mark - UITableView Delegate && DataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

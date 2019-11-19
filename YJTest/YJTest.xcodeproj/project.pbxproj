@@ -150,6 +150,8 @@
 		12DF55F8201082AE0011862E /* JumpAnimateVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DF55F7201082AD0011862E /* JumpAnimateVCViewController.m */; };
 		12DF56422010ADCC0011862E /* ic_label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DF56402010ADCB0011862E /* ic_label@2x.png */; };
 		12DF56432010ADCC0011862E /* ic_label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DF56412010ADCB0011862E /* ic_label@3x.png */; };
+		12E5DEAF238242EE005DCDB5 /* YJViewRemoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E5DEAE238242EE005DCDB5 /* YJViewRemoveController.m */; };
+		12E5DEB223824311005DCDB5 /* YJTestRemoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E5DEB123824311005DCDB5 /* YJTestRemoveView.m */; };
 		12E660221C560E6900524CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660211C560E6900524CE5 /* main.m */; };
 		12E660251C560E6900524CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660241C560E6900524CE5 /* AppDelegate.m */; };
 		12E660281C560E6900524CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E660271C560E6900524CE5 /* ViewController.m */; };
@@ -592,6 +594,10 @@
 		12DF55F7201082AD0011862E /* JumpAnimateVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumpAnimateVCViewController.m; path = "跳三跳动画/JumpAnimateVCViewController.m"; sourceTree = "<group>"; };
 		12DF56402010ADCB0011862E /* ic_label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_label@2x.png"; sourceTree = "<group>"; };
 		12DF56412010ADCB0011862E /* ic_label@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_label@3x.png"; sourceTree = "<group>"; };
+		12E5DEAD238242EE005DCDB5 /* YJViewRemoveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJViewRemoveController.h; sourceTree = "<group>"; };
+		12E5DEAE238242EE005DCDB5 /* YJViewRemoveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJViewRemoveController.m; sourceTree = "<group>"; };
+		12E5DEB023824311005DCDB5 /* YJTestRemoveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTestRemoveView.h; sourceTree = "<group>"; };
+		12E5DEB123824311005DCDB5 /* YJTestRemoveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTestRemoveView.m; sourceTree = "<group>"; };
 		12E6601D1C560E6900524CE5 /* YJTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E660211C560E6900524CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12E660231C560E6900524CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -961,8 +967,8 @@
 				124F1A8C237BDAD100002977 /* YJYYModelViewController.h */,
 				124F1A8D237BDAD100002977 /* YJYYModelViewController.m */,
 				124F1A8E237BDAD100002977 /* YJYYModelViewController.xib */,
-				124F1AA1237D026600002977 /* YJModel.h */,
 				124F1AA2237D026600002977 /* YJModel.m */,
+				124F1AA1237D026600002977 /* YJModel.h */,
 			);
 			path = "YYmodel对象字典转换";
 			sourceTree = "<group>";
@@ -1338,6 +1344,17 @@
 			name = "scrollView 交叉滑动";
 			sourceTree = "<group>";
 		};
+		12E5DEAC238242B6005DCDB5 /* UIView自己Remove */ = {
+			isa = PBXGroup;
+			children = (
+				12E5DEB023824311005DCDB5 /* YJTestRemoveView.h */,
+				12E5DEB123824311005DCDB5 /* YJTestRemoveView.m */,
+				12E5DEAD238242EE005DCDB5 /* YJViewRemoveController.h */,
+				12E5DEAE238242EE005DCDB5 /* YJViewRemoveController.m */,
+			);
+			path = "UIView自己Remove";
+			sourceTree = "<group>";
+		};
 		12E660141C560E6800524CE5 = {
 			isa = PBXGroup;
 			children = (
@@ -1362,6 +1379,7 @@
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
+				12E5DEAC238242B6005DCDB5 /* UIView自己Remove */,
 				124F1986237BD9DB00002977 /* YYmodel对象字典转换 */,
 				A9746E8323057126001C7B49 /* 伪随机测试 */,
 				A9D1E8E42141126D007F95F4 /* 3D */,
@@ -1988,6 +2006,7 @@
 				124F1A64237BDA8600002977 /* NSNotificationCenter+YYAdd.m in Sources */,
 				1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */,
 				124F1A5A237BDA8600002977 /* NSNumber+YYAdd.m in Sources */,
+				12E5DEAF238242EE005DCDB5 /* YJViewRemoveController.m in Sources */,
 				124F1A48237BDA8600002977 /* YYCache.m in Sources */,
 				04524E581F602B0D00F85E10 /* YJTestScrollTable.m in Sources */,
 				124F1A85237BDA8600002977 /* UIPasteboard+YYText.m in Sources */,
@@ -2132,6 +2151,7 @@
 				04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */,
 				E4244E8B1D13007600A1A0A6 /* YJTestFrame_DController.m in Sources */,
 				124F1A7C237BDA8600002977 /* YYTextSelectionView.m in Sources */,
+				12E5DEB223824311005DCDB5 /* YJTestRemoveView.m in Sources */,
 				124F1A70237BDA8600002977 /* YYGestureRecognizer.m in Sources */,
 				A9D1E8EA214112AF007F95F4 /* HSF3DModelView.m in Sources */,
 				124F1A73237BDA8600002977 /* YYThreadSafeArray.m in Sources */,

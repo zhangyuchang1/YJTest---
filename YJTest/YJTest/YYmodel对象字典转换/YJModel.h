@@ -8,16 +8,21 @@
 
 #import "BaseModel.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
+// 列表中的对象
+@interface YJModelItem: BaseModel
 
+@property (nonatomic,copy) NSString *itemSting1;
+@property (nonatomic,assign) int64_t itemint1;
 
+@end
 
 // 第二层的对象
-@interface YJModelSub: NSObject
+@interface YJModelSub: BaseModel
 
 @property (nonatomic,copy) NSString *stingSub1;
 @property (nonatomic,assign) int64_t intSub1;
+@property (nonatomic,assign) int64_t id_;
 
 @end
 
@@ -30,6 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSString *int1;
 
+/// 字典带关键字转化
+@property (nonatomic,assign) int64_t id_;
+/// list对象转换
+@property (nonatomic,strong) NSArray <YJModelItem*> *items;
+
+
 @end
 
-NS_ASSUME_NONNULL_END

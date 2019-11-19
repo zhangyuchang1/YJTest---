@@ -35,7 +35,9 @@
                        @"单例的block回调",
                        @"3D",
                        @"伪随机",
-                       @"YYModel模型转字典",
+                       @"YYModel/MJ模型转字典",
+                       @"view自己调remove",
+
                        ];
 
     self.controllerArray = @[@"YJTestViewController",
@@ -68,6 +70,7 @@
                              @"YJ3DViewController",
                              @"YJRandViewController",
                              @"YJYYModelViewController",
+                             @"YJViewRemoveController",
                             ];
 }
 #pragma mark - UITableView Delegate && DataSource

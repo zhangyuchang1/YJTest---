@@ -147,6 +147,8 @@
 		12809BAD1C816806004FE7AD /* XIBConfiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12809BAB1C816806004FE7AD /* XIBConfiViewController.xib */; };
 		1287B5151F32CA2000FEAE44 /* YJScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5141F32CA2000FEAE44 /* YJScrollViewController.m */; };
 		1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */; };
+		1289924824B6D0E600AA208D /* YJSuperMethedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */; };
+		1289924B24B6D10B00AA208D /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924A24B6D10B00AA208D /* AObject.m */; };
 		12DF55F8201082AE0011862E /* JumpAnimateVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DF55F7201082AD0011862E /* JumpAnimateVCViewController.m */; };
 		12DF56422010ADCC0011862E /* ic_label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DF56402010ADCB0011862E /* ic_label@2x.png */; };
 		12DF56432010ADCC0011862E /* ic_label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DF56412010ADCB0011862E /* ic_label@3x.png */; };
@@ -590,6 +592,10 @@
 		1287B5141F32CA2000FEAE44 /* YJScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJScrollViewController.m; path = "scrollView交叉滑动/YJScrollViewController.m"; sourceTree = "<group>"; };
 		1287B5161F32D1A700FEAE44 /* YJTestScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJTestScrollView.h; path = "scrollView交叉滑动/YJTestScrollView.h"; sourceTree = "<group>"; };
 		1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJTestScrollView.m; path = "scrollView交叉滑动/YJTestScrollView.m"; sourceTree = "<group>"; };
+		1289924624B6D0E600AA208D /* YJSuperMethedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJSuperMethedViewController.h; sourceTree = "<group>"; };
+		1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSuperMethedViewController.m; sourceTree = "<group>"; };
+		1289924924B6D10B00AA208D /* AObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AObject.h; sourceTree = "<group>"; };
+		1289924A24B6D10B00AA208D /* AObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AObject.m; sourceTree = "<group>"; };
 		12DF55F6201082AD0011862E /* JumpAnimateVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JumpAnimateVCViewController.h; path = "跳三跳动画/JumpAnimateVCViewController.h"; sourceTree = "<group>"; };
 		12DF55F7201082AD0011862E /* JumpAnimateVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumpAnimateVCViewController.m; path = "跳三跳动画/JumpAnimateVCViewController.m"; sourceTree = "<group>"; };
 		12DF56402010ADCB0011862E /* ic_label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_label@2x.png"; sourceTree = "<group>"; };
@@ -1344,6 +1350,17 @@
 			name = "scrollView 交叉滑动";
 			sourceTree = "<group>";
 		};
+		1289924524B6D09100AA208D /* 父类方法尝试 */ = {
+			isa = PBXGroup;
+			children = (
+				1289924624B6D0E600AA208D /* YJSuperMethedViewController.h */,
+				1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */,
+				1289924924B6D10B00AA208D /* AObject.h */,
+				1289924A24B6D10B00AA208D /* AObject.m */,
+			);
+			name = "父类方法尝试";
+			sourceTree = "<group>";
+		};
 		12E5DEAC238242B6005DCDB5 /* UIView自己Remove */ = {
 			isa = PBXGroup;
 			children = (
@@ -1379,6 +1396,7 @@
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
+				1289924524B6D09100AA208D /* 父类方法尝试 */,
 				12E5DEAC238242B6005DCDB5 /* UIView自己Remove */,
 				124F1986237BD9DB00002977 /* YYmodel对象字典转换 */,
 				A9746E8323057126001C7B49 /* 伪随机测试 */,
@@ -1839,7 +1857,7 @@
 				TargetAttributes = {
 					12E6601C1C560E6900524CE5 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 6PG2TK7KJ6;
+						DevelopmentTeam = S8NE6W7L6S;
 					};
 				};
 			};
@@ -2043,6 +2061,7 @@
 				1206B0D41FF3B891009E76EB /* YJCodeBlockViewController.m in Sources */,
 				12E705741C8192C4003D732E /* YJScrollTextViewController.m in Sources */,
 				124F1A75237BDA8600002977 /* YYTextView.m in Sources */,
+				1289924824B6D0E600AA208D /* YJSuperMethedViewController.m in Sources */,
 				124F1A56237BDA8600002977 /* UIImage+YYAdd.m in Sources */,
 				0422C7A11CF56FC40002D0E4 /* RuntimeController.m in Sources */,
 				A9EE86C0209B54F10079C501 /* YJMemeryAddressTestController.m in Sources */,
@@ -2133,6 +2152,7 @@
 				E470CC481D2D646800C5265E /* KVOTestController.m in Sources */,
 				124F1A59237BDA8600002977 /* NSArray+YYAdd.m in Sources */,
 				124C80811C81774500CDBAF2 /* XIBLineViewController.m in Sources */,
+				1289924B24B6D10B00AA208D /* AObject.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				124F1A71237BDA8600002977 /* YYFileHash.m in Sources */,
 				124F1A6B237BDA8600002977 /* YYThreadSafeDictionary.m in Sources */,
@@ -2289,6 +2309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = S8NE6W7L6S;
 				INFOPLIST_FILE = YJTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2304,6 +2325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = S8NE6W7L6S;
 				INFOPLIST_FILE = YJTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -31,7 +31,14 @@
 
 - (void)remove
 {
-    [self removeFromSuperview];
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    
+    
+    
+    
+    
+    
+//    [self removeFromSuperview];
 }
 -(void)dealloc
 {

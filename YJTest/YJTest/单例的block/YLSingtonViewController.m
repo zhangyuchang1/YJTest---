@@ -31,6 +31,15 @@
 
 - (IBAction)set1:(UIButton *)sender {
     
+    
+    UIImagePickerController  *picker = [[UIImagePickerController alloc] init];
+    [self presentViewController:picker animated:YES completion:^{
+        
+    }];
+    
+    
+    
+    return;
     [YLTestManager sharedManager].block = ^{
       
         

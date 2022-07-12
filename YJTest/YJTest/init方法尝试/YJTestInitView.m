@@ -16,7 +16,8 @@
     self = [super init];
     
     if (self) {
-        
+        // custom
+        NSLog(@"do someth");
     }
     
     return self;
@@ -25,7 +26,10 @@
 -(instancetype)initWithObj:(NSObject *)obj
 {
     
+    //
 //    self = [super init];
+    
+    // 这样写不会有问题
     self = [self init];
     
     if (self) {

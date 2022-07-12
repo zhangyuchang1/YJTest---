@@ -12,7 +12,7 @@
 
 -(void)doLog
 {
-    
+    NSLog(@" a  do  log");
     
 }
 

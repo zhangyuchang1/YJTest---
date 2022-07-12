@@ -149,6 +149,9 @@
 		1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */; };
 		1289924824B6D0E600AA208D /* YJSuperMethedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */; };
 		1289924B24B6D10B00AA208D /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924A24B6D10B00AA208D /* AObject.m */; };
+		12C3BCBC287D102800FA9836 /* YJLuoJiRunTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */; };
+		12C3BCBD287D102800FA9836 /* YJLuoJiRunTimeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */; };
+		12C3BCC1287D14F700FA9836 /* BObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3BCC0287D14F700FA9836 /* BObject.m */; };
 		12DF55F8201082AE0011862E /* JumpAnimateVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DF55F7201082AD0011862E /* JumpAnimateVCViewController.m */; };
 		12DF56422010ADCC0011862E /* ic_label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DF56402010ADCB0011862E /* ic_label@2x.png */; };
 		12DF56432010ADCC0011862E /* ic_label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DF56412010ADCB0011862E /* ic_label@3x.png */; };
@@ -596,6 +599,11 @@
 		1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSuperMethedViewController.m; sourceTree = "<group>"; };
 		1289924924B6D10B00AA208D /* AObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AObject.h; sourceTree = "<group>"; };
 		1289924A24B6D10B00AA208D /* AObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AObject.m; sourceTree = "<group>"; };
+		12C3BCB9287D102800FA9836 /* YJLuoJiRunTimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJLuoJiRunTimeController.h; path = "逻辑runtime讲解/YJLuoJiRunTimeController.h"; sourceTree = "<group>"; };
+		12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJLuoJiRunTimeController.m; path = "逻辑runtime讲解/YJLuoJiRunTimeController.m"; sourceTree = "<group>"; };
+		12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJLuoJiRunTimeController.xib; path = "逻辑runtime讲解/YJLuoJiRunTimeController.xib"; sourceTree = "<group>"; };
+		12C3BCBF287D14F700FA9836 /* BObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BObject.h; sourceTree = "<group>"; };
+		12C3BCC0287D14F700FA9836 /* BObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BObject.m; sourceTree = "<group>"; };
 		12DF55F6201082AD0011862E /* JumpAnimateVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JumpAnimateVCViewController.h; path = "跳三跳动画/JumpAnimateVCViewController.h"; sourceTree = "<group>"; };
 		12DF55F7201082AD0011862E /* JumpAnimateVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumpAnimateVCViewController.m; path = "跳三跳动画/JumpAnimateVCViewController.m"; sourceTree = "<group>"; };
 		12DF56402010ADCB0011862E /* ic_label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_label@2x.png"; sourceTree = "<group>"; };
@@ -644,7 +652,7 @@
 		A9746E842305717C001C7B49 /* YJRandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJRandViewController.h; sourceTree = "<group>"; };
 		A9746E852305717C001C7B49 /* YJRandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJRandViewController.m; sourceTree = "<group>"; };
 		A9746E87230571C8001C7B49 /* YJRandViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YJRandViewController.xib; sourceTree = "<group>"; };
-		A97B3FFA20A3047300541EE0 /* YJXIBFrameTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJXIBFrameTestController.h; path = "XIB frame不对/YJXIBFrameTestController.h"; sourceTree = "<group>"; };
+		A97B3FFA20A3047300541EE0 /* YJXIBFrameTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJXIBFrameTestController.h; sourceTree = "<group>"; };
 		A97B3FFB20A3047300541EE0 /* YJXIBFrameTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJXIBFrameTestController.m; path = "XIB frame不对/YJXIBFrameTestController.m"; sourceTree = "<group>"; };
 		A97B3FFC20A3047300541EE0 /* YJXIBFrameTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJXIBFrameTestController.xib; path = "XIB frame不对/YJXIBFrameTestController.xib"; sourceTree = "<group>"; };
 		A97B3FFF20A304A500541EE0 /* XIBTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XIBTestView.h; path = "XIB frame不对/XIBTestView.h"; sourceTree = "<group>"; };
@@ -1350,15 +1358,27 @@
 			name = "scrollView 交叉滑动";
 			sourceTree = "<group>";
 		};
-		1289924524B6D09100AA208D /* 父类方法尝试 */ = {
+		1289924524B6D09100AA208D /* 父类方法递归尝试 */ = {
 			isa = PBXGroup;
 			children = (
 				1289924624B6D0E600AA208D /* YJSuperMethedViewController.h */,
 				1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */,
 				1289924924B6D10B00AA208D /* AObject.h */,
 				1289924A24B6D10B00AA208D /* AObject.m */,
+				12C3BCBF287D14F700FA9836 /* BObject.h */,
+				12C3BCC0287D14F700FA9836 /* BObject.m */,
 			);
-			name = "父类方法尝试";
+			name = "父类方法递归尝试";
+			sourceTree = "<group>";
+		};
+		12C3BCB8287D0FCE00FA9836 /* 逻辑runtime讲解 */ = {
+			isa = PBXGroup;
+			children = (
+				12C3BCB9287D102800FA9836 /* YJLuoJiRunTimeController.h */,
+				12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */,
+				12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */,
+			);
+			name = "逻辑runtime讲解";
 			sourceTree = "<group>";
 		};
 		12E5DEAC238242B6005DCDB5 /* UIView自己Remove */ = {
@@ -1396,7 +1416,7 @@
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
-				1289924524B6D09100AA208D /* 父类方法尝试 */,
+				1289924524B6D09100AA208D /* 父类方法递归尝试 */,
 				12E5DEAC238242B6005DCDB5 /* UIView自己Remove */,
 				124F1986237BD9DB00002977 /* YYmodel对象字典转换 */,
 				A9746E8323057126001C7B49 /* 伪随机测试 */,
@@ -1434,6 +1454,7 @@
 				12809B9F1C81543D004FE7AD /* XIB 圆角 */,
 				12809B9E1C815409004FE7AD /* lastViewController 引用 */,
 				E43FE6741D0C3ACD00783055 /* 统计加定时上传模块 */,
+				12C3BCB8287D0FCE00FA9836 /* 逻辑runtime讲解 */,
 				12E6602C1C560E6900524CE5 /* Assets.xcassets */,
 				127EE60D1FFB6383007941D5 /* yj_test_img.png */,
 				12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */,
@@ -1976,6 +1997,7 @@
 				A97B40AD20A57F5300541EE0 /* RedBean_10@3x.png in Resources */,
 				12DF56432010ADCC0011862E /* ic_label@3x.png in Resources */,
 				A9746E88230571C8001C7B49 /* YJRandViewController.xib in Resources */,
+				12C3BCBD287D102800FA9836 /* YJLuoJiRunTimeController.xib in Resources */,
 				A97B407B20A57F5300541EE0 /* RedBean_666@2x.png in Resources */,
 				A97B40A120A57F5300541EE0 /* RedBeanNum_9@2x.png in Resources */,
 				04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */,
@@ -2048,6 +2070,7 @@
 				124F1A54237BDA8600002977 /* UIBarButtonItem+YYAdd.m in Sources */,
 				124F1A57237BDA8600002977 /* UIControl+YYAdd.m in Sources */,
 				124F1A4E237BDA8600002977 /* UIDevice+YYAdd.m in Sources */,
+				12C3BCBC287D102800FA9836 /* YJLuoJiRunTimeController.m in Sources */,
 				04524E5E1F6053C300F85E10 /* YJTestScrollScrollView.m in Sources */,
 				A9A8D326208E0BF1008B4374 /* YJTableHeightTestController.m in Sources */,
 				124F1A67237BDA8600002977 /* YYCGUtilities.m in Sources */,
@@ -2079,6 +2102,7 @@
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */,
+				12C3BCC1287D14F700FA9836 /* BObject.m in Sources */,
 				A9746E862305717C001C7B49 /* YJRandViewController.m in Sources */,
 				124F1AA0237CFE2E00002977 /* SLBuyerSubmitInputModel.m in Sources */,
 				12EFE0681FE3D3EB003C2086 /* AnimOperation.m in Sources */,

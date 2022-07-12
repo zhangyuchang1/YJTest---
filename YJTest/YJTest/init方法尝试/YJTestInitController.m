@@ -22,6 +22,9 @@
     
     YJTestInitView *imgView = [[YJTestInitView alloc] initWithObj:nil];
     
+    // 会调用init方法
+//    YJTestInitView *imgView = [YJTestInitView new];
+    
     [self.view addSubview:imgView];
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "YJSuperMethedViewController.h"
+#import "BObject.h"
 
 @interface YJSuperMethedViewController ()
 
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     
     
@@ -43,9 +45,25 @@
 //        }
 //
 //    }
+    
+    UIButton *btn = [UIButton new];
+    btn.frame = CGRectMake(100, 100, 100, 60);
+    btn.center = self.view.center;
+    [btn setTitle:@"A dolog" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(tapBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+
 
     
+}
+-(void)tapBtn:(UIButton *)btn
+{
     
+    BObject *bObject =  [BObject new];
+    [bObject doLog];
+    
+
 }
 
 /*

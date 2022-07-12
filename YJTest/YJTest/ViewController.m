@@ -37,6 +37,8 @@
                        @"伪随机",
                        @"YYModel/MJ模型转字典",
                        @"view自己调remove",
+                       @"父类方法递归尝试",
+                       @"逻辑runtime讲解"
 
                        ];
 
@@ -71,6 +73,8 @@
                              @"YJRandViewController",
                              @"YJYYModelViewController",
                              @"YJViewRemoveController",
+                             @"YJSuperMethedViewController",
+                             @"YJLuoJiRunTimeController"
                             ];
 }
 #pragma mark - UITableView Delegate && DataSource

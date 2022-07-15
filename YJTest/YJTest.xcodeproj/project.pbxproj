@@ -23,6 +23,8 @@
 		047722961F001154001641BC /* HTTPTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722951F001154001641BC /* HTTPTestController.m */; };
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
+		12033B07287FD7D200B4CBE5 /* YJAuditionTesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */; };
+		12033B0D287FD84C00B4CBE5 /* Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 12033B0C287FD84C00B4CBE5 /* Sark.m */; };
 		1206B0D41FF3B891009E76EB /* YJCodeBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1206B0D31FF3B891009E76EB /* YJCodeBlockViewController.m */; };
 		1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */; };
 		1247CCDB1FC97D2600FE3EC2 /* CoreMLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247CCDA1FC97D2600FE3EC2 /* CoreMLTestViewController.m */; };
@@ -353,6 +355,10 @@
 		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
 		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
 		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
+		12033B05287FD7D200B4CBE5 /* YJAuditionTesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJAuditionTesController.h; path = "面试题调试/YJAuditionTesController.h"; sourceTree = "<group>"; };
+		12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJAuditionTesController.m; path = "面试题调试/YJAuditionTesController.m"; sourceTree = "<group>"; };
+		12033B0B287FD84C00B4CBE5 /* Sark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sark.h; path = "面试题调试/Sark.h"; sourceTree = "<group>"; };
+		12033B0C287FD84C00B4CBE5 /* Sark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Sark.m; path = "面试题调试/Sark.m"; sourceTree = "<group>"; };
 		1206B0D21FF3B891009E76EB /* YJCodeBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJCodeBlockViewController.h; sourceTree = "<group>"; };
 		1206B0D31FF3B891009E76EB /* YJCodeBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJCodeBlockViewController.m; sourceTree = "<group>"; };
 		1215BEC31F31D941006929E3 /* YJ_synthesize_test_VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJ_synthesize_test_VCViewController.h; path = synthesize/YJ_synthesize_test_VCViewController.h; sourceTree = "<group>"; };
@@ -915,6 +921,17 @@
 			name = HTTP_TCP_UDP;
 			sourceTree = "<group>";
 		};
+		12033B04287FD77E00B4CBE5 /* 面试题调试 */ = {
+			isa = PBXGroup;
+			children = (
+				12033B05287FD7D200B4CBE5 /* YJAuditionTesController.h */,
+				12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */,
+				12033B0B287FD84C00B4CBE5 /* Sark.h */,
+				12033B0C287FD84C00B4CBE5 /* Sark.m */,
+			);
+			name = "面试题调试";
+			sourceTree = "<group>";
+		};
 		1206B0D11FF3B80F009E76EB /* 常用代码块 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1455,6 +1472,7 @@
 				12809B9E1C815409004FE7AD /* lastViewController 引用 */,
 				E43FE6741D0C3ACD00783055 /* 统计加定时上传模块 */,
 				12C3BCB8287D0FCE00FA9836 /* 逻辑runtime讲解 */,
+				12033B04287FD77E00B4CBE5 /* 面试题调试 */,
 				12E6602C1C560E6900524CE5 /* Assets.xcassets */,
 				127EE60D1FFB6383007941D5 /* yj_test_img.png */,
 				12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */,
@@ -2073,6 +2091,7 @@
 				12C3BCBC287D102800FA9836 /* YJLuoJiRunTimeController.m in Sources */,
 				04524E5E1F6053C300F85E10 /* YJTestScrollScrollView.m in Sources */,
 				A9A8D326208E0BF1008B4374 /* YJTableHeightTestController.m in Sources */,
+				12033B07287FD7D200B4CBE5 /* YJAuditionTesController.m in Sources */,
 				124F1A67237BDA8600002977 /* YYCGUtilities.m in Sources */,
 				E4F6E42B1D61C92B002F7C52 /* WQLPaoMaView.m in Sources */,
 				04524E551F602AE100F85E10 /* YJTestScrollViewController.m in Sources */,
@@ -2099,6 +2118,7 @@
 				124F1A7D237BDA8600002977 /* YYTextKeyboardManager.m in Sources */,
 				E41774BB1D17FD72001D4C7B /* UIView+YJCorner.m in Sources */,
 				124F1A5E237BDA8600002977 /* NSThread+YYAdd.m in Sources */,
+				12033B0D287FD84C00B4CBE5 /* Sark.m in Sources */,
 				E449FDB81D354BF600ACDEAF /* SearchMainTabController.m in Sources */,
 				124C807C1C816B5100CDBAF2 /* NewView.m in Sources */,
 				1247CCDD1FC97D4400FE3EC2 /* MobileNet2.mlmodel in Sources */,

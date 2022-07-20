@@ -151,6 +151,7 @@
 		1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */; };
 		1289924824B6D0E600AA208D /* YJSuperMethedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */; };
 		1289924B24B6D10B00AA208D /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924A24B6D10B00AA208D /* AObject.m */; };
+		12C103062881104E000180CD /* Sark+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C103052881104E000180CD /* Sark+Common.m */; };
 		12C3BCBC287D102800FA9836 /* YJLuoJiRunTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */; };
 		12C3BCBD287D102800FA9836 /* YJLuoJiRunTimeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */; };
 		12C3BCC1287D14F700FA9836 /* BObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3BCC0287D14F700FA9836 /* BObject.m */; };
@@ -605,6 +606,9 @@
 		1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSuperMethedViewController.m; sourceTree = "<group>"; };
 		1289924924B6D10B00AA208D /* AObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AObject.h; sourceTree = "<group>"; };
 		1289924A24B6D10B00AA208D /* AObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AObject.m; sourceTree = "<group>"; };
+		12C103042881104E000180CD /* Sark+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+Common.h"; path = "面试题调试/Sark+Common.h"; sourceTree = "<group>"; };
+		12C103052881104E000180CD /* Sark+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sark+Common.m"; path = "面试题调试/Sark+Common.m"; sourceTree = "<group>"; };
+		12C10307288110CA000180CD /* Sark+C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+C.h"; path = "面试题调试/Sark+C.h"; sourceTree = "<group>"; };
 		12C3BCB9287D102800FA9836 /* YJLuoJiRunTimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJLuoJiRunTimeController.h; path = "逻辑runtime讲解/YJLuoJiRunTimeController.h"; sourceTree = "<group>"; };
 		12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJLuoJiRunTimeController.m; path = "逻辑runtime讲解/YJLuoJiRunTimeController.m"; sourceTree = "<group>"; };
 		12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJLuoJiRunTimeController.xib; path = "逻辑runtime讲解/YJLuoJiRunTimeController.xib"; sourceTree = "<group>"; };
@@ -928,6 +932,9 @@
 				12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */,
 				12033B0B287FD84C00B4CBE5 /* Sark.h */,
 				12033B0C287FD84C00B4CBE5 /* Sark.m */,
+				12C10307288110CA000180CD /* Sark+C.h */,
+				12C103042881104E000180CD /* Sark+Common.h */,
+				12C103052881104E000180CD /* Sark+Common.m */,
 			);
 			name = "面试题调试";
 			sourceTree = "<group>";
@@ -2242,6 +2249,7 @@
 				12707AED1FB2B68E005BBC77 /* UITextFeildTestController.m in Sources */,
 				12EFE06A1FE3D3EB003C2086 /* PresentView.m in Sources */,
 				E4244E881D13005F00A1A0A6 /* YJTestFrame_CController.m in Sources */,
+				12C103062881104E000180CD /* Sark+Common.m in Sources */,
 				E4244E8E1D1300A100A1A0A6 /* YJTestFrame_A_AController.m in Sources */,
 				E43FE67F1D0C3BCE00783055 /* StatisticManager.m in Sources */,
 				124F1A82237BDA8600002977 /* NSParagraphStyle+YYText.m in Sources */,

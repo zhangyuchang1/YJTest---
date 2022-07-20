@@ -24,6 +24,14 @@
     // 3. 定时器
     // 4. 单例
     
+
+    [self test1];
+    
+    
+}
+
+-(void)test1
+{
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2), dispatch_get_main_queue(), ^{
        
         NSLog(@"123");
@@ -35,10 +43,6 @@
     });
     
     NSLog(@"789");
-
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

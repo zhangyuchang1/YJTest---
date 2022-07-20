@@ -8,6 +8,10 @@
 
 #import "Sark.h"
 
+@interface Sark ()
+
+@end
+
 @implementation Sark
 
 -(void)speak
@@ -15,4 +19,10 @@
     NSLog(@"my name is %@",self.name);
 }
 
+-(void)singMusic
+{
+    NSLog(@"i am singing");
+}
+
 @end
+

@@ -23,7 +23,7 @@
 		047722961F001154001641BC /* HTTPTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047722951F001154001641BC /* HTTPTestController.m */; };
 		04A2372B1D93C53B0091C788 /* UIView+CornerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */; };
 		04C0CB121F1E6663003F5DC1 /* NewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C0CB111F1E6663003F5DC1 /* NewView.xib */; };
-		12033B07287FD7D200B4CBE5 /* YJAuditionTesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */; };
+		12033B07287FD7D200B4CBE5 /* YJAuditionTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12033B06287FD7D200B4CBE5 /* YJAuditionTestController.m */; };
 		12033B0D287FD84C00B4CBE5 /* Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = 12033B0C287FD84C00B4CBE5 /* Sark.m */; };
 		1206B0D41FF3B891009E76EB /* YJCodeBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1206B0D31FF3B891009E76EB /* YJCodeBlockViewController.m */; };
 		1215BEC51F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1215BEC41F31D941006929E3 /* YJ_synthesize_test_VCViewController.mm */; };
@@ -152,6 +152,9 @@
 		1289924824B6D0E600AA208D /* YJSuperMethedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */; };
 		1289924B24B6D10B00AA208D /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924A24B6D10B00AA208D /* AObject.m */; };
 		12C103062881104E000180CD /* Sark+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C103052881104E000180CD /* Sark+Common.m */; };
+		12C1030B2887C06F000180CD /* YJTouchesTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030A2887C06F000180CD /* YJTouchesTestController.m */; };
+		12C1030E2887C0CD000180CD /* YJTouchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030D2887C0CD000180CD /* YJTouchesView.m */; };
+		12C103112887C0EA000180CD /* YJTouchesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C103102887C0EA000180CD /* YJTouchesButton.m */; };
 		12C3BCBC287D102800FA9836 /* YJLuoJiRunTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */; };
 		12C3BCBD287D102800FA9836 /* YJLuoJiRunTimeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */; };
 		12C3BCC1287D14F700FA9836 /* BObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C3BCC0287D14F700FA9836 /* BObject.m */; };
@@ -356,8 +359,8 @@
 		04A237291D93C53B0091C788 /* UIView+CornerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerBorder.h"; sourceTree = "<group>"; };
 		04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerBorder.m"; sourceTree = "<group>"; };
 		04C0CB111F1E6663003F5DC1 /* NewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewView.xib; sourceTree = "<group>"; };
-		12033B05287FD7D200B4CBE5 /* YJAuditionTesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJAuditionTesController.h; path = "面试题调试/YJAuditionTesController.h"; sourceTree = "<group>"; };
-		12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJAuditionTesController.m; path = "面试题调试/YJAuditionTesController.m"; sourceTree = "<group>"; };
+		12033B05287FD7D200B4CBE5 /* YJAuditionTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJAuditionTestController.h; path = "面试题调试/YJAuditionTestController.h"; sourceTree = "<group>"; };
+		12033B06287FD7D200B4CBE5 /* YJAuditionTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJAuditionTestController.m; path = "面试题调试/YJAuditionTestController.m"; sourceTree = "<group>"; };
 		12033B0B287FD84C00B4CBE5 /* Sark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sark.h; path = "面试题调试/Sark.h"; sourceTree = "<group>"; };
 		12033B0C287FD84C00B4CBE5 /* Sark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Sark.m; path = "面试题调试/Sark.m"; sourceTree = "<group>"; };
 		1206B0D21FF3B891009E76EB /* YJCodeBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJCodeBlockViewController.h; sourceTree = "<group>"; };
@@ -609,6 +612,12 @@
 		12C103042881104E000180CD /* Sark+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+Common.h"; path = "面试题调试/Sark+Common.h"; sourceTree = "<group>"; };
 		12C103052881104E000180CD /* Sark+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sark+Common.m"; path = "面试题调试/Sark+Common.m"; sourceTree = "<group>"; };
 		12C10307288110CA000180CD /* Sark+C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+C.h"; path = "面试题调试/Sark+C.h"; sourceTree = "<group>"; };
+		12C103092887C06F000180CD /* YJTouchesTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTouchesTestController.h; sourceTree = "<group>"; };
+		12C1030A2887C06F000180CD /* YJTouchesTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTouchesTestController.m; sourceTree = "<group>"; };
+		12C1030C2887C0CD000180CD /* YJTouchesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTouchesView.h; sourceTree = "<group>"; };
+		12C1030D2887C0CD000180CD /* YJTouchesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTouchesView.m; sourceTree = "<group>"; };
+		12C1030F2887C0EA000180CD /* YJTouchesButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTouchesButton.h; sourceTree = "<group>"; };
+		12C103102887C0EA000180CD /* YJTouchesButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTouchesButton.m; sourceTree = "<group>"; };
 		12C3BCB9287D102800FA9836 /* YJLuoJiRunTimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJLuoJiRunTimeController.h; path = "逻辑runtime讲解/YJLuoJiRunTimeController.h"; sourceTree = "<group>"; };
 		12C3BCBA287D102800FA9836 /* YJLuoJiRunTimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJLuoJiRunTimeController.m; path = "逻辑runtime讲解/YJLuoJiRunTimeController.m"; sourceTree = "<group>"; };
 		12C3BCBB287D102800FA9836 /* YJLuoJiRunTimeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YJLuoJiRunTimeController.xib; path = "逻辑runtime讲解/YJLuoJiRunTimeController.xib"; sourceTree = "<group>"; };
@@ -928,8 +937,8 @@
 		12033B04287FD77E00B4CBE5 /* 面试题调试 */ = {
 			isa = PBXGroup;
 			children = (
-				12033B05287FD7D200B4CBE5 /* YJAuditionTesController.h */,
-				12033B06287FD7D200B4CBE5 /* YJAuditionTesController.m */,
+				12033B05287FD7D200B4CBE5 /* YJAuditionTestController.h */,
+				12033B06287FD7D200B4CBE5 /* YJAuditionTestController.m */,
 				12033B0B287FD84C00B4CBE5 /* Sark.h */,
 				12033B0C287FD84C00B4CBE5 /* Sark.m */,
 				12C10307288110CA000180CD /* Sark+C.h */,
@@ -1395,6 +1404,19 @@
 			name = "父类方法递归尝试";
 			sourceTree = "<group>";
 		};
+		12C103082887C027000180CD /* touches触摸传递方法调试 */ = {
+			isa = PBXGroup;
+			children = (
+				12C103092887C06F000180CD /* YJTouchesTestController.h */,
+				12C1030A2887C06F000180CD /* YJTouchesTestController.m */,
+				12C1030C2887C0CD000180CD /* YJTouchesView.h */,
+				12C1030D2887C0CD000180CD /* YJTouchesView.m */,
+				12C1030F2887C0EA000180CD /* YJTouchesButton.h */,
+				12C103102887C0EA000180CD /* YJTouchesButton.m */,
+			);
+			path = "touches触摸传递方法调试";
+			sourceTree = "<group>";
+		};
 		12C3BCB8287D0FCE00FA9836 /* 逻辑runtime讲解 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1462,7 +1484,6 @@
 				1287B5121F32C93E00FEAE44 /* scrollView 交叉滑动 */,
 				1215BEC21F31D8CA006929E3 /* synthesize属性 */,
 				047722931F001119001641BC /* HTTP_TCP_UDP */,
-				0477228F1EFE9D7B001641BC /* Runloop练习 */,
 				0477228B1EFE58F8001641BC /* GCD练习 */,
 				E449FDB51D354B1700ACDEAF /* 子控制器searchController */,
 				E470CC451D2D641A00C5265E /* KVO测试 */,
@@ -1480,6 +1501,7 @@
 				E43FE6741D0C3ACD00783055 /* 统计加定时上传模块 */,
 				12C3BCB8287D0FCE00FA9836 /* 逻辑runtime讲解 */,
 				12033B04287FD77E00B4CBE5 /* 面试题调试 */,
+				12C103082887C027000180CD /* touches触摸传递方法调试 */,
 				12E6602C1C560E6900524CE5 /* Assets.xcassets */,
 				127EE60D1FFB6383007941D5 /* yj_test_img.png */,
 				12E6602E1C560E6900524CE5 /* LaunchScreen.storyboard */,
@@ -1529,6 +1551,7 @@
 		12EFE0591FE3CE7F003C2086 /* 红豆角直播动画 */ = {
 			isa = PBXGroup;
 			children = (
+				0477228F1EFE9D7B001641BC /* Runloop练习 */,
 				A97B404120A57F5300541EE0 /* SendRedBean */,
 				A97B400420A57E5D00541EE0 /* 红豆雨图标 */,
 				12EFE05A1FE3D3EB003C2086 /* Model */,
@@ -2098,7 +2121,7 @@
 				12C3BCBC287D102800FA9836 /* YJLuoJiRunTimeController.m in Sources */,
 				04524E5E1F6053C300F85E10 /* YJTestScrollScrollView.m in Sources */,
 				A9A8D326208E0BF1008B4374 /* YJTableHeightTestController.m in Sources */,
-				12033B07287FD7D200B4CBE5 /* YJAuditionTesController.m in Sources */,
+				12033B07287FD7D200B4CBE5 /* YJAuditionTestController.m in Sources */,
 				124F1A67237BDA8600002977 /* YYCGUtilities.m in Sources */,
 				E4F6E42B1D61C92B002F7C52 /* WQLPaoMaView.m in Sources */,
 				04524E551F602AE100F85E10 /* YJTestScrollViewController.m in Sources */,
@@ -2149,6 +2172,7 @@
 				E449FDC11D354D3000ACDEAF /* SearchResultController.m in Sources */,
 				124F1A69237BDA8600002977 /* YYWeakProxy.m in Sources */,
 				12809BA21C8156B2004FE7AD /* UIView+CornerRadius.m in Sources */,
+				12C103112887C0EA000180CD /* YJTouchesButton.m in Sources */,
 				124F1ABA237D368600002977 /* MJPropertyType.m in Sources */,
 				124F1A5F237BDA8600002977 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				12E660251C560E6900524CE5 /* AppDelegate.m in Sources */,
@@ -2169,6 +2193,7 @@
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
 				124F1A76237BDA8600002977 /* YYTextMagnifier.m in Sources */,
 				0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */,
+				12C1030E2887C0CD000180CD /* YJTouchesView.m in Sources */,
 				124F1A4D237BDA8600002977 /* UIColor+YYAdd.m in Sources */,
 				124F1AC2237D368600002977 /* MJPropertyKey.m in Sources */,
 				0422C7AA1CF57D3B0002D0E4 /* UIImage+Image.m in Sources */,
@@ -2206,6 +2231,7 @@
 				1289924B24B6D10B00AA208D /* AObject.m in Sources */,
 				12809BAC1C816806004FE7AD /* XIBConfiViewController.m in Sources */,
 				124F1A71237BDA8600002977 /* YYFileHash.m in Sources */,
+				12C1030B2887C06F000180CD /* YJTouchesTestController.m in Sources */,
 				124F1A6B237BDA8600002977 /* YYThreadSafeDictionary.m in Sources */,
 				A9F5E72920C634E30083C721 /* YLSingtonViewController.m in Sources */,
 				A9A8D32B208E0E15008B4374 /* YJTestTableHeightCell.m in Sources */,

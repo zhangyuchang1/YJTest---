@@ -6,16 +6,16 @@
 //  Copyright © 2022 zyc. All rights reserved.
 //
 
-#import "YJAuditionTesController.h"
+#import "YJAuditionTestController.h"
 #import "Sark.h"
 #import <objc/message.h>
 #import "Sark+C.h"
 
-@interface YJAuditionTesController ()
+@interface YJAuditionTestController ()
 
 @end
 
-@implementation YJAuditionTesController
+@implementation YJAuditionTestController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

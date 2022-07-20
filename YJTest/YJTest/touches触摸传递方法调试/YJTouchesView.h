@@ -1,8 +1,8 @@
 //
-//  YJAuditionTesController.h
+//  YJTouchesView.h
 //  YJTest
 //
-//  Created by zyc on 2022/7/14.
+//  Created by zyc on 2022/7/20.
 //  Copyright © 2022 zyc. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YJAuditionTesController : UIViewController
+@interface YJTouchesView : UIView
 
 @end
 

@@ -60,8 +60,8 @@
                        @"view自己调remove",
                        @"父类方法递归尝试",
                        @"逻辑runtime讲解",
-                       @"一些面试题调试"
-
+                       @"一些面试题调试",
+                       @"touchesBegan事件链调试"
                        ];
 
     self.controllerArray = @[@"YJTestViewController",
@@ -97,7 +97,8 @@
                              @"YJViewRemoveController",
                              @"YJSuperMethedViewController",
                              @"YJLuoJiRunTimeController",
-                             @"YJAuditionTesController"
+                             @"YJAuditionTestController",
+                             @"YJTouchesTestController"
                             ];
     
     // 倒序一下

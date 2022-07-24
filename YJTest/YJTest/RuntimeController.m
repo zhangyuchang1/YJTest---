@@ -10,7 +10,7 @@
 #import "Person.h"
 #import <objc/message.h>
 #import <objc/runtime.h>
-
+#import <malloc/malloc.h>
 //#import "UIImage+Image.h"
 //#import "NSObject+Property.h"
 //
@@ -128,9 +128,9 @@
 
     
 //    //获得NSObject 类的实例对象的大小
-//   NSLog(@"%zd",class_getInstanceSize([NSObject class])  );
-//         //获取obj对象指针获取的大小
-//         NSLog(@"%zd",malloc_size((__bridge const void *)obj));
+   NSLog(@"%zd",class_getInstanceSize([NSObject class])  );
+         //获取obj对象指针获取的大小
+   NSLog(@"%zd",malloc_size((__bridge const void *)obj));
     
     
     /*

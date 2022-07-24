@@ -25,13 +25,14 @@
     // 4. 单例
     
 
-    [self test1];
+ 
     
     
 }
 
 -(void)test1
 {
+    // 看看打印顺序
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2), dispatch_get_main_queue(), ^{
        
         NSLog(@"123");
@@ -43,6 +44,35 @@
     });
     
     NSLog(@"789");
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self test2];
+}
+
+
+- (void)test2 {
+    
+    // 看看打印顺序
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSLog(@"Hello");
+        
+        // 注意这两个方法 结果会不一样
+        // 这个方法 在runloop里面注册了一个timer
+        [self performSelector:@selector(dosomething) withObject:nil afterDelay:0];
+        [self performSelector:@selector(dosomething) withObject:nil ];
+
+        NSLog(@"ZS");
+        
+        NSLog(@"当前线程 ：%@",[NSThread currentThread]);
+        
+    });
+}
+
+- (void)dosomething
+{
+    NSLog(@"Logic");
 }
 
 - (void)didReceiveMemoryWarning {

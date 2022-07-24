@@ -61,7 +61,8 @@
                        @"父类方法递归尝试",
                        @"逻辑runtime讲解",
                        @"一些面试题调试",
-                       @"touchesBegan事件链调试"
+                       @"touchesBegan事件链调试",
+//                       @"描边大小的测试"
                        ];
 
     self.controllerArray = @[@"YJTestViewController",

@@ -8,7 +8,9 @@
 
 #import "RuntimeController.h"
 #import "Person.h"
-//#import <objc/message.h>
+#import <objc/message.h>
+#import <objc/runtime.h>
+
 //#import "UIImage+Image.h"
 //#import "NSObject+Property.h"
 //
@@ -42,6 +44,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    [self getObjSize];
     // Do any additional setup after loading the view.
     
     Person *p = [[Person alloc] init];
@@ -85,7 +88,7 @@
     
     
     //test 描边
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(180, 200, 20, 20)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(140, 200, 80, 80)];
 //    view.backgroundColor = [UIColor redColor];
 //    
 //    view.layer.cornerRadius = 10;
@@ -101,7 +104,7 @@
     
     
     
-    UIImage *iamge2 = [UIView imageWithSize:CGSizeMake(20, 20) radius:20 borderColor:[UIColor redColor] borderWidth:3.0 backgroundColor:[UIColor yellowColor]];
+    UIImage *iamge2 = [UIView imageWithSize:CGSizeMake(80, 80) radius:60 borderColor:[UIColor redColor] borderWidth:10.0 backgroundColor:[UIColor yellowColor]];
     
     view.backgroundColor = [UIColor colorWithPatternImage:iamge2];
 }
@@ -111,14 +114,56 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+// 测一下对象占内存的大小
+- (void)getObjSize
+{
+    
+    NSObject *obj = [[NSObject alloc] init];
+    
+    size_t objSize = class_getInstanceSize([obj class]);
+    size_t vcSize = class_getInstanceSize([self class]);
+    
+    NSLog(@"NSObject 的内存大小占用 %lu",objSize);
+    NSLog(@"RuntimeController 的内存大小占用 %lu",vcSize);
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+//    //获得NSObject 类的实例对象的大小
+//   NSLog(@"%zd",class_getInstanceSize([NSObject class])  );
+//         //获取obj对象指针获取的大小
+//         NSLog(@"%zd",malloc_size((__bridge const void *)obj));
+    
+    
+    /*
+    NSObject 对象包含一个 void * 类型的 isa,随意 NSObject 对象占用 8 个字节的内存.
+
+    由于系统是以 16 字节为单位来分配内存的,小于 16 字节就分配 16 字节,大于 16 字节就会分配 16 字节的整数倍大小,所以 NSObject 最后会占用 16 字节的内存大小
+
+    作者：堕落白天使
+    链接：https://www.jianshu.com/p/602e05573405
+    来源：简书
+    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+    */
+    
 }
-*/
+
+// 底层都会转成C 和 C++的代码
+- (void)C
+{
+//    NSObject *obj = [[NSObject alloc] init];
+    
+
+    NSObject *obj = (
+                     (NSObject *(*)(id, SEL)
+                      )
+                     (void *)objc_msgSend)(
+                                           (id)((NSObject *(*)(id, SEL))
+                                                (void *)objc_msgSend)(
+                                                        (id)objc_getClass("NSObject"),
+                                                        sel_registerName("alloc")),
+                                                        sel_registerName("init")
+                                           );
+
+    
+}
 
 @end

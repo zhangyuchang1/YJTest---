@@ -8,6 +8,7 @@
 
 #import "RuntimeController.h"
 #import "Person.h"
+#import "OC_CPP_Person.h"
 #import <objc/message.h>
 #import <objc/runtime.h>
 #import <malloc/malloc.h>
@@ -127,11 +128,28 @@
     NSLog(@"RuntimeController 的内存大小占用 %lu",vcSize);
 
     
-//    //获得NSObject 类的实例对象的大小  ，
+    // 指针的占用大小， 任何对象都是8
+    NSLog(@"%zd",sizeof(obj)  );
+   
+    /*
+        sizeof() 其实不是函数，是计算符，在编译时就要确定的
+     
+        sizeof(obj) = 8;
+        sizeof(int) = 4;
+        sizeof(double) = 8;
+     
+     
+     */
+    
+//    //获得NSObject 类的实例对象的大小  ， 代表着至少需要多少内存
    NSLog(@"%zd",class_getInstanceSize([NSObject class])  );
          //获取obj对象指针获取的大小， 实际系统分配的大小
    NSLog(@"%zd",malloc_size((__bridge const void *)obj));
     
+    
+    /*
+        
+     */
     
     /*
     NSObject 对象包含一个 void * 类型的 isa,随意 NSObject 对象占用 8 个字节的内存.
@@ -143,12 +161,21 @@
     来源：简书
     著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
     */
+    NSLog(@"-------------------");
+
     
+    OC_CPP_Person *p = [[OC_CPP_Person alloc] init];
+    
+    // 计算： isa 8 + name 8 + age 4 + sex 4 = 24；
+    NSLog(@"%zd",class_getInstanceSize([OC_CPP_Person class])  );
+    // 24 < 2*16   -> 32
+    NSLog(@"%zd",malloc_size((__bridge const void *)p));
 }
 
 // 底层都会转成C 和 C++的代码
 - (void)C
 {
+    // OC
 //    NSObject *obj = [[NSObject alloc] init];
     
 

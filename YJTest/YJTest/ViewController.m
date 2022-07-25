@@ -62,6 +62,8 @@
                        @"逻辑runtime讲解",
                        @"一些面试题调试",
                        @"touchesBegan事件链调试",
+                       @"对象和类对象和元类对象",
+
 //                       @"描边大小的测试"
                        ];
 
@@ -99,7 +101,9 @@
                              @"YJSuperMethedViewController",
                              @"YJLuoJiRunTimeController",
                              @"YJAuditionTestController",
-                             @"YJTouchesTestController"
+                             @"YJTouchesTestController",
+                             @"YJObjectAndClassAndMetaClassController"
+
                             ];
     
     // 倒序一下

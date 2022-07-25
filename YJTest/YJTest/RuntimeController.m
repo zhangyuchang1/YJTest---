@@ -127,9 +127,9 @@
     NSLog(@"RuntimeController 的内存大小占用 %lu",vcSize);
 
     
-//    //获得NSObject 类的实例对象的大小
+//    //获得NSObject 类的实例对象的大小  ，
    NSLog(@"%zd",class_getInstanceSize([NSObject class])  );
-         //获取obj对象指针获取的大小
+         //获取obj对象指针获取的大小， 实际系统分配的大小
    NSLog(@"%zd",malloc_size((__bridge const void *)obj));
     
     

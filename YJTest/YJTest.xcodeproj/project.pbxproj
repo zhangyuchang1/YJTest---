@@ -151,6 +151,7 @@
 		1287B5181F32D1A700FEAE44 /* YJTestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1287B5171F32D1A700FEAE44 /* YJTestScrollView.m */; };
 		1289924824B6D0E600AA208D /* YJSuperMethedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */; };
 		1289924B24B6D10B00AA208D /* AObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1289924A24B6D10B00AA208D /* AObject.m */; };
+		1290D13F288E400700AC4E92 /* OC_CPP_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1290D13E288E400700AC4E92 /* OC_CPP_Person.m */; };
 		12C103062881104E000180CD /* Sark+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C103052881104E000180CD /* Sark+Common.m */; };
 		12C1030B2887C06F000180CD /* YJTouchesTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030A2887C06F000180CD /* YJTouchesTestController.m */; };
 		12C1030E2887C0CD000180CD /* YJTouchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030D2887C0CD000180CD /* YJTouchesView.m */; };
@@ -609,6 +610,9 @@
 		1289924724B6D0E600AA208D /* YJSuperMethedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSuperMethedViewController.m; sourceTree = "<group>"; };
 		1289924924B6D10B00AA208D /* AObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AObject.h; sourceTree = "<group>"; };
 		1289924A24B6D10B00AA208D /* AObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AObject.m; sourceTree = "<group>"; };
+		1290D13D288E400600AC4E92 /* OC_CPP_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OC_CPP_Person.h; path = RunTime/OC_CPP_Person.h; sourceTree = "<group>"; };
+		1290D13E288E400700AC4E92 /* OC_CPP_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OC_CPP_Person.m; path = RunTime/OC_CPP_Person.m; sourceTree = "<group>"; };
+		1290D140288E417E00AC4E92 /* OC_CPP_Person-arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "OC_CPP_Person-arm64.cpp"; path = "RunTime/OC_CPP_Person-arm64.cpp"; sourceTree = "<group>"; };
 		12C103042881104E000180CD /* Sark+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+Common.h"; path = "面试题调试/Sark+Common.h"; sourceTree = "<group>"; };
 		12C103052881104E000180CD /* Sark+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sark+Common.m"; path = "面试题调试/Sark+Common.m"; sourceTree = "<group>"; };
 		12C10307288110CA000180CD /* Sark+C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+C.h"; path = "面试题调试/Sark+C.h"; sourceTree = "<group>"; };
@@ -884,6 +888,9 @@
 				04A2372A1D93C53B0091C788 /* UIView+CornerBorder.m */,
 				0422C7A21CF570900002D0E4 /* Person.h */,
 				0422C7A31CF570900002D0E4 /* Person.m */,
+				1290D13D288E400600AC4E92 /* OC_CPP_Person.h */,
+				1290D13E288E400700AC4E92 /* OC_CPP_Person.m */,
+				1290D140288E417E00AC4E92 /* OC_CPP_Person-arm64.cpp */,
 				0422C7A81CF57D3B0002D0E4 /* UIImage+Image.h */,
 				0422C7A91CF57D3B0002D0E4 /* UIImage+Image.m */,
 				0422C7AB1CF587210002D0E4 /* NSObject+Property.h */,
@@ -2212,6 +2219,7 @@
 				124F1A4C237BDA8600002977 /* UIBezierPath+YYAdd.m in Sources */,
 				12E660221C560E6900524CE5 /* main.m in Sources */,
 				124C80851C8178A300CDBAF2 /* Line.m in Sources */,
+				1290D13F288E400700AC4E92 /* OC_CPP_Person.m in Sources */,
 				124F1A76237BDA8600002977 /* YYTextMagnifier.m in Sources */,
 				0415CB5A1F796313009B1522 /* HDJWKWebConfiguration.m in Sources */,
 				12C1030E2887C0CD000180CD /* YJTouchesView.m in Sources */,

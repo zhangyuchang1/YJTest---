@@ -63,6 +63,7 @@
                        @"一些面试题调试",
                        @"touchesBegan事件链调试",
                        @"对象和类对象和元类对象",
+                       @"结构体测试",
 
 //                       @"描边大小的测试"
                        ];
@@ -102,8 +103,8 @@
                              @"YJLuoJiRunTimeController",
                              @"YJAuditionTestController",
                              @"YJTouchesTestController",
-                             @"YJObjectAndClassAndMetaClassController"
-
+                             @"YJObjectAndClassAndMetaClassController",
+                             @"YJStructTestController"
                             ];
     
     // 倒序一下

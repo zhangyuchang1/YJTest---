@@ -156,6 +156,7 @@
 		1290D147288E6B1A00AC4E92 /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1290D146288E6B1A00AC4E92 /* MJPerson.m */; };
 		1290D14A288EE29C00AC4E92 /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1290D149288EE29B00AC4E92 /* MJStudent.m */; };
 		1290D14C288EE87F00AC4E92 /* obj-class-meta.webp in Resources */ = {isa = PBXBuildFile; fileRef = 1290D14B288EE87F00AC4E92 /* obj-class-meta.webp */; };
+		1290D150288FA6CA00AC4E92 /* YJStructTestController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1290D14F288FA6CA00AC4E92 /* YJStructTestController.mm */; };
 		12C103062881104E000180CD /* Sark+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C103052881104E000180CD /* Sark+Common.m */; };
 		12C1030B2887C06F000180CD /* YJTouchesTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030A2887C06F000180CD /* YJTouchesTestController.m */; };
 		12C1030E2887C0CD000180CD /* YJTouchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030D2887C0CD000180CD /* YJTouchesView.m */; };
@@ -624,6 +625,8 @@
 		1290D148288EE29B00AC4E92 /* MJStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
 		1290D149288EE29B00AC4E92 /* MJStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
 		1290D14B288EE87F00AC4E92 /* obj-class-meta.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "obj-class-meta.webp"; sourceTree = "<group>"; };
+		1290D14E288FA6CA00AC4E92 /* YJStructTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJStructTestController.h; sourceTree = "<group>"; };
+		1290D14F288FA6CA00AC4E92 /* YJStructTestController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YJStructTestController.mm; sourceTree = "<group>"; };
 		12C103042881104E000180CD /* Sark+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+Common.h"; path = "面试题调试/Sark+Common.h"; sourceTree = "<group>"; };
 		12C103052881104E000180CD /* Sark+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sark+Common.m"; path = "面试题调试/Sark+Common.m"; sourceTree = "<group>"; };
 		12C10307288110CA000180CD /* Sark+C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+C.h"; path = "面试题调试/Sark+C.h"; sourceTree = "<group>"; };
@@ -1436,6 +1439,15 @@
 			path = "对象和类对象和元类对象";
 			sourceTree = "<group>";
 		};
+		1290D14D288FA69900AC4E92 /* 结构体 */ = {
+			isa = PBXGroup;
+			children = (
+				1290D14E288FA6CA00AC4E92 /* YJStructTestController.h */,
+				1290D14F288FA6CA00AC4E92 /* YJStructTestController.mm */,
+			);
+			path = "结构体";
+			sourceTree = "<group>";
+		};
 		12C103082887C027000180CD /* touches触摸传递方法调试 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1494,6 +1506,7 @@
 				12E660241C560E6900524CE5 /* AppDelegate.m */,
 				12E660261C560E6900524CE5 /* ViewController.h */,
 				12E660271C560E6900524CE5 /* ViewController.m */,
+				1290D14D288FA69900AC4E92 /* 结构体 */,
 				1290D141288E6AAC00AC4E92 /* 对象和类对象和元类对象 */,
 				1289924524B6D09100AA208D /* 父类方法递归尝试 */,
 				12E5DEAC238242B6005DCDB5 /* UIView自己Remove */,
@@ -2297,6 +2310,7 @@
 				040DF9971F1E772600787446 /* BassButton2.m in Sources */,
 				E43FE69B1D0DC60200783055 /* YJKeychain.m in Sources */,
 				047722921EFE9DC2001641BC /* RunloopTestController.m in Sources */,
+				1290D150288FA6CA00AC4E92 /* YJStructTestController.mm in Sources */,
 				A97B40BC20A9E3B400541EE0 /* YJVideoCutController.m in Sources */,
 				E470CC4B1D2D648C00C5265E /* KVOButton.m in Sources */,
 				A9F5E72D20C667780083C721 /* YLTestManager.m in Sources */,

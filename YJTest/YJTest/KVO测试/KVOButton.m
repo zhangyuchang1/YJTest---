@@ -15,7 +15,7 @@
 -(void)dealloc
 {
     //不能写到这里， 应该写到观察着里面
-    [self  removeObserver:self.viewController forKeyPath:@"value"];
+//    [self  removeObserver:self.viewController forKeyPath:@"value"];
     
     
     UIViewController *VC= self.viewController;
@@ -36,7 +36,7 @@
 
 - (void)addKVO
 {
-    [self addObserver:self.viewController forKeyPath:@"value" options:NSKeyValueObservingOptionNew context:nil];
+    [self addObserver:self.viewController forKeyPath:@"value" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
     
 }
 
@@ -63,4 +63,16 @@
 }
 */
 
+- (void)willChangeValueForKey:(NSString *)key
+{
+    [super willChangeValueForKey:key];
+    
+    NSLog(@"willChangeValueForKey %@", key);
+}
+
+- (void)didChangeValueForKey:(NSString *)key
+{
+    [super didChangeValueForKey:key];
+    NSLog(@"didChangeValueForKey %@", key);
+}
 @end

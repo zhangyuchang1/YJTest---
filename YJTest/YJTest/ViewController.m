@@ -66,6 +66,7 @@
                        @"结构体测试",
 
 //                       @"描边大小的测试"
+//                       @performSelector:withObject:传基本数据类型
                        ];
 
     self.controllerArray = @[@"YJTestViewController",

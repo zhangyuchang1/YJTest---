@@ -157,6 +157,7 @@
 		1290D14A288EE29C00AC4E92 /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1290D149288EE29B00AC4E92 /* MJStudent.m */; };
 		1290D14C288EE87F00AC4E92 /* obj-class-meta.webp in Resources */ = {isa = PBXBuildFile; fileRef = 1290D14B288EE87F00AC4E92 /* obj-class-meta.webp */; };
 		1290D150288FA6CA00AC4E92 /* YJStructTestController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1290D14F288FA6CA00AC4E92 /* YJStructTestController.mm */; };
+		1290D1532890D6B800AC4E92 /* MJKVOTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1290D1522890D6B800AC4E92 /* MJKVOTestController.m */; };
 		12C103062881104E000180CD /* Sark+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C103052881104E000180CD /* Sark+Common.m */; };
 		12C1030B2887C06F000180CD /* YJTouchesTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030A2887C06F000180CD /* YJTouchesTestController.m */; };
 		12C1030E2887C0CD000180CD /* YJTouchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C1030D2887C0CD000180CD /* YJTouchesView.m */; };
@@ -627,6 +628,10 @@
 		1290D14B288EE87F00AC4E92 /* obj-class-meta.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "obj-class-meta.webp"; sourceTree = "<group>"; };
 		1290D14E288FA6CA00AC4E92 /* YJStructTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJStructTestController.h; sourceTree = "<group>"; };
 		1290D14F288FA6CA00AC4E92 /* YJStructTestController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YJStructTestController.mm; sourceTree = "<group>"; };
+		1290D1512890D6B800AC4E92 /* MJKVOTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MJKVOTestController.h; path = "KVO测试/MJKVOTestController.h"; sourceTree = "<group>"; };
+		1290D1522890D6B800AC4E92 /* MJKVOTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MJKVOTestController.m; path = "KVO测试/MJKVOTestController.m"; sourceTree = "<group>"; };
+		1290D1542891071500AC4E92 /* NSKVONotifying_KVOButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSKVONotifying_KVOButton.h; path = "KVO测试/NSKVONotifying_KVOButton.h"; sourceTree = "<group>"; };
+		1290D1552891071500AC4E92 /* NSKVONotifying_KVOButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSKVONotifying_KVOButton.m; path = "KVO测试/NSKVONotifying_KVOButton.m"; sourceTree = "<group>"; };
 		12C103042881104E000180CD /* Sark+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+Common.h"; path = "面试题调试/Sark+Common.h"; sourceTree = "<group>"; };
 		12C103052881104E000180CD /* Sark+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sark+Common.m"; path = "面试题调试/Sark+Common.m"; sourceTree = "<group>"; };
 		12C10307288110CA000180CD /* Sark+C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sark+C.h"; path = "面试题调试/Sark+C.h"; sourceTree = "<group>"; };
@@ -1935,8 +1940,12 @@
 				E470CC4D1D2D6B8A00C5265E /* UIView+DDAddition.m */,
 				E470CC461D2D646800C5265E /* KVOTestController.h */,
 				E470CC471D2D646800C5265E /* KVOTestController.m */,
+				1290D1512890D6B800AC4E92 /* MJKVOTestController.h */,
+				1290D1522890D6B800AC4E92 /* MJKVOTestController.m */,
 				E470CC491D2D648C00C5265E /* KVOButton.h */,
 				E470CC4A1D2D648C00C5265E /* KVOButton.m */,
+				1290D1542891071500AC4E92 /* NSKVONotifying_KVOButton.h */,
+				1290D1552891071500AC4E92 /* NSKVONotifying_KVOButton.m */,
 			);
 			name = "KVO测试";
 			sourceTree = "<group>";
@@ -2208,6 +2217,7 @@
 				124F1A3C237BDA8600002977 /* YYSpriteSheetImage.m in Sources */,
 				12E705791C8199C6003D732E /* WXAnation.m in Sources */,
 				A99BEE6120E3608800659161 /* YJDouYinPlayController.m in Sources */,
+				1290D1532890D6B800AC4E92 /* MJKVOTestController.m in Sources */,
 				E4244E851D13003300A1A0A6 /* YJTestFrame_BController.m in Sources */,
 				124F1A7F237BDA8600002977 /* YYLabel.m in Sources */,
 				E43FE66D1D09D7CB00783055 /* YJSearchResultController.m in Sources */,

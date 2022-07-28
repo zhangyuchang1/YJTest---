@@ -8,6 +8,7 @@
 
 #import "KVOTestController.h"
 #import "KVOButton.h"
+#import "MJKVOTestController.h"
 
 
 @interface KVOTestController ()
@@ -21,10 +22,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+
+    
+    UIButton *b = [[UIButton alloc] initWithFrame:CGRectMake(100, 380, 100, 50)];
+    b.backgroundColor = [UIColor grayColor];
+    [b setTitle:@"去MJKVO" forState:UIControlStateNormal];
+    [b addTarget:self action:@selector(toNextController) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:b];
+    
+
     button = [[KVOButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
     button.backgroundColor = [UIColor grayColor];
-//    button.vc = self;
+    [button setTitle:@"KVOButton" forState:UIControlStateNormal];
+
+    button.vc = self;
     
     [self.view addSubview:button];
     
@@ -88,5 +100,9 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+- (void)toNextController
+{
+    MJKVOTestController *vc = [[MJKVOTestController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

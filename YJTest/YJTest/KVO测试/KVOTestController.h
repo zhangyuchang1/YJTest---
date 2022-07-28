@@ -13,3 +13,6 @@
 - (void)removeO;
 
 @end
+
+
+// kvo 的添加 和 移除 时机 测试

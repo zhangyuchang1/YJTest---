@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface KVOButton : UIButton
-
+{
+    @public
+    NSInteger _value;
+}
 @property (nonatomic,assign) NSInteger value;
 
 

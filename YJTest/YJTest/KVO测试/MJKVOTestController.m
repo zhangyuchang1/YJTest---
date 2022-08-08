@@ -42,9 +42,9 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     
-//    [self methodTest];
+    [self methodTest];
     
-    _btn.value = 1;
+//    _btn.value = 1;
 }
 // 手动触发KVO
 - (void)doKVO
@@ -56,7 +56,7 @@
 
 - (void) methodTest
 {
-    // 试试几种变化都会收到通知 4不会，
+    // 试试几种变化都会收到通知 4不会， 6没通  7 kvc key值对不上不会  8,9会，即使没有set方法，kvc内部调用了手动触发
     
     // 1.
 //    _btn.value = 1;
@@ -79,6 +79,18 @@
 //    Ivar ivar = class_getInstanceVariable([KVOButton class], "_value");
 //    NSInteger value = object_getIvar(_btn, ivar);
 //    value = 6;
+    
+    // 7.  kvc
+    [_btn setValue:@7 forKey:@"_value"];
+    
+//    // 8.  kvc
+//    [_btn setValue:@8 forKey:@"value"];
+//
+//    // 9
+//    [_btn setValue:@9 forKeyPath:@"value"];
+
+
+    NSLog(@"");
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context

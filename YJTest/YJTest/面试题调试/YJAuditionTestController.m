@@ -113,6 +113,8 @@
     [sark speak];
     
 
+    NSPort *port = [[NSPort alloc] init];
+    usleep(10000);
 }
 
 - (void)allocAddress
